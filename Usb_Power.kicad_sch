@@ -2560,6 +2560,12 @@
 		(uuid "2798d516-c57b-4881-a103-fccc385e94d4")
 	)
 	(junction
+		(at 29.21 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab85737-6b4d-47b8-bbec-8af1f1bbb09d")
+	)
+	(junction
 		(at 114.3 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2596,6 +2602,12 @@
 		(uuid "4e5db2c9-ad8c-4edb-b2c1-4e11c1abbd59")
 	)
 	(junction
+		(at 49.53 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff5b49d-2b32-4221-b345-f7175830284e")
+	)
+	(junction
 		(at 104.14 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2618,12 +2630,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8415627d-1ae5-4bd5-b2fd-79af731dc380")
-	)
-	(junction
-		(at 29.21 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "865b31d6-da84-4a57-bed8-25a3659446c6")
 	)
 	(junction
 		(at 33.02 34.29)
@@ -2715,16 +2721,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 90.17) (xy 59.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fa777c-84ff-470b-bece-4a39b294e8ef")
-	)
-	(wire
-		(pts
 			(xy 59.69 41.91) (xy 50.8 41.91)
 		)
 		(stroke
@@ -2745,13 +2741,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 111.76) (xy 29.21 111.76)
+			(xy 29.21 113.03) (xy 29.21 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b837214-1fb9-45de-90c8-c4b7b787a348")
+		(uuid "23996585-0e1f-4caa-a1fe-bcaeb81105b7")
 	)
 	(wire
 		(pts
@@ -2765,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c60d65-8228-43f8-8692-b9bbf04411d8")
+	)
+	(wire
+		(pts
 			(xy 78.74 41.91) (xy 68.58 41.91)
 		)
 		(stroke
@@ -2772,16 +2778,6 @@
 			(type default)
 		)
 		(uuid "2cf4d860-0548-43e5-8769-c40661b82211")
-	)
-	(wire
-		(pts
-			(xy 29.21 105.41) (xy 29.21 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed8a9cc-2aa2-484b-9294-f15852e79dd5")
 	)
 	(wire
 		(pts
@@ -2855,13 +2851,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 105.41) (xy 21.59 111.76)
+			(xy 44.45 85.09) (xy 44.45 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "480a5d7c-e5ae-4de6-8990-0b4e2fa0b306")
+		(uuid "4ac6f5d3-feaa-48fc-bb34-544408dad5c4")
 	)
 	(wire
 		(pts
@@ -2875,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 92.71) (xy 44.45 90.17)
+			(xy 44.45 92.71) (xy 44.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 132.08) (xy 52.07 132.08)
+			(xy 46.99 132.08) (xy 49.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2932,6 +2928,46 @@
 			(type default)
 		)
 		(uuid "70f9fe19-f948-4813-8853-c94a96021206")
+	)
+	(wire
+		(pts
+			(xy 43.18 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d50e0f-ffe0-46d0-b93a-1fd6f2cb68d8")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 53.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720d7de1-f2e7-40b6-9b53-9cc87eca353e")
+	)
+	(wire
+		(pts
+			(xy 49.53 132.08) (xy 53.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736579a7-ec1b-42a5-8ec0-cf0ebfd791b2")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 43.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744ad4a0-03d0-4b90-8d54-2525cf6a0bbf")
 	)
 	(wire
 		(pts
@@ -2995,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 110.49) (xy 29.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd0778d-fb77-4980-9349-6b64b2161327")
+	)
+	(wire
+		(pts
 			(xy 114.3 41.91) (xy 104.14 41.91)
 		)
 		(stroke
@@ -3055,6 +3101,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 110.49) (xy 21.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52c2876-e383-4e73-8b8a-82c8b67a7d32")
+	)
+	(wire
+		(pts
 			(xy 59.69 73.66) (xy 59.69 76.2)
 		)
 		(stroke
@@ -3095,23 +3151,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 132.08) (xy 52.07 134.62)
+			(xy 21.59 113.03) (xy 29.21 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce829b40-3cba-4f24-a041-071f3ab499f8")
-	)
-	(wire
-		(pts
-			(xy 44.45 85.09) (xy 44.45 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0007585-b22a-4684-9ec3-c25f8e1fa0ce")
+		(uuid "caeeb5b0-f405-41b9-9622-55c6ddf9d71f")
 	)
 	(wire
 		(pts
@@ -3561,83 +3607,6 @@
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/b32b38dd-2161-452a-abbf-0f081745c9dd"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 52.07 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10c5cc5a-89e3-459d-adc2-62c42fdeeaad")
-		(property "Reference" "#PWR079"
-			(at 52.07 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 52.578 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 52.07 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46038b04-b465-4b9a-aa05-4b88883d5ec8")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/b32b38dd-2161-452a-abbf-0f081745c9dd"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -4553,6 +4522,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "664c3847-3423-42b0-9c88-354295feead8")
+		(property "Reference" "#FLG01"
+			(at 49.53 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.626 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6194d7d5-5734-42ef-b200-ea379eb3f089")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/b32b38dd-2161-452a-abbf-0f081745c9dd"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 54.61 81.28 0)
 		(unit 1)
@@ -5265,85 +5311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 111.76 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c78ebb33-8876-48f2-82b7-69cc6bed31f9")
-		(property "Reference" "#FLG01"
-			(at 31.115 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 34.29 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3563b144-a14e-47c8-85a1-d994dbf1ed0e")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/b32b38dd-2161-452a-abbf-0f081745c9dd"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 59.69 80.01 180)
 		(unit 1)
@@ -5986,6 +5953,83 @@
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/b32b38dd-2161-452a-abbf-0f081745c9dd"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 53.34 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe0f0e90-2e46-4516-b78c-0bef962cd8a3")
+		(property "Reference" "#PWR079"
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.848 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 53.34 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b46fa5a0-08c2-4f0b-aae6-4ea0ada62869")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/b32b38dd-2161-452a-abbf-0f081745c9dd"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
