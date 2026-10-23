@@ -35,6 +35,8 @@ jobs:
           cp /usr/share/kicad/template/fp-lib-table "$HOME/.config/kicad/10.0/fp-lib-table"
 
       - name: Check schematic (ERC) Main
+        # Run every check after setup succeeds, even if an earlier check fails.
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
           kicad-cli sch erc \
             --severity-error --severity-warning \
@@ -45,7 +47,7 @@ jobs:
 
       - name: Check PCB (DRC and schematic parity) Main
         # Run DRC even if ERC found violations, but only after setup succeeds.
-        if: ${{ !cancelled() && steps.libraries.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
           kicad-cli pcb drc \
             --severity-error --severity-warning \
@@ -57,6 +59,7 @@ jobs:
             keyhalld/keyhalld.kicad_pcb
 
       - name: Check schematic (ERC) Addon
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
           kicad-cli sch erc \
             --severity-error --severity-warning \
@@ -67,7 +70,7 @@ jobs:
 
       - name: Check PCB (DRC and schematic parity) Addon
         # Run DRC even if ERC found violations, but only after setup succeeds.
-        if: ${{ !cancelled() && steps.libraries.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
           kicad-cli pcb drc \
             --severity-error --severity-warning \
