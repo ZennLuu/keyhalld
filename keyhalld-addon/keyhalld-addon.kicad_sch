@@ -6785,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 147.32 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8208,7 +8208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 71.12 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8523,7 +8523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 121.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9157,7 +9157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9393,7 +9393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11591,7 +11591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 121.92 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13008,7 +13008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13244,7 +13244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
