@@ -490,7 +490,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "Custom",
-      "RPI"
+      "RPI",
+      "Library"
     ],
     "pinned_symbol_libs": []
   },
