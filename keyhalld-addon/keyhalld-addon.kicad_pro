@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -263,7 +263,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|2184400|1193800|6e872ebe-4bc0-43f2-851e-06f711ead72d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|304800|1066800|edaf49c5-f178-4c44-b7bf-f2a83b61360a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -469,7 +478,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -488,7 +497,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "RPI"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -539,7 +550,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -665,7 +676,7 @@
         "uuid": "a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#FLG1-3,#PWR1-47,#PWR66-86,C1-17,C23-37,J1-3,L1,R1-12,SW1-8,U1-3,U21-23,Y1",
     "variants": []
   },
   "sheets": [
