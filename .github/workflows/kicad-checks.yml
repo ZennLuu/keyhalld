@@ -1,0 +1,88 @@
+name: KiCad ERC and DRC
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    name: Schematic ERC and PCB DRC
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Install KiCad 10
+        id: install
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            kicad kicad-symbols kicad-footprints
+          kicad-cli version
+
+          # Initialize standard libraries without opening the KiCad GUI.
+          mkdir -p "$HOME/.config/kicad/10.0" reports
+          cp /usr/share/kicad/template/sym-lib-table "$HOME/.config/kicad/10.0/sym-lib-table"
+          cp /usr/share/kicad/template/fp-lib-table "$HOME/.config/kicad/10.0/fp-lib-table"
+
+      - name: Check schematic (ERC) Main
+        run: |
+          kicad-cli sch erc \
+            --severity-error --severity-warning \
+            --exit-code-violations \
+            --format report \
+            --output reports/keyhalld-erc.rpt \
+            keyhalld/keyhalld.kicad_sch
+
+      - name: Check PCB (DRC and schematic parity) Main
+        # Run DRC even if ERC found violations, but only after setup succeeds.
+        if: ${{ !cancelled() && steps.libraries.outcome == 'success' }}
+        run: |
+          kicad-cli pcb drc \
+            --severity-error --severity-warning \
+            --exit-code-violations \
+            --schematic-parity \
+            --refill-zones \
+            --format report \
+            --output reports/keyhalld-drc.rpt \
+            keyhalld/keyhalld.kicad_pcb
+
+      - name: Check schematic (ERC) Addon
+        run: |
+          kicad-cli sch erc \
+            --severity-error --severity-warning \
+            --exit-code-violations \
+            --format report \
+            --output reports/keyhalld-addon-erc.rpt \
+            keyhalld-addon/keyhalld-addon.kicad_sch
+
+      - name: Check PCB (DRC and schematic parity) Addon
+        # Run DRC even if ERC found violations, but only after setup succeeds.
+        if: ${{ !cancelled() && steps.libraries.outcome == 'success' }}
+        run: |
+          kicad-cli pcb drc \
+            --severity-error --severity-warning \
+            --exit-code-violations \
+            --schematic-parity \
+            --refill-zones \
+            --format report \
+            --output reports/keyhalld-addon-drc.rpt \
+            keyhalld-addon/keyhalld-addon.kicad_pcb
+
+      - name: Upload check reports
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-check-reports
+          path: reports/*.rpt
+          if-no-files-found: warn
+          retention-days: 14
