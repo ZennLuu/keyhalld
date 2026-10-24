@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -270,6 +270,10 @@
       ],
       [
         "lib_symbol_issues|304800|1066800|edaf49c5-f178-4c44-b7bf-f2a83b61360a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|330200|1752600|b0f24546-0a4d-4b05-8bf9-8b497bbc863e|17bdae82-7d4b-4f9b-94f7-812e5bc15f13|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
         ""
       ]
     ],
@@ -676,7 +680,7 @@
         "uuid": "a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR1-47,#PWR66-86,C1-17,C23-37,J1-3,L1,R1-12,SW1-8,U1-3,U21-23,Y1",
+    "used_designators": "#FLG1-4,#PWR1-51,#PWR66-86,C1-17,C23-37,J1-3,L1,R1-14,SW1-8,U1-4,U21-23,Y1",
     "variants": []
   },
   "sheets": [
