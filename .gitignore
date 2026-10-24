@@ -1,4 +1,5 @@
 *.lck
 *-backups/
+production/
 *.bak
 .history/

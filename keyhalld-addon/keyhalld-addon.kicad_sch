@@ -5374,6 +5374,19 @@
 		)
 		(uuid "f6e21521-c98b-4218-9729-dc49b0fcc552")
 	)
+	(text "Optional part for this board\nNeeded if planned to be used independedly\n(in that case board will need separate FW)"
+		(exclude_from_sim no)
+		(at 134.112 170.434 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "fa09eb6e-375b-43aa-89df-4db4bb10fa10")
+	)
 	(junction
 		(at 16.51 109.22)
 		(diameter 0)
