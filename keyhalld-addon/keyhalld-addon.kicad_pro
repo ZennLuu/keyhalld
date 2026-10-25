@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -263,7 +263,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|2184400|1193800|6e872ebe-4bc0-43f2-851e-06f711ead72d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|304800|1066800|edaf49c5-f178-4c44-b7bf-f2a83b61360a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|1993900|876300|1e81408e-3fcc-4bad-aa43-fc33034f947d|b4752255-3de1-4116-b1b1-da9e1ef186d8|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
+        ""
+      ],
+      [
+        "pin_to_pin|330200|1752600|b0f24546-0a4d-4b05-8bf9-8b497bbc863e|17bdae82-7d4b-4f9b-94f7-812e5bc15f13|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
+        ""
+      ],
+      [
+        "pin_to_pin|889000|1257300|17bdae82-7d4b-4f9b-94f7-812e5bc15f13|b0f24546-0a4d-4b05-8bf9-8b497bbc863e|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
+        ""
+      ],
+      [
+        "pin_to_pin|965200|1257300|8c5b6eb7-63ce-4979-999d-a32da4af8a16|4feb2908-45c9-4a4d-b0e9-6ba4a20aeb93|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f|/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -469,7 +494,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -488,7 +513,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "RPI"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -539,7 +566,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -665,13 +692,17 @@
         "uuid": "a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#FLG1-4,#PWR1-86,C1-17,C23-37,D1-11,H1-4,J1-3,L1,R1-24,S1,SW1-10,U1-4,U21-23,Y1",
     "variants": []
   },
   "sheets": [
     [
       "a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
       "keyhalld-addon"
+    ],
+    [
+      "e1a21125-a3c8-4eef-bc5c-e0f48eefb943",
+      "ws leds"
     ]
   ],
   "text_variables": {},

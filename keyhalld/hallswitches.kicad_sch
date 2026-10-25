@@ -735,7 +735,7 @@
 	)
 	(text "Hall Sensor footprint should be centered underneath switch!!!"
 		(exclude_from_sim no)
-		(at 188.214 157.988 0)
+		(at 175.26 155.194 0)
 		(effects
 			(font
 				(size 3.81 3.81)
