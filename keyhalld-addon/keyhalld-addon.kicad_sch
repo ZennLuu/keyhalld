@@ -12765,7 +12765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e7a76c-2a5d-4156-8997-9d306c7ea04b")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 91.44 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12849,7 +12849,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15931,7 +15931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f416361-3413-485e-85e4-9c0d92d63b0a")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 33.02 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15991,7 +15991,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16474,7 +16474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912a5925-3a09-4103-831d-a06a2109d6e3")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 72.39 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16534,7 +16534,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -17363,7 +17363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab367193-0c2d-49d8-9b3c-89e37a0006a4")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 35.56 171.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17449,7 +17449,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18513,7 +18513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x04_P3.7mm_D0.48mm_OD1mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 24.13 180.34 0)
 			(hide yes)
 			(show_name no)

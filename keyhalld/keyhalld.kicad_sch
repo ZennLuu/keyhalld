@@ -8138,7 +8138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Integrated_Circuits\\Microcontrollers\\RPI_RP2350A\\datasheets"
+		(property "Datasheet" ""
 			(at 129.54 97.79 0)
 			(hide yes)
 			(show_name no)
