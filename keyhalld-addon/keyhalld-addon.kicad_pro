@@ -692,13 +692,17 @@
         "uuid": "a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-86,C1-17,C23-37,D1-2,H1-4,J1-3,L1,R1-24,S1,SW1-10,U1-4,U21-23,Y1",
+    "used_designators": "#FLG1-4,#PWR1-86,C1-17,C23-37,D1-10,H1-4,J1-3,L1,R1-24,S1,SW1-10,U1-4,U21-23,Y1",
     "variants": []
   },
   "sheets": [
     [
       "a8efb6d5-6c80-4ac0-bb97-11d91837bb7f",
       "keyhalld-addon"
+    ],
+    [
+      "e1a21125-a3c8-4eef-bc5c-e0f48eefb943",
+      "ws leds"
     ]
   ],
   "text_variables": {},

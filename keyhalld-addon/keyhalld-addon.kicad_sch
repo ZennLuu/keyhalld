@@ -6681,10 +6681,6 @@
 		(uuid "62eb137c-e170-4300-922d-c06bb9a605e2")
 	)
 	(no_connect
-		(at 252.73 111.76)
-		(uuid "72be856a-690f-474c-a26c-a5fd390e41fc")
-	)
-	(no_connect
 		(at 207.01 87.63)
 		(uuid "81958517-13ee-467f-ba05-0cb2aa262331")
 	)
@@ -8837,6 +8833,30 @@
 			(justify left bottom)
 		)
 		(uuid "615d2fb4-7074-430f-b5a0-9a19047518d6")
+	)
+	(global_label "WS_LED"
+		(shape input)
+		(at 252.73 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03768f9e-d21b-40b3-93cb-0a2d86ced16e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.7908 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "EN_S_A"
 		(shape input)
@@ -21844,6 +21864,52 @@
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
 					(reference "#PWR054")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 140.97)
+		(size 35.56 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 204 204 255 1)
+		)
+		(uuid "e1a21125-a3c8-4eef-bc5c-e0f48eefb943")
+		(property "Sheetname" "ws leds"
+			(at 138.43 140.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws_leds.kicad_sch"
+			(at 138.43 177.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
+					(page "2")
 				)
 			)
 		)
