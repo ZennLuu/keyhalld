@@ -733,9 +733,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Hall Sensor footprint should be centered underneath switch!!!"
+	(text "Hall Sensor footprint\nshould be centered\nunderneath switch!!!"
 		(exclude_from_sim no)
-		(at 175.26 155.194 0)
+		(at 251.46 39.878 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -745,369 +745,379 @@
 		)
 		(uuid "4279d2ae-4ae4-47c4-b5cb-9bd8d62ade8c")
 	)
+	(text "Dedicated switches"
+		(exclude_from_sim no)
+		(at 90.424 42.164 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "52f3da45-c8e2-4e23-897b-c802297b0055")
+	)
 	(junction
-		(at 24.13 120.65)
+		(at 25.4 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05cd3193-cca5-4570-bea6-7b2ae4f3b996")
 	)
 	(junction
-		(at 24.13 72.39)
+		(at 25.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b941870-0375-4e1d-9c53-11999add15b7")
 	)
 	(junction
-		(at 50.8 97.79)
+		(at 52.07 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "163ad78f-578c-4e5a-9dfe-2145059de105")
 	)
 	(junction
-		(at 130.81 49.53)
+		(at 132.08 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19109447-4f88-4add-b1dd-699e017b3669")
 	)
 	(junction
-		(at 157.48 97.79)
+		(at 158.75 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1adacee9-81e3-43d7-989d-9214e07cae6a")
 	)
 	(junction
-		(at 77.47 72.39)
+		(at 78.74 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "237fa406-0643-411f-8382-4c9bcfa614f2")
 	)
 	(junction
-		(at 184.15 49.53)
+		(at 185.42 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fe9437e-a5d4-48f5-b681-8807e35f5f41")
 	)
 	(junction
-		(at 50.8 144.78)
+		(at 52.07 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3712f8f3-6e2c-4ded-a393-2def152a4fc8")
 	)
 	(junction
-		(at 130.81 120.65)
+		(at 132.08 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3753b511-c52c-4a6c-bc34-c59cbdfe48fc")
 	)
 	(junction
-		(at 50.8 49.53)
+		(at 52.07 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b6ff92f-2805-45b6-8a97-46fbe2bdc25c")
 	)
 	(junction
-		(at 130.81 97.79)
+		(at 132.08 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "598a639b-3861-4311-9e50-8fde934c24e8")
 	)
 	(junction
-		(at 184.15 120.65)
+		(at 185.42 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6466e92e-dd16-4aed-b89a-19ef0ba6f887")
 	)
 	(junction
-		(at 50.8 167.64)
+		(at 52.07 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e79f39b-8d78-488d-9359-b3981ada4c7e")
 	)
 	(junction
-		(at 210.82 120.65)
+		(at 212.09 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7196b9bd-ed14-49d5-a47c-6899eebf40dc")
 	)
 	(junction
-		(at 210.82 97.79)
+		(at 212.09 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d3f9ee9-bd5d-4d04-8abe-aee1dacefc76")
 	)
 	(junction
-		(at 184.15 97.79)
+		(at 185.42 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7edf4589-9057-4da6-9949-8f3bfd29f9bc")
 	)
 	(junction
-		(at 50.8 72.39)
+		(at 52.07 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dba8bcd-8dde-4ca3-bcf5-82aa737eed25")
 	)
 	(junction
-		(at 24.13 144.78)
+		(at 25.4 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "930039ff-c59b-4718-9af2-4d7296ae1913")
 	)
 	(junction
-		(at 77.47 97.79)
+		(at 78.74 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "967734dd-9b8d-48f2-951e-c1b6606f1bb1")
 	)
 	(junction
-		(at 77.47 49.53)
+		(at 78.74 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "993d7dbc-7ab4-4f38-a53f-c9481a3266ca")
 	)
 	(junction
-		(at 104.14 120.65)
+		(at 105.41 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e9b67bb-0eb1-4a4b-a79c-d964862706b1")
 	)
 	(junction
-		(at 104.14 49.53)
+		(at 105.41 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2cb683b-c99e-4d14-8e8c-58361b6e141a")
 	)
 	(junction
-		(at 24.13 49.53)
+		(at 25.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3457695-6718-48cd-808a-93638631d01f")
 	)
 	(junction
-		(at 210.82 49.53)
+		(at 212.09 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a55b56a9-b250-42d0-b4dd-3b42a7a3d16c")
 	)
 	(junction
-		(at 157.48 49.53)
+		(at 158.75 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6bb28d2-354f-429c-9de6-40aa4169a7ab")
 	)
 	(junction
-		(at 24.13 97.79)
+		(at 25.4 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a87fbe1f-c189-48b1-88a1-e55e74d3d7fa")
 	)
 	(junction
-		(at 130.81 72.39)
+		(at 132.08 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8077f7b-d0fb-4231-9e6f-9e35445bcbb9")
 	)
 	(junction
-		(at 157.48 72.39)
+		(at 158.75 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be779f16-e82a-48a5-ac34-81dd72fd7b33")
 	)
 	(junction
-		(at 24.13 167.64)
+		(at 25.4 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25892a7-c42b-4e91-b732-9904708b7c79")
 	)
 	(junction
-		(at 50.8 120.65)
+		(at 52.07 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5972a95-6e18-42b1-a3af-ea635bbaa0ca")
 	)
 	(junction
-		(at 104.14 97.79)
+		(at 105.41 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d69a17c6-a074-4837-9357-0e1d8d60ece6")
 	)
 	(junction
-		(at 184.15 72.39)
+		(at 185.42 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7dc3276-c5f3-4d0c-a99e-379833daded3")
 	)
 	(junction
-		(at 157.48 120.65)
+		(at 158.75 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f42ad3e8-470d-48fd-ab37-6dc79365d1cf")
 	)
 	(junction
-		(at 77.47 120.65)
+		(at 78.74 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9106988-1782-488a-8e32-30223a11aeb9")
 	)
 	(junction
-		(at 104.14 72.39)
+		(at 105.41 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95577be-f8a3-4405-a4c9-63915c242015")
 	)
 	(junction
-		(at 210.82 72.39)
+		(at 212.09 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc90a6d8-679c-41d0-94fa-96e05839769a")
 	)
 	(no_connect
-		(at 111.76 41.91)
+		(at 113.03 76.2)
 		(uuid "080ea727-dc1f-4364-8792-a701fcd4c118")
 	)
 	(no_connect
-		(at 218.44 41.91)
+		(at 219.71 76.2)
 		(uuid "0d336b0c-4dcc-48a5-9e60-1192372c2a9d")
 	)
 	(no_connect
-		(at 181.61 41.91)
+		(at 182.88 76.2)
 		(uuid "1f55ad55-820b-422a-884f-e34fc31d5a1e")
 	)
 	(no_connect
-		(at 58.42 41.91)
+		(at 59.69 76.2)
 		(uuid "20792840-b231-4c86-ab27-9494fbdca5ca")
 	)
 	(no_connect
-		(at 31.75 137.16)
+		(at 33.02 25.4)
 		(uuid "23e88aa5-e6aa-4490-9a7b-5337515d71cb")
 	)
 	(no_connect
-		(at 128.27 41.91)
+		(at 129.54 76.2)
 		(uuid "244c91f3-d277-4f5d-8c3f-cbb7755ee90c")
 	)
 	(no_connect
-		(at 165.1 41.91)
+		(at 166.37 76.2)
 		(uuid "3e5f1dc4-90e5-449c-bce1-7caba35be6ba")
 	)
 	(no_connect
-		(at 74.93 41.91)
+		(at 76.2 76.2)
 		(uuid "42e7234a-5267-4a82-9fe4-ef20e0a5326e")
 	)
 	(no_connect
-		(at 48.26 137.16)
+		(at 49.53 25.4)
 		(uuid "43c2d379-d395-4a95-bb35-2a0b42a740cf")
 	)
 	(no_connect
-		(at 191.77 41.91)
+		(at 193.04 76.2)
 		(uuid "455e809d-aa86-42cf-9288-98205f4bc987")
 	)
 	(no_connect
-		(at 101.6 90.17)
+		(at 102.87 124.46)
 		(uuid "4d653ca5-0dc0-479c-bb53-f9083a897029")
 	)
 	(no_connect
-		(at 181.61 90.17)
+		(at 182.88 124.46)
 		(uuid "4f9e158c-773c-4ebf-bfee-4d4bc282b26b")
 	)
 	(no_connect
-		(at 154.94 41.91)
+		(at 156.21 76.2)
 		(uuid "57ba3682-cb8c-4b27-8f34-af3e5ef45a61")
 	)
 	(no_connect
-		(at 165.1 90.17)
+		(at 166.37 124.46)
 		(uuid "58d9edaa-8b30-4a7e-9330-310fb4c8e71d")
 	)
 	(no_connect
-		(at 208.28 41.91)
+		(at 209.55 76.2)
 		(uuid "598d6482-9c34-4411-b045-968e3cf82db6")
 	)
 	(no_connect
-		(at 138.43 90.17)
+		(at 139.7 124.46)
 		(uuid "6b27bbe5-fb19-4bc3-94a0-ec517299a64a")
 	)
 	(no_connect
-		(at 85.09 90.17)
+		(at 86.36 124.46)
 		(uuid "7146e173-1bcc-4cc7-b249-e9bcd3a09c94")
 	)
 	(no_connect
-		(at 191.77 90.17)
+		(at 193.04 124.46)
 		(uuid "71bd23bb-fa35-4bc7-a72a-b5b1de3d5f1a")
 	)
 	(no_connect
-		(at 21.59 137.16)
+		(at 22.86 25.4)
 		(uuid "76318a23-b0f6-449a-96ce-059bf4a7fd2e")
 	)
 	(no_connect
-		(at 128.27 90.17)
+		(at 129.54 124.46)
 		(uuid "7ae7698c-d116-4579-b818-b415fcf9175c")
 	)
 	(no_connect
-		(at 154.94 90.17)
+		(at 156.21 124.46)
 		(uuid "7e128f37-7952-4abb-85a2-087ad20335af")
 	)
 	(no_connect
-		(at 85.09 41.91)
+		(at 86.36 76.2)
 		(uuid "8aba78e8-91e9-4fea-b864-4c5003051d32")
 	)
 	(no_connect
-		(at 31.75 41.91)
+		(at 33.02 76.2)
 		(uuid "a42f0757-ea89-434a-93fd-09617eaa49d6")
 	)
 	(no_connect
-		(at 31.75 90.17)
+		(at 33.02 124.46)
 		(uuid "a4a03a49-3b04-4516-ba73-5e7ac21fc336")
 	)
 	(no_connect
-		(at 111.76 90.17)
+		(at 113.03 124.46)
 		(uuid "a6c706ed-ab60-4003-b334-5829e26ec75b")
 	)
 	(no_connect
-		(at 208.28 90.17)
+		(at 209.55 124.46)
 		(uuid "ac4b8b84-de72-4df1-99ee-afe3b3f1744a")
 	)
 	(no_connect
-		(at 58.42 90.17)
+		(at 59.69 124.46)
 		(uuid "b63d1412-b3f4-4805-ac82-6dd6bd77d122")
 	)
 	(no_connect
-		(at 21.59 90.17)
+		(at 22.86 124.46)
 		(uuid "c59f384c-9385-4bd5-82d9-96335b44a6fc")
 	)
 	(no_connect
-		(at 48.26 41.91)
+		(at 49.53 76.2)
 		(uuid "d15a93df-56f5-4f5d-b37a-799414703c41")
 	)
 	(no_connect
-		(at 21.59 41.91)
+		(at 22.86 76.2)
 		(uuid "d9a67cb8-3a04-4b19-9abf-3bc1f746e57e")
 	)
 	(no_connect
-		(at 48.26 90.17)
+		(at 49.53 124.46)
 		(uuid "dc63f56e-1f5a-4ecf-86c2-77978198143d")
 	)
 	(no_connect
-		(at 101.6 41.91)
+		(at 102.87 76.2)
 		(uuid "ed8b5bb1-be82-4b35-8971-6da477f40b9f")
 	)
 	(no_connect
-		(at 138.43 41.91)
+		(at 139.7 76.2)
 		(uuid "f1868252-99cc-446b-8004-7a597d0a4c42")
 	)
 	(no_connect
-		(at 58.42 137.16)
+		(at 59.69 25.4)
 		(uuid "f57adb33-224b-4581-a9ca-b70bb2a6679b")
 	)
 	(no_connect
-		(at 218.44 90.17)
+		(at 219.71 124.46)
 		(uuid "f5bd407b-43c2-41e9-a23a-052fb3dddb24")
 	)
 	(no_connect
-		(at 74.93 90.17)
+		(at 76.2 124.46)
 		(uuid "fdfc8870-717e-428d-9a90-049bc2a65852")
 	)
 	(wire
 		(pts
-			(xy 104.14 120.65) (xy 104.14 119.38)
+			(xy 105.41 154.94) (xy 105.41 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 130.81 71.12)
+			(xy 132.08 106.68) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 73.66) (xy 210.82 72.39)
+			(xy 212.09 107.95) (xy 212.09 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.03) (xy 72.39 120.65)
+			(xy 73.66 147.32) (xy 73.66 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 130.81 99.06)
+			(xy 132.08 132.08) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 48.26) (xy 210.82 49.53)
+			(xy 212.09 82.55) (xy 212.09 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 113.03) (xy 205.74 120.65)
+			(xy 207.01 147.32) (xy 207.01 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1187,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 121.92) (xy 24.13 120.65)
+			(xy 25.4 156.21) (xy 25.4 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 97.79) (xy 50.8 99.06)
+			(xy 52.07 132.08) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 130.81 97.79)
+			(xy 132.08 130.81) (xy 132.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 77.47 72.39)
+			(xy 73.66 106.68) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 57.15) (xy 99.06 49.53)
+			(xy 100.33 91.44) (xy 100.33 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 157.48 72.39)
+			(xy 153.67 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 130.81 49.53)
+			(xy 132.08 82.55) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 125.73 72.39)
+			(xy 127 99.06) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 50.8 49.53)
+			(xy 46.99 83.82) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1277,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 73.66) (xy 77.47 72.39)
+			(xy 78.74 107.95) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 50.8 166.37)
+			(xy 52.07 55.88) (xy 52.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 157.48 97.79)
+			(xy 158.75 130.81) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1307,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 130.81 72.39)
+			(xy 127 106.68) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 120.65) (xy 50.8 120.65)
+			(xy 46.99 154.94) (xy 52.07 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 157.48 99.06)
+			(xy 158.75 132.08) (xy 158.75 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 97.79) (xy 50.8 97.79)
+			(xy 46.99 132.08) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1337,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 160.02) (xy 19.05 167.64)
+			(xy 20.32 48.26) (xy 20.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1347,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 105.41) (xy 72.39 97.79)
+			(xy 73.66 139.7) (xy 73.66 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1357,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 184.15 97.79)
+			(xy 180.34 132.08) (xy 185.42 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1367,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 96.52) (xy 210.82 97.79)
+			(xy 212.09 130.81) (xy 212.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1377,7 +1387,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 130.81 97.79)
+			(xy 127 132.08) (xy 132.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1387,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 45.72 49.53)
+			(xy 46.99 91.44) (xy 46.99 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 120.65) (xy 184.15 119.38)
+			(xy 185.42 154.94) (xy 185.42 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1407,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 57.15) (xy 72.39 49.53)
+			(xy 73.66 91.44) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1417,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 120.65) (xy 104.14 120.65)
+			(xy 100.33 154.94) (xy 105.41 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1427,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 97.79)
+			(xy 105.41 130.81) (xy 105.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1437,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 72.39) (xy 210.82 72.39)
+			(xy 207.01 106.68) (xy 212.09 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 72.39) (xy 50.8 72.39)
+			(xy 46.99 106.68) (xy 52.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1457,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 120.65) (xy 210.82 120.65)
+			(xy 207.01 154.94) (xy 212.09 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 72.39) (xy 24.13 71.12)
+			(xy 25.4 106.68) (xy 25.4 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1477,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 49.53) (xy 184.15 49.53)
+			(xy 180.34 83.82) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 120.65) (xy 157.48 119.38)
+			(xy 158.75 154.94) (xy 158.75 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1497,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 49.53) (xy 210.82 50.8)
+			(xy 212.09 83.82) (xy 212.09 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1507,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 97.79) (xy 24.13 97.79)
+			(xy 20.32 132.08) (xy 25.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 73.66) (xy 24.13 72.39)
+			(xy 25.4 107.95) (xy 25.4 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 97.79) (xy 210.82 99.06)
+			(xy 212.09 132.08) (xy 212.09 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 50.8 97.79)
+			(xy 52.07 130.81) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 143.51) (xy 24.13 144.78)
+			(xy 25.4 31.75) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 57.15) (xy 19.05 49.53)
+			(xy 20.32 91.44) (xy 20.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 72.39) (xy 77.47 71.12)
+			(xy 78.74 106.68) (xy 78.74 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 49.53) (xy 130.81 50.8)
+			(xy 132.08 83.82) (xy 132.08 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 49.53) (xy 77.47 49.53)
+			(xy 73.66 83.82) (xy 78.74 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 167.64) (xy 24.13 166.37)
+			(xy 25.4 55.88) (xy 25.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 72.39) (xy 104.14 72.39)
+			(xy 100.33 106.68) (xy 105.41 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 72.39) (xy 50.8 71.12)
+			(xy 52.07 106.68) (xy 52.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 105.41) (xy 205.74 97.79)
+			(xy 207.01 139.7) (xy 207.01 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 49.53) (xy 24.13 49.53)
+			(xy 20.32 83.82) (xy 25.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 143.51) (xy 50.8 144.78)
+			(xy 52.07 31.75) (xy 52.07 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 50.8 120.65)
+			(xy 52.07 156.21) (xy 52.07 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1667,7 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 64.77) (xy 205.74 72.39)
+			(xy 207.01 99.06) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1677,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 97.79) (xy 24.13 99.06)
+			(xy 25.4 132.08) (xy 25.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1687,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 121.92) (xy 130.81 120.65)
+			(xy 132.08 156.21) (xy 132.08 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1697,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 105.41) (xy 19.05 97.79)
+			(xy 20.32 139.7) (xy 20.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1707,7 +1717,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 49.53) (xy 50.8 50.8)
+			(xy 52.07 83.82) (xy 52.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1717,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 144.78) (xy 50.8 146.05)
+			(xy 52.07 33.02) (xy 52.07 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1727,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 152.4) (xy 19.05 144.78)
+			(xy 20.32 40.64) (xy 20.32 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1737,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 121.92) (xy 210.82 120.65)
+			(xy 212.09 156.21) (xy 212.09 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 97.79) (xy 77.47 97.79)
+			(xy 73.66 132.08) (xy 78.74 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 105.41) (xy 179.07 97.79)
+			(xy 180.34 139.7) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 57.15) (xy 179.07 49.53)
+			(xy 180.34 91.44) (xy 180.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 49.53) (xy 210.82 49.53)
+			(xy 207.01 83.82) (xy 212.09 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 72.39)
+			(xy 158.75 107.95) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 49.53) (xy 77.47 50.8)
+			(xy 78.74 83.82) (xy 78.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 77.47 120.65)
+			(xy 73.66 154.94) (xy 78.74 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 104.14 97.79)
+			(xy 100.33 132.08) (xy 105.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 64.77) (xy 152.4 72.39)
+			(xy 153.67 99.06) (xy 153.67 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 50.8 49.53)
+			(xy 52.07 82.55) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 50.8 119.38)
+			(xy 52.07 154.94) (xy 52.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 64.77) (xy 99.06 72.39)
+			(xy 100.33 99.06) (xy 100.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 152.4) (xy 45.72 144.78)
+			(xy 46.99 40.64) (xy 46.99 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 48.26) (xy 24.13 49.53)
+			(xy 25.4 82.55) (xy 25.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 77.47 119.38)
+			(xy 78.74 154.94) (xy 78.74 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 168.91) (xy 50.8 167.64)
+			(xy 52.07 57.15) (xy 52.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 49.53) (xy 104.14 49.53)
+			(xy 100.33 83.82) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 113.03) (xy 179.07 120.65)
+			(xy 180.34 147.32) (xy 180.34 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 167.64) (xy 50.8 167.64)
+			(xy 46.99 55.88) (xy 52.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 179.07 72.39)
+			(xy 180.34 99.06) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 152.4 97.79)
+			(xy 153.67 139.7) (xy 153.67 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 120.65) (xy 24.13 120.65)
+			(xy 20.32 154.94) (xy 25.4 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 105.41) (xy 125.73 97.79)
+			(xy 127 139.7) (xy 127 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 113.03) (xy 19.05 120.65)
+			(xy 20.32 147.32) (xy 20.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 157.48 97.79)
+			(xy 153.67 132.08) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 72.39) (xy 184.15 71.12)
+			(xy 185.42 106.68) (xy 185.42 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 121.92) (xy 77.47 120.65)
+			(xy 78.74 156.21) (xy 78.74 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 157.48 71.12)
+			(xy 158.75 106.68) (xy 158.75 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 120.65) (xy 184.15 120.65)
+			(xy 180.34 154.94) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 210.82 119.38)
+			(xy 212.09 154.94) (xy 212.09 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 49.53) (xy 184.15 50.8)
+			(xy 185.42 83.82) (xy 185.42 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 113.03) (xy 45.72 120.65)
+			(xy 46.99 147.32) (xy 46.99 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 184.15 97.79)
+			(xy 185.42 130.81) (xy 185.42 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 97.79) (xy 210.82 97.79)
+			(xy 207.01 132.08) (xy 212.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 96.52) (xy 24.13 97.79)
+			(xy 25.4 130.81) (xy 25.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 130.81 72.39)
+			(xy 132.08 107.95) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 160.02) (xy 45.72 167.64)
+			(xy 46.99 48.26) (xy 46.99 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 157.48 49.53)
+			(xy 153.67 83.82) (xy 158.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 168.91) (xy 24.13 167.64)
+			(xy 25.4 57.15) (xy 25.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 120.65) (xy 24.13 119.38)
+			(xy 25.4 154.94) (xy 25.4 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 72.39 72.39)
+			(xy 73.66 99.06) (xy 73.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 144.78) (xy 24.13 144.78)
+			(xy 20.32 33.02) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 120.65) (xy 130.81 119.38)
+			(xy 132.08 154.94) (xy 132.08 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 152.4 120.65)
+			(xy 153.67 147.32) (xy 153.67 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 120.65) (xy 104.14 121.92)
+			(xy 105.41 154.94) (xy 105.41 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 64.77) (xy 45.72 72.39)
+			(xy 46.99 99.06) (xy 46.99 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 184.15 72.39)
+			(xy 185.42 107.95) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2217,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 121.92) (xy 184.15 120.65)
+			(xy 185.42 156.21) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 130.81 49.53)
+			(xy 127 83.82) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 144.78) (xy 50.8 144.78)
+			(xy 46.99 33.02) (xy 52.07 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 105.41) (xy 45.72 97.79)
+			(xy 46.99 139.7) (xy 46.99 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 50.8 72.39)
+			(xy 52.07 107.95) (xy 52.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 57.15) (xy 205.74 49.53)
+			(xy 207.01 91.44) (xy 207.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 157.48 49.53)
+			(xy 158.75 82.55) (xy 158.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 125.73 49.53)
+			(xy 127 91.44) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 104.14 49.53)
+			(xy 105.41 82.55) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 184.15 72.39)
+			(xy 180.34 106.68) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 152.4 49.53)
+			(xy 153.67 91.44) (xy 153.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 97.79) (xy 77.47 99.06)
+			(xy 78.74 132.08) (xy 78.74 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 167.64) (xy 24.13 167.64)
+			(xy 20.32 55.88) (xy 25.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 184.15 99.06)
+			(xy 185.42 132.08) (xy 185.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 77.47 97.79)
+			(xy 78.74 130.81) (xy 78.74 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 72.39) (xy 210.82 71.12)
+			(xy 212.09 106.68) (xy 212.09 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 144.78) (xy 24.13 146.05)
+			(xy 25.4 33.02) (xy 25.4 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 105.41) (xy 99.06 97.79)
+			(xy 100.33 139.7) (xy 100.33 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 104.14 50.8)
+			(xy 105.41 83.82) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 157.48 120.65)
+			(xy 158.75 156.21) (xy 158.75 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 99.06 120.65)
+			(xy 100.33 147.32) (xy 100.33 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 48.26) (xy 77.47 49.53)
+			(xy 78.74 82.55) (xy 78.74 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 130.81 120.65)
+			(xy 127 154.94) (xy 132.08 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 113.03) (xy 125.73 120.65)
+			(xy 127 147.32) (xy 127 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 157.48 50.8)
+			(xy 158.75 83.82) (xy 158.75 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 64.77) (xy 19.05 72.39)
+			(xy 20.32 99.06) (xy 20.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 48.26) (xy 184.15 49.53)
+			(xy 185.42 82.55) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 97.79) (xy 104.14 99.06)
+			(xy 105.41 132.08) (xy 105.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 72.39) (xy 24.13 72.39)
+			(xy 20.32 106.68) (xy 25.4 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 120.65) (xy 157.48 120.65)
+			(xy 153.67 154.94) (xy 158.75 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 104.14 71.12)
+			(xy 105.41 106.68) (xy 105.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 49.53) (xy 24.13 50.8)
+			(xy 25.4 83.82) (xy 25.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 104.14 72.39)
+			(xy 105.41 107.95) (xy 105.41 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2547,7 +2557,7 @@
 	)
 	(global_label "AM14"
 		(shape input)
-		(at 194.31 109.22 0)
+		(at 195.58 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2557,7 +2567,7 @@
 		)
 		(uuid "038710d4-c441-4910-9fe8-be0dd70ed733")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0447 109.22 0)
+			(at 202.3147 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2581,7 @@
 	)
 	(global_label "AM13"
 		(shape input)
-		(at 167.64 109.22 0)
+		(at 168.91 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2581,7 +2591,7 @@
 		)
 		(uuid "0fe68392-5f56-489e-9458-8ad7d77a6dce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3747 109.22 0)
+			(at 175.6447 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2605,7 @@
 	)
 	(global_label "AM0"
 		(shape input)
-		(at 34.29 60.96 0)
+		(at 35.56 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,7 +2615,7 @@
 		)
 		(uuid "175d033e-dfec-4cdd-aecb-a5d7ff90f77f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.0247 60.96 0)
+			(at 42.2947 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2619,7 +2629,7 @@
 	)
 	(global_label "AM1"
 		(shape input)
-		(at 60.96 60.96 0)
+		(at 62.23 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2629,7 +2639,7 @@
 		)
 		(uuid "4e76c676-8707-4c20-a71c-34645498f926")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.6947 60.96 0)
+			(at 68.9647 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2643,7 +2653,7 @@
 	)
 	(global_label "AM12"
 		(shape input)
-		(at 140.97 109.22 0)
+		(at 142.24 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2653,7 +2663,7 @@
 		)
 		(uuid "4e8a54d9-8149-4de7-b6ea-96af9623cdf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7047 109.22 0)
+			(at 148.9747 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2667,7 +2677,7 @@
 	)
 	(global_label "AM2"
 		(shape input)
-		(at 87.63 60.96 0)
+		(at 88.9 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2677,7 +2687,7 @@
 		)
 		(uuid "57262cdc-eef4-433e-9399-16c03164bacc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.3647 60.96 0)
+			(at 95.6347 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,7 +2701,7 @@
 	)
 	(global_label "AM6"
 		(shape input)
-		(at 194.31 60.96 0)
+		(at 195.58 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2701,7 +2711,7 @@
 		)
 		(uuid "5ea11fde-8edb-4ad2-8f91-c81257dcc02e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0447 60.96 0)
+			(at 202.3147 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,7 +2725,7 @@
 	)
 	(global_label "AM8"
 		(shape input)
-		(at 34.29 109.22 0)
+		(at 35.56 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2725,7 +2735,7 @@
 		)
 		(uuid "6308e785-03f7-4958-9b1e-2aa551f732f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.0247 109.22 0)
+			(at 42.2947 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,7 +2749,7 @@
 	)
 	(global_label "AM3"
 		(shape input)
-		(at 114.3 60.96 0)
+		(at 115.57 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2749,7 +2759,7 @@
 		)
 		(uuid "652e974e-7716-4659-b783-0220ab7ce111")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0347 60.96 0)
+			(at 122.3047 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2773,7 @@
 	)
 	(global_label "AM15"
 		(shape input)
-		(at 220.98 109.22 0)
+		(at 222.25 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2773,7 +2783,7 @@
 		)
 		(uuid "6f97b0a3-7919-4e59-a5e7-a2914c0f7599")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.9242 109.22 0)
+			(at 230.1942 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +2797,7 @@
 	)
 	(global_label "AM11"
 		(shape input)
-		(at 114.3 109.22 0)
+		(at 115.57 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2797,7 +2807,7 @@
 		)
 		(uuid "7f8b2c8e-4e4f-479a-8506-f1ecb4de7983")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0347 109.22 0)
+			(at 122.3047 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2821,7 @@
 	)
 	(global_label "AM9"
 		(shape input)
-		(at 60.96 109.22 0)
+		(at 62.23 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2821,7 +2831,7 @@
 		)
 		(uuid "930d9004-3234-44fb-8fa1-a8170ce1e3a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.6947 109.22 0)
+			(at 68.9647 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2835,7 +2845,7 @@
 	)
 	(global_label "A0"
 		(shape input)
-		(at 34.29 156.21 0)
+		(at 35.56 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2845,7 +2855,7 @@
 		)
 		(uuid "bd63bc60-638f-44ee-a43d-9fc2a75ea97b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.5733 156.21 0)
+			(at 40.8433 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +2869,7 @@
 	)
 	(global_label "AM5"
 		(shape input)
-		(at 167.64 60.96 0)
+		(at 168.91 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2869,7 +2879,7 @@
 		)
 		(uuid "bfe836de-77fd-4df2-8471-ed2228fc63ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3747 60.96 0)
+			(at 175.6447 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2893,7 @@
 	)
 	(global_label "AM10"
 		(shape input)
-		(at 87.63 109.22 0)
+		(at 88.9 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2893,7 +2903,7 @@
 		)
 		(uuid "c5813f90-bbb9-436d-8095-31dca11299bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.3647 109.22 0)
+			(at 95.6347 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2917,7 @@
 	)
 	(global_label "AM7"
 		(shape input)
-		(at 220.98 60.96 0)
+		(at 222.25 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2917,7 +2927,7 @@
 		)
 		(uuid "ce1a81b5-dab4-4712-a988-7b72a93a4f3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.7147 60.96 0)
+			(at 228.9847 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +2941,7 @@
 	)
 	(global_label "A1"
 		(shape input)
-		(at 60.96 156.21 0)
+		(at 62.23 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2941,7 +2951,7 @@
 		)
 		(uuid "d4c0bdc9-02e4-47a9-a7a1-6be555f4eaef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.2433 156.21 0)
+			(at 67.5133 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2965,7 @@
 	)
 	(global_label "AM4"
 		(shape input)
-		(at 140.97 60.96 0)
+		(at 142.24 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2965,7 +2975,7 @@
 		)
 		(uuid "ddd75075-2f87-4bc3-9fec-477500a23c53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7047 60.96 0)
+			(at 148.9747 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2989,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 157.48 121.92 0)
+		(at 158.75 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2989,8 +2999,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c36374-04b6-4de7-b428-ce249bf60425")
-		(property "Reference" "#PWR057"
-			(at 157.48 128.27 0)
+		(property "Reference" "#PWR071"
+			(at 158.75 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +3011,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 157.48 127 0)
+			(at 158.75 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3011,7 +3021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 121.92 0)
+			(at 158.75 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +3032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 121.92 0)
+			(at 158.75 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +3043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 157.48 121.92 0)
+			(at 158.75 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3059,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR057")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3057,7 +3067,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 50.8 168.91 0)
+		(at 52.07 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3068,7 +3078,7 @@
 		(fields_autoplaced yes)
 		(uuid "022a7101-40e8-472d-8a53-4aa7e9dc8e01")
 		(property "Reference" "#PWR041"
-			(at 50.8 175.26 0)
+			(at 52.07 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3079,7 +3089,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 50.8 173.99 0)
+			(at 52.07 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3089,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 168.91 0)
+			(at 52.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 168.91 0)
+			(at 52.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +3121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 50.8 168.91 0)
+			(at 52.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3145,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 157.48 48.26 0)
+		(at 158.75 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3144,8 +3154,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043ea355-0806-41a3-ba90-d3887b5f8adb")
-		(property "Reference" "#PWR054"
-			(at 157.48 52.07 0)
+		(property "Reference" "#PWR047"
+			(at 158.75 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3166,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 157.48 44.196 0)
+			(at 158.75 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3166,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 48.26 0)
+			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,7 +3187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 48.26 0)
+			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,7 +3198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 157.48 48.26 0)
+			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +3214,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR054")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3212,7 +3222,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 26.67 41.91 0)
+		(at 27.94 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3222,8 +3232,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04be0b2f-faaa-49d0-b740-28611d7c5169")
-		(property "Reference" "SW1"
-			(at 26.67 34.29 0)
+		(property "Reference" "SW5"
+			(at 27.94 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3233,7 +3243,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 26.67 36.83 0)
+			(at 27.94 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3243,7 +3253,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 26.67 36.83 0)
+			(at 27.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 36.83 0)
+			(at 27.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,7 +3275,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 26.67 41.91 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,7 +3294,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW1")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3292,7 +3302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 19.05 109.22 180)
+		(at 20.32 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3301,8 +3311,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a29f15-60e3-4f8c-b93c-e38759382354")
-		(property "Reference" "C6"
-			(at 17.78 106.934 0)
+		(property "Reference" "C17"
+			(at 19.05 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3312,7 +3322,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 17.526 111.76 0)
+			(at 18.796 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3322,7 +3332,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 18.0848 105.41 0)
+			(at 19.3548 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 109.22 0)
+			(at 20.32 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3344,7 +3354,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 19.05 109.22 0)
+			(at 20.32 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,7 +3373,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C6")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3381,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 157.48 96.52 0)
+		(at 158.75 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3380,8 +3390,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12efffe2-e4f3-47c2-a544-fdb7868916b0")
-		(property "Reference" "#PWR056"
-			(at 157.48 100.33 0)
+		(property "Reference" "#PWR063"
+			(at 158.75 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3402,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 157.48 92.456 0)
+			(at 158.75 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3402,7 +3412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 96.52 0)
+			(at 158.75 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +3423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 96.52 0)
+			(at 158.75 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 157.48 96.52 0)
+			(at 158.75 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3450,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3458,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 157.48 73.66 0)
+		(at 158.75 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3459,7 +3469,7 @@
 		(fields_autoplaced yes)
 		(uuid "137e35ac-7031-44c2-ba82-c9166a59739b")
 		(property "Reference" "#PWR055"
-			(at 157.48 80.01 0)
+			(at 158.75 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +3480,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 157.48 78.74 0)
+			(at 158.75 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3480,7 +3490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 73.66 0)
+			(at 158.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 73.66 0)
+			(at 158.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +3512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 157.48 73.66 0)
+			(at 158.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3536,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 210.82 121.92 0)
+		(at 212.09 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3536,8 +3546,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19668ef3-071d-4981-bc76-d99d7b88166b")
-		(property "Reference" "#PWR065"
-			(at 210.82 128.27 0)
+		(property "Reference" "#PWR073"
+			(at 212.09 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3548,7 +3558,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 210.82 127 0)
+			(at 212.09 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3558,7 +3568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 121.92 0)
+			(at 212.09 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +3579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 121.92 0)
+			(at 212.09 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,7 +3590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 210.82 121.92 0)
+			(at 212.09 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3596,7 +3606,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR065")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3604,7 +3614,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 80.01 41.91 0)
+		(at 81.28 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3615,7 +3625,7 @@
 		(fields_autoplaced yes)
 		(uuid "19867be8-8464-461f-8a4b-ecdb9e8addb4")
 		(property "Reference" "SW7"
-			(at 80.01 34.29 0)
+			(at 81.28 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3625,7 +3635,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 80.01 36.83 0)
+			(at 81.28 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3635,7 +3645,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 80.01 36.83 0)
+			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 36.83 0)
+			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3667,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 80.01 41.91 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3694,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 50.8 143.51 0)
+		(at 52.07 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3693,8 +3703,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23199a51-c447-4482-8e67-0258c75b9c35")
-		(property "Reference" "#PWR040"
-			(at 50.8 147.32 0)
+		(property "Reference" "#PWR039"
+			(at 52.07 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3715,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 50.8 139.446 0)
+			(at 52.07 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3715,7 +3725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 143.51 0)
+			(at 52.07 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 143.51 0)
+			(at 52.07 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 50.8 143.51 0)
+			(at 52.07 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3753,7 +3763,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3761,7 +3771,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 160.02 60.96 0)
+		(at 161.29 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3770,8 +3780,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2368bd30-073e-4eaa-9aa1-32c905d0c7c1")
-		(property "Reference" "U15"
-			(at 165.1 52.07 0)
+		(property "Reference" "U10"
+			(at 166.37 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3782,7 +3792,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 153.67 59.6901 0)
+			(at 154.94 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3804,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 160.02 60.96 0)
+			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 160.02 60.96 0)
+			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,7 +3826,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 160.02 60.96 0)
+			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3838,7 +3848,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U15")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3846,7 +3856,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 205.74 109.22 180)
+		(at 207.01 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3855,8 +3865,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b6fa2b0-f59f-4674-b0f3-c2f51a4f0f4f")
-		(property "Reference" "C22"
-			(at 204.47 106.934 0)
+		(property "Reference" "C24"
+			(at 205.74 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3866,7 +3876,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 204.216 111.76 0)
+			(at 205.486 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3876,7 +3886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 204.7748 105.41 0)
+			(at 206.0448 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3887,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 109.22 0)
+			(at 207.01 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +3908,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 205.74 109.22 0)
+			(at 207.01 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3917,7 +3927,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3925,7 +3935,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 53.34 137.16 0)
+		(at 54.61 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3935,8 +3945,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d5dc217-c846-4931-8b64-eaf884758bf3")
-		(property "Reference" "SW6"
-			(at 53.34 129.54 0)
+		(property "Reference" "SW4"
+			(at 54.61 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3946,7 +3956,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 53.34 132.08 0)
+			(at 54.61 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3956,7 +3966,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 53.34 132.08 0)
+			(at 54.61 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +3977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 132.08 0)
+			(at 54.61 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +3988,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 53.34 137.16 0)
+			(at 54.61 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +4007,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW6")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4005,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 24.13 121.92 0)
+		(at 25.4 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4015,8 +4025,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d79d6ba-f05a-4aec-b560-f6a25f8174ea")
-		(property "Reference" "#PWR033"
-			(at 24.13 128.27 0)
+		(property "Reference" "#PWR066"
+			(at 25.4 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4027,7 +4037,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 24.13 127 0)
+			(at 25.4 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4037,7 +4047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 121.92 0)
+			(at 25.4 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 121.92 0)
+			(at 25.4 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 24.13 121.92 0)
+			(at 25.4 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4085,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR033")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4083,7 +4093,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 109.22 180)
+		(at 73.66 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4092,8 +4102,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ea3536b-9e00-4bbe-a7f6-8fb0a9a218d4")
-		(property "Reference" "C12"
-			(at 71.12 106.934 0)
+		(property "Reference" "C19"
+			(at 72.39 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4103,7 +4113,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 70.866 111.76 0)
+			(at 72.136 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4113,7 +4123,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 71.4248 105.41 0)
+			(at 72.6948 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 109.22 0)
+			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 109.22 0)
+			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4164,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C12")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4162,7 +4172,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 50.8 96.52 0)
+		(at 52.07 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4171,8 +4181,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fb7536c-9219-4b12-b639-69f9be17f4c4")
-		(property "Reference" "#PWR038"
-			(at 50.8 100.33 0)
+		(property "Reference" "#PWR059"
+			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +4193,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 50.8 92.456 0)
+			(at 52.07 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4193,7 +4203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 96.52 0)
+			(at 52.07 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 96.52 0)
+			(at 52.07 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4215,7 +4225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 50.8 96.52 0)
+			(at 52.07 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4231,7 +4241,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR038")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4249,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 184.15 48.26 0)
+		(at 185.42 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4248,8 +4258,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "318b1282-2918-4838-87bc-5a70a9caa886")
-		(property "Reference" "#PWR058"
-			(at 184.15 52.07 0)
+		(property "Reference" "#PWR048"
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,7 +4270,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 184.15 44.196 0)
+			(at 185.42 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4270,7 +4280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 48.26 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 48.26 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +4302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 184.15 48.26 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4318,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR058")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4316,7 +4326,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 210.82 48.26 0)
+		(at 212.09 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4325,8 +4335,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "365f299a-9438-4297-b9b4-a5ef0b7f9b25")
-		(property "Reference" "#PWR062"
-			(at 210.82 52.07 0)
+		(property "Reference" "#PWR049"
+			(at 212.09 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +4347,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 210.82 44.196 0)
+			(at 212.09 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 48.26 0)
+			(at 212.09 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 48.26 0)
+			(at 212.09 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 210.82 48.26 0)
+			(at 212.09 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4395,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR062")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4403,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 205.74 60.96 180)
+		(at 207.01 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4402,8 +4412,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "377cf765-ffae-4d3c-b281-c1e210941cbe")
-		(property "Reference" "C21"
-			(at 204.47 58.674 0)
+		(property "Reference" "C16"
+			(at 205.74 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4413,7 +4423,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 204.216 63.5 0)
+			(at 205.486 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4423,7 +4433,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 204.7748 57.15 0)
+			(at 206.0448 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +4444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 60.96 0)
+			(at 207.01 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4455,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 205.74 60.96 0)
+			(at 207.01 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4474,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C21")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4472,7 +4482,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 160.02 109.22 0)
+		(at 161.29 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4481,8 +4491,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e4b6d5b-5bf1-4001-8622-fc6da0528aa3")
-		(property "Reference" "U16"
-			(at 165.1 100.33 0)
+		(property "Reference" "U18"
+			(at 166.37 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4493,7 +4503,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 153.67 107.9501 0)
+			(at 154.94 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4505,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 160.02 109.22 0)
+			(at 161.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,7 +4526,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 160.02 109.22 0)
+			(at 161.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4527,7 +4537,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 160.02 109.22 0)
+			(at 161.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4549,7 +4559,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U16")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -4557,7 +4567,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 106.68 41.91 0)
+		(at 107.95 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4567,8 +4577,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e752f7a-d28f-4443-976d-e262cab0d77a")
-		(property "Reference" "SW9"
-			(at 106.68 34.29 0)
+		(property "Reference" "SW8"
+			(at 107.95 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4578,7 +4588,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 106.68 36.83 0)
+			(at 107.95 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4588,7 +4598,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 106.68 36.83 0)
+			(at 107.95 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4599,7 +4609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 36.83 0)
+			(at 107.95 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,7 +4620,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 106.68 41.91 0)
+			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +4639,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -4637,7 +4647,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 133.35 41.91 0)
+		(at 134.62 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4647,8 +4657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fadef92-3f1a-42d2-8e0e-2aa4ce61cd62")
-		(property "Reference" "SW11"
-			(at 133.35 34.29 0)
+		(property "Reference" "SW9"
+			(at 134.62 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4658,7 +4668,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 133.35 36.83 0)
+			(at 134.62 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4668,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 133.35 36.83 0)
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 36.83 0)
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4700,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 133.35 41.91 0)
+			(at 134.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4719,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW11")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -4717,7 +4727,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 19.05 60.96 180)
+		(at 20.32 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4726,8 +4736,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4091320d-7759-4958-bd3c-222ee71156c1")
-		(property "Reference" "C5"
-			(at 17.78 58.674 0)
+		(property "Reference" "C9"
+			(at 19.05 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4737,7 +4747,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 17.526 63.5 0)
+			(at 18.796 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4747,7 +4757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 18.0848 57.15 0)
+			(at 19.3548 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 60.96 0)
+			(at 20.32 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 19.05 60.96 0)
+			(at 20.32 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +4798,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4796,7 +4806,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 213.36 109.22 0)
+		(at 214.63 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4806,7 +4816,7 @@
 		(dnp no)
 		(uuid "4488f563-c377-4c3d-b234-7c7f6a8c20fe")
 		(property "Reference" "U20"
-			(at 218.44 100.33 0)
+			(at 219.71 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4817,7 +4827,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 207.01 107.9501 0)
+			(at 208.28 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4839,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 213.36 109.22 0)
+			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4850,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 213.36 109.22 0)
+			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +4861,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 213.36 109.22 0)
+			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4891,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 109.22 180)
+		(at 153.67 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4890,8 +4900,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4555ef32-2aa7-40e6-9d4c-749cef4aff86")
-		(property "Reference" "C18"
-			(at 151.13 106.934 0)
+		(property "Reference" "C22"
+			(at 152.4 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4901,7 +4911,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 150.876 111.76 0)
+			(at 152.146 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4911,7 +4921,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 151.4348 105.41 0)
+			(at 152.7048 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,7 +4932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 109.22 0)
+			(at 153.67 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4933,7 +4943,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 152.4 109.22 0)
+			(at 153.67 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,7 +4962,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C18")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4960,7 +4970,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 60.96 180)
+		(at 153.67 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4969,8 +4979,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4681a89d-d0bc-4711-b28e-c6caa7b1f2da")
-		(property "Reference" "C17"
-			(at 151.13 58.674 0)
+		(property "Reference" "C14"
+			(at 152.4 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4980,7 +4990,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 150.876 63.5 0)
+			(at 152.146 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4990,7 +5000,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 151.4348 57.15 0)
+			(at 152.7048 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 60.96 0)
+			(at 153.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5022,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 152.4 60.96 0)
+			(at 153.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,7 +5041,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5039,7 +5049,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 184.15 73.66 0)
+		(at 185.42 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5049,8 +5059,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4871dfae-c208-417f-9958-0f191815a0e5")
-		(property "Reference" "#PWR059"
-			(at 184.15 80.01 0)
+		(property "Reference" "#PWR056"
+			(at 185.42 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,7 +5071,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 184.15 78.74 0)
+			(at 185.42 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5071,7 +5081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 73.66 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 73.66 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 184.15 73.66 0)
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5109,7 +5119,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR059")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5117,7 +5127,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 60.96 180)
+		(at 73.66 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5127,7 +5137,7 @@
 		(dnp no)
 		(uuid "50946a0d-ec8b-4aff-9986-8a027c3b2f7d")
 		(property "Reference" "C11"
-			(at 71.12 58.674 0)
+			(at 72.39 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,7 +5147,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 70.866 63.5 0)
+			(at 72.136 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5147,7 +5157,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 71.4248 57.15 0)
+			(at 72.6948 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 60.96 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5169,7 +5179,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 60.96 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5196,7 +5206,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 104.14 73.66 0)
+		(at 105.41 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5206,8 +5216,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54239598-7a6d-48d4-9fb5-cd03c62b30fa")
-		(property "Reference" "#PWR047"
-			(at 104.14 80.01 0)
+		(property "Reference" "#PWR053"
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,7 +5228,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 104.14 78.74 0)
+			(at 105.41 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5228,7 +5238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 73.66 0)
+			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +5249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 73.66 0)
+			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5250,7 +5260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 104.14 73.66 0)
+			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5266,7 +5276,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5274,7 +5284,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 24.13 96.52 0)
+		(at 25.4 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5283,8 +5293,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56d3bbd6-91c1-4b64-90f4-7eb90bca86b9")
-		(property "Reference" "#PWR032"
-			(at 24.13 100.33 0)
+		(property "Reference" "#PWR058"
+			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +5305,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 24.13 92.456 0)
+			(at 25.4 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5305,7 +5315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 96.52 0)
+			(at 25.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5316,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 96.52 0)
+			(at 25.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5327,7 +5337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 24.13 96.52 0)
+			(at 25.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5343,7 +5353,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR032")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5351,7 +5361,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 104.14 48.26 0)
+		(at 105.41 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5360,8 +5370,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5818ea60-1aa5-4b64-88b5-6342b9536092")
-		(property "Reference" "#PWR046"
-			(at 104.14 52.07 0)
+		(property "Reference" "#PWR045"
+			(at 105.41 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +5382,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 104.14 44.196 0)
+			(at 105.41 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5382,7 +5392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 48.26 0)
+			(at 105.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,7 +5403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 48.26 0)
+			(at 105.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 104.14 48.26 0)
+			(at 105.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5430,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5428,7 +5438,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 26.67 60.96 0)
+		(at 27.94 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5437,8 +5447,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "582a3a45-612b-49af-b762-1398751f6943")
-		(property "Reference" "U3"
-			(at 31.75 52.07 0)
+		(property "Reference" "U5"
+			(at 33.02 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5449,7 +5459,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 20.32 59.6901 0)
+			(at 21.59 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5471,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 26.67 60.96 0)
+			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5482,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 26.67 60.96 0)
+			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +5493,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 26.67 60.96 0)
+			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5515,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5513,7 +5523,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 60.96 180)
+		(at 100.33 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5522,8 +5532,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a47338e-3f3a-4e98-8354-652003f96d77")
-		(property "Reference" "C13"
-			(at 97.79 58.674 0)
+		(property "Reference" "C12"
+			(at 99.06 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5533,7 +5543,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 97.536 63.5 0)
+			(at 98.806 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5543,7 +5553,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 98.0948 57.15 0)
+			(at 99.3648 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 60.96 0)
+			(at 100.33 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5575,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 60.96 0)
+			(at 100.33 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5584,7 +5594,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5602,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 210.82 73.66 0)
+		(at 212.09 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5602,8 +5612,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c3d7d93-80f6-42e1-8799-e1b1d5f1ff1f")
-		(property "Reference" "#PWR063"
-			(at 210.82 80.01 0)
+		(property "Reference" "#PWR057"
+			(at 212.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5614,7 +5624,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 210.82 78.74 0)
+			(at 212.09 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5624,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 73.66 0)
+			(at 212.09 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +5645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 73.66 0)
+			(at 212.09 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 210.82 73.66 0)
+			(at 212.09 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,7 +5672,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR063")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5670,7 +5680,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 213.36 60.96 0)
+		(at 214.63 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5679,8 +5689,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e7911c1-2c35-45bd-9b11-0ec09c09601c")
-		(property "Reference" "U19"
-			(at 218.44 52.07 0)
+		(property "Reference" "U12"
+			(at 219.71 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5691,7 +5701,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 207.01 59.6901 0)
+			(at 208.28 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,7 +5713,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 213.36 60.96 0)
+			(at 214.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,7 +5724,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 213.36 60.96 0)
+			(at 214.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +5735,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 213.36 60.96 0)
+			(at 214.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5757,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U19")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5765,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 24.13 73.66 0)
+		(at 25.4 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5765,8 +5775,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1a0dcd-349f-4729-b099-23d0eedf30a8")
-		(property "Reference" "#PWR031"
-			(at 24.13 80.01 0)
+		(property "Reference" "#PWR050"
+			(at 25.4 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,7 +5787,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 24.13 78.74 0)
+			(at 25.4 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5787,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 73.66 0)
+			(at 25.4 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +5808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 73.66 0)
+			(at 25.4 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +5819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 24.13 73.66 0)
+			(at 25.4 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +5835,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR031")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5833,7 +5843,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 186.69 41.91 0)
+		(at 187.96 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5843,8 +5853,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61cfb45d-cae8-4d89-aa93-9a2c24ceabb5")
-		(property "Reference" "SW15"
-			(at 186.69 34.29 0)
+		(property "Reference" "SW11"
+			(at 187.96 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5854,7 +5864,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 186.69 36.83 0)
+			(at 187.96 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5864,7 +5874,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 186.69 36.83 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,7 +5885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 36.83 0)
+			(at 187.96 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +5896,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 41.91 0)
+			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,7 +5915,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW15")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -5913,7 +5923,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 50.8 121.92 0)
+		(at 52.07 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5923,8 +5933,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626b9309-aa7b-4098-aa2a-53d5db005460")
-		(property "Reference" "#PWR039"
-			(at 50.8 128.27 0)
+		(property "Reference" "#PWR067"
+			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +5945,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 50.8 127 0)
+			(at 52.07 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5945,7 +5955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 121.92 0)
+			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +5966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 121.92 0)
+			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +5977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 50.8 121.92 0)
+			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +5993,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR039")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5991,7 +6001,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 26.67 137.16 0)
+		(at 27.94 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6002,7 +6012,7 @@
 		(fields_autoplaced yes)
 		(uuid "6521990e-ebeb-42a5-bad7-661b03e0052d")
 		(property "Reference" "SW3"
-			(at 26.67 129.54 0)
+			(at 27.94 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6012,7 +6022,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 26.67 132.08 0)
+			(at 27.94 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6022,7 +6032,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 26.67 132.08 0)
+			(at 27.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 132.08 0)
+			(at 27.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6044,7 +6054,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 26.67 137.16 0)
+			(at 27.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,7 +6081,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 109.22 180)
+		(at 100.33 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6080,8 +6090,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "660cc92a-672b-4e8a-8bf0-f529a10a51bc")
-		(property "Reference" "C14"
-			(at 97.79 106.934 0)
+		(property "Reference" "C20"
+			(at 99.06 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6091,7 +6101,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 97.536 111.76 0)
+			(at 98.806 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6101,7 +6111,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 98.0948 105.41 0)
+			(at 99.3648 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 109.22 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6123,7 +6133,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 109.22 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,7 +6152,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C14")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6150,7 +6160,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 186.69 90.17 0)
+		(at 187.96 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6160,8 +6170,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68042691-01fb-4e8c-b30a-b5acecb9c896")
-		(property "Reference" "SW16"
-			(at 186.69 82.55 0)
+		(property "Reference" "SW19"
+			(at 187.96 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6171,7 +6181,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 186.69 85.09 0)
+			(at 187.96 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6181,7 +6191,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 186.69 85.09 0)
+			(at 187.96 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,7 +6202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 85.09 0)
+			(at 187.96 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6203,7 +6213,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 186.69 90.17 0)
+			(at 187.96 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6222,7 +6232,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW16")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6240,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 130.81 48.26 0)
+		(at 132.08 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6239,8 +6249,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f342589-ea7b-4027-beb4-e3983c158f12")
-		(property "Reference" "#PWR050"
-			(at 130.81 52.07 0)
+		(property "Reference" "#PWR046"
+			(at 132.08 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,7 +6261,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 130.81 44.196 0)
+			(at 132.08 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6261,7 +6271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 48.26 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 48.26 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 130.81 48.26 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,7 +6309,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6307,7 +6317,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 53.34 60.96 0)
+		(at 54.61 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6317,7 +6327,7 @@
 		(dnp no)
 		(uuid "6ff32827-97fe-4a49-8c12-d9acb97eda1d")
 		(property "Reference" "U6"
-			(at 58.42 52.07 0)
+			(at 59.69 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6328,7 +6338,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 46.99 59.6901 0)
+			(at 48.26 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +6350,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 60.96 0)
+			(at 54.61 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6361,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 53.34 60.96 0)
+			(at 54.61 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6362,7 +6372,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 53.34 60.96 0)
+			(at 54.61 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,7 +6402,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 156.21 180)
+		(at 46.99 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6401,8 +6411,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705bee83-72c6-472c-8472-782394ea73ff")
-		(property "Reference" "C10"
-			(at 44.45 153.924 0)
+		(property "Reference" "C8"
+			(at 45.72 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6412,7 +6422,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 44.196 158.75 0)
+			(at 45.466 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6422,7 +6432,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 44.7548 152.4 0)
+			(at 46.0248 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 156.21 0)
+			(at 46.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6454,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 156.21 0)
+			(at 46.99 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6473,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6471,7 +6481,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 213.36 41.91 0)
+		(at 214.63 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6481,8 +6491,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b9ed6a-8196-4103-ad8a-ca88abc786b2")
-		(property "Reference" "SW17"
-			(at 213.36 34.29 0)
+		(property "Reference" "SW12"
+			(at 214.63 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6492,7 +6502,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 213.36 36.83 0)
+			(at 214.63 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6502,7 +6512,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 213.36 36.83 0)
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 36.83 0)
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,7 +6534,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 213.36 41.91 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,7 +6553,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW17")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -6551,7 +6561,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 26.67 109.22 0)
+		(at 27.94 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6560,8 +6570,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8448b4d4-f02e-4ec5-91f7-90dfe780c3cd")
-		(property "Reference" "U4"
-			(at 31.75 100.33 0)
+		(property "Reference" "U13"
+			(at 33.02 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6572,7 +6582,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 20.32 107.9501 0)
+			(at 21.59 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6594,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 26.67 109.22 0)
+			(at 27.94 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6595,7 +6605,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 26.67 109.22 0)
+			(at 27.94 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6606,7 +6616,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 26.67 109.22 0)
+			(at 27.94 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6628,7 +6638,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U4")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6646,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 26.67 90.17 0)
+		(at 27.94 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6646,8 +6656,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8594754c-4ce9-4204-b2e6-d9bccab6fd1d")
-		(property "Reference" "SW2"
-			(at 26.67 82.55 0)
+		(property "Reference" "SW13"
+			(at 27.94 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6657,7 +6667,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 26.67 85.09 0)
+			(at 27.94 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6667,7 +6677,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 26.67 85.09 0)
+			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6678,7 +6688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 85.09 0)
+			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6689,7 +6699,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 26.67 90.17 0)
+			(at 27.94 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,7 +6718,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW2")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6726,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 106.68 109.22 0)
+		(at 107.95 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6725,8 +6735,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86caa315-2dbc-4031-98e4-337881687816")
-		(property "Reference" "U12"
-			(at 111.76 100.33 0)
+		(property "Reference" "U16"
+			(at 113.03 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6737,7 +6747,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 100.33 107.9501 0)
+			(at 101.6 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +6759,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 106.68 109.22 0)
+			(at 107.95 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,7 +6770,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 106.68 109.22 0)
+			(at 107.95 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +6781,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 106.68 109.22 0)
+			(at 107.95 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,7 +6803,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U12")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -6801,7 +6811,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 186.69 60.96 0)
+		(at 187.96 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6810,8 +6820,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "874f7c24-9bec-46b7-b2ca-3eaf700c47f5")
-		(property "Reference" "U17"
-			(at 191.77 52.07 0)
+		(property "Reference" "U11"
+			(at 193.04 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6822,7 +6832,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 180.34 59.6901 0)
+			(at 181.61 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,7 +6844,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 186.69 60.96 0)
+			(at 187.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +6855,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 186.69 60.96 0)
+			(at 187.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +6866,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 186.69 60.96 0)
+			(at 187.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6878,7 +6888,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U17")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6886,7 +6896,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 77.47 48.26 0)
+		(at 78.74 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6895,8 +6905,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c24d2a3-cd8a-4216-858c-2afeedbd2dd1")
-		(property "Reference" "#PWR042"
-			(at 77.47 52.07 0)
+		(property "Reference" "#PWR044"
+			(at 78.74 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6907,7 +6917,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 77.47 44.196 0)
+			(at 78.74 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6917,7 +6927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 48.26 0)
+			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 48.26 0)
+			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6939,7 +6949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 77.47 48.26 0)
+			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +6965,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6963,7 +6973,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 60.96 180)
+		(at 180.34 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6972,8 +6982,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d580b38-f8f9-46a0-87e2-d931767a88c3")
-		(property "Reference" "C19"
-			(at 177.8 58.674 0)
+		(property "Reference" "C15"
+			(at 179.07 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6983,7 +6993,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 177.546 63.5 0)
+			(at 178.816 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6993,7 +7003,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 178.1048 57.15 0)
+			(at 179.3748 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 60.96 0)
+			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +7025,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 60.96 0)
+			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7034,7 +7044,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C19")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7052,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 53.34 156.21 0)
+		(at 54.61 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7051,8 +7061,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91848018-6214-4211-b7da-1ef4f2bd6fb8")
-		(property "Reference" "U8"
-			(at 58.42 147.32 0)
+		(property "Reference" "U4"
+			(at 59.69 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7063,7 +7073,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 46.99 154.9401 0)
+			(at 48.26 43.1801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7075,7 +7085,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 156.21 0)
+			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +7096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 53.34 156.21 0)
+			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,7 +7107,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 53.34 156.21 0)
+			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +7129,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7127,7 +7137,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 210.82 96.52 0)
+		(at 212.09 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7136,8 +7146,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b66d3cf-d8b5-4e8f-bac6-1a8a8bc99168")
-		(property "Reference" "#PWR064"
-			(at 210.82 100.33 0)
+		(property "Reference" "#PWR065"
+			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7148,7 +7158,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 210.82 92.456 0)
+			(at 212.09 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7158,7 +7168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 96.52 0)
+			(at 212.09 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7169,7 +7179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 96.52 0)
+			(at 212.09 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7180,7 +7190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 210.82 96.52 0)
+			(at 212.09 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +7206,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7204,7 +7214,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 130.81 73.66 0)
+		(at 132.08 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7214,8 +7224,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c6600f8-22d8-48da-9850-01b0ead576cf")
-		(property "Reference" "#PWR051"
-			(at 130.81 80.01 0)
+		(property "Reference" "#PWR054"
+			(at 132.08 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +7236,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 130.81 78.74 0)
+			(at 132.08 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7236,7 +7246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 73.66 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,7 +7257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 73.66 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7258,7 +7268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 130.81 73.66 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7274,7 +7284,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7292,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 106.68 90.17 0)
+		(at 107.95 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7292,8 +7302,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5ce257-585d-4ea0-a0aa-b1f5467b920d")
-		(property "Reference" "SW10"
-			(at 106.68 82.55 0)
+		(property "Reference" "SW16"
+			(at 107.95 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7303,7 +7313,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 106.68 85.09 0)
+			(at 107.95 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7313,7 +7323,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 106.68 85.09 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 85.09 0)
+			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7345,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 106.68 90.17 0)
+			(at 107.95 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7364,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW10")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7372,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 106.68 60.96 0)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7371,8 +7381,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f120cd7-e36a-4cd4-9bde-b28eaabd1a97")
-		(property "Reference" "U11"
-			(at 111.76 52.07 0)
+		(property "Reference" "U8"
+			(at 113.03 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7383,7 +7393,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 100.33 59.6901 0)
+			(at 101.6 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +7405,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 106.68 60.96 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,7 +7416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 106.68 60.96 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7417,7 +7427,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 106.68 60.96 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +7449,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U11")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7447,7 +7457,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 50.8 48.26 0)
+		(at 52.07 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7456,8 +7466,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a06144fa-ac62-420b-a4ed-5dcad26806a2")
-		(property "Reference" "#PWR036"
-			(at 50.8 52.07 0)
+		(property "Reference" "#PWR043"
+			(at 52.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +7478,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 50.8 44.196 0)
+			(at 52.07 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7478,7 +7488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 48.26 0)
+			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 48.26 0)
+			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +7510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 50.8 48.26 0)
+			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7526,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7534,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 133.35 60.96 0)
+		(at 134.62 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7533,8 +7543,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a081c038-8354-446c-bca3-fb439dca0981")
-		(property "Reference" "U13"
-			(at 138.43 52.07 0)
+		(property "Reference" "U9"
+			(at 139.7 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7545,7 +7555,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 127 59.6901 0)
+			(at 128.27 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +7567,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 60.96 0)
+			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +7578,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 133.35 60.96 0)
+			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7589,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 133.35 60.96 0)
+			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +7611,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U13")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7619,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 130.81 121.92 0)
+		(at 132.08 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7619,8 +7629,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a08ae195-a52a-4e2a-8ab3-1a46fa07d246")
-		(property "Reference" "#PWR053"
-			(at 130.81 128.27 0)
+		(property "Reference" "#PWR070"
+			(at 132.08 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7641,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 130.81 127 0)
+			(at 132.08 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7641,7 +7651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 121.92 0)
+			(at 132.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7652,7 +7662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 121.92 0)
+			(at 132.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +7673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 130.81 121.92 0)
+			(at 132.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,7 +7689,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR053")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7687,7 +7697,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 24.13 48.26 0)
+		(at 25.4 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7696,8 +7706,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a24f57b2-faa7-45b8-9728-6f670c552e3e")
-		(property "Reference" "#PWR030"
-			(at 24.13 52.07 0)
+		(property "Reference" "#PWR042"
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7708,7 +7718,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 24.13 44.196 0)
+			(at 25.4 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7718,7 +7728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 48.26 0)
+			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7729,7 +7739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 48.26 0)
+			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,7 +7750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 24.13 48.26 0)
+			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +7766,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR030")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7764,7 +7774,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 184.15 96.52 0)
+		(at 185.42 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7773,8 +7783,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a535eda2-9857-457a-ba44-626ed62942a1")
-		(property "Reference" "#PWR060"
-			(at 184.15 100.33 0)
+		(property "Reference" "#PWR064"
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7785,7 +7795,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 184.15 92.456 0)
+			(at 185.42 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7795,7 +7805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 96.52 0)
+			(at 185.42 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,7 +7816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 96.52 0)
+			(at 185.42 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,7 +7827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 184.15 96.52 0)
+			(at 185.42 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7833,7 +7843,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7841,7 +7851,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 53.34 109.22 0)
+		(at 54.61 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7850,8 +7860,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7db47a4-593f-404b-ba3c-40a8b1518622")
-		(property "Reference" "U7"
-			(at 58.42 100.33 0)
+		(property "Reference" "U14"
+			(at 59.69 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7862,7 +7872,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 46.99 107.9501 0)
+			(at 48.26 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +7884,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 109.22 0)
+			(at 54.61 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +7895,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 53.34 109.22 0)
+			(at 54.61 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +7906,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 53.34 109.22 0)
+			(at 54.61 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +7928,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U7")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7936,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 213.36 90.17 0)
+		(at 214.63 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7936,8 +7946,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a81a33cf-0061-45ed-a572-c6a59543461a")
-		(property "Reference" "SW18"
-			(at 213.36 82.55 0)
+		(property "Reference" "SW20"
+			(at 214.63 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7947,7 +7957,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 213.36 85.09 0)
+			(at 214.63 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7957,7 +7967,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 213.36 85.09 0)
+			(at 214.63 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +7978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 85.09 0)
+			(at 214.63 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7979,7 +7989,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 213.36 90.17 0)
+			(at 214.63 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +8008,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW18")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -8006,7 +8016,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 77.47 121.92 0)
+		(at 78.74 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8016,8 +8026,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf3fa52-8b68-4226-aa62-215e838bb9bd")
-		(property "Reference" "#PWR045"
-			(at 77.47 128.27 0)
+		(property "Reference" "#PWR068"
+			(at 78.74 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8028,7 +8038,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 77.47 127 0)
+			(at 78.74 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8038,7 +8048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 121.92 0)
+			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +8059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 121.92 0)
+			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +8070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 77.47 121.92 0)
+			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8086,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR045")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8084,7 +8094,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 53.34 41.91 0)
+		(at 54.61 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8094,8 +8104,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b23a3234-676e-47dd-a46c-5c1728eb0c1d")
-		(property "Reference" "SW4"
-			(at 53.34 34.29 0)
+		(property "Reference" "SW6"
+			(at 54.61 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8105,7 +8115,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 53.34 36.83 0)
+			(at 54.61 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8115,7 +8125,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 53.34 36.83 0)
+			(at 54.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +8136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 36.83 0)
+			(at 54.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,7 +8147,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 53.34 41.91 0)
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8166,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -8164,7 +8174,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 53.34 90.17 0)
+		(at 54.61 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8174,8 +8184,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a1281e-f52f-4bdd-a7ac-00d6b4a59f15")
-		(property "Reference" "SW5"
-			(at 53.34 82.55 0)
+		(property "Reference" "SW14"
+			(at 54.61 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,7 +8195,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 53.34 85.09 0)
+			(at 54.61 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8195,7 +8205,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 53.34 85.09 0)
+			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8206,7 +8216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 85.09 0)
+			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +8227,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 53.34 90.17 0)
+			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +8246,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW5")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8254,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 26.67 156.21 0)
+		(at 27.94 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8253,8 +8263,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b84e4099-88bc-4bc9-8d1f-208a53236684")
-		(property "Reference" "U5"
-			(at 31.75 147.32 0)
+		(property "Reference" "U3"
+			(at 33.02 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8265,7 +8275,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 20.32 154.9401 0)
+			(at 21.59 43.1801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8277,7 +8287,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 26.67 156.21 0)
+			(at 27.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8288,7 +8298,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 26.67 156.21 0)
+			(at 27.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8299,7 +8309,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 26.67 156.21 0)
+			(at 27.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,7 +8331,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8329,7 +8339,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 104.14 121.92 0)
+		(at 105.41 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8339,8 +8349,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8a28eb6-5a4a-4266-9cab-0715841ee53a")
-		(property "Reference" "#PWR049"
-			(at 104.14 128.27 0)
+		(property "Reference" "#PWR069"
+			(at 105.41 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,7 +8361,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 104.14 127 0)
+			(at 105.41 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8361,7 +8371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 121.92 0)
+			(at 105.41 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8372,7 +8382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 121.92 0)
+			(at 105.41 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8383,7 +8393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 104.14 121.92 0)
+			(at 105.41 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8399,7 +8409,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR049")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -8407,7 +8417,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 133.35 90.17 0)
+		(at 134.62 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8417,8 +8427,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9909eec-12a7-4859-af70-c3d48f60db97")
-		(property "Reference" "SW12"
-			(at 133.35 82.55 0)
+		(property "Reference" "SW17"
+			(at 134.62 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8428,7 +8438,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 133.35 85.09 0)
+			(at 134.62 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8438,7 +8448,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 133.35 85.09 0)
+			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +8459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 85.09 0)
+			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8470,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 133.35 90.17 0)
+			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,7 +8489,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW12")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -8487,7 +8497,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 80.01 60.96 0)
+		(at 81.28 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8496,8 +8506,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb1ee04f-8355-4d05-a01f-09d58323a1c9")
-		(property "Reference" "U9"
-			(at 85.09 52.07 0)
+		(property "Reference" "U7"
+			(at 86.36 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8508,7 +8518,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 73.66 59.6901 0)
+			(at 74.93 93.9801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8530,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 80.01 60.96 0)
+			(at 81.28 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8531,7 +8541,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 80.01 60.96 0)
+			(at 81.28 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8542,7 +8552,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 80.01 60.96 0)
+			(at 81.28 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8564,7 +8574,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8572,7 +8582,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 104.14 96.52 0)
+		(at 105.41 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8581,8 +8591,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c72113-cae2-47b9-8be1-fd7a986427e8")
-		(property "Reference" "#PWR048"
-			(at 104.14 100.33 0)
+		(property "Reference" "#PWR061"
+			(at 105.41 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8593,7 +8603,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 104.14 92.456 0)
+			(at 105.41 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8603,7 +8613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 96.52 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +8624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 96.52 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,7 +8635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 104.14 96.52 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +8651,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR048")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8649,7 +8659,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 186.69 109.22 0)
+		(at 187.96 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8658,8 +8668,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c92264f8-983d-47a2-b41b-22a354030ab3")
-		(property "Reference" "U18"
-			(at 191.77 100.33 0)
+		(property "Reference" "U19"
+			(at 193.04 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8670,7 +8680,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 180.34 107.9501 0)
+			(at 181.61 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +8692,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 186.69 109.22 0)
+			(at 187.96 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +8703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 186.69 109.22 0)
+			(at 187.96 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8704,7 +8714,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 186.69 109.22 0)
+			(at 187.96 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8726,7 +8736,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U18")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -8734,7 +8744,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 77.47 73.66 0)
+		(at 78.74 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8744,8 +8754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca8b1955-1466-441a-9936-01af55d9db4f")
-		(property "Reference" "#PWR043"
-			(at 77.47 80.01 0)
+		(property "Reference" "#PWR052"
+			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8756,7 +8766,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 77.47 78.74 0)
+			(at 78.74 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8766,7 +8776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 73.66 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8777,7 +8787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 73.66 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,7 +8798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 77.47 73.66 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,7 +8814,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR043")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8812,7 +8822,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 60.96 180)
+		(at 127 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8821,8 +8831,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cddbb71e-7982-41f5-9057-ff6e5d3dfdc6")
-		(property "Reference" "C15"
-			(at 124.46 58.674 0)
+		(property "Reference" "C13"
+			(at 125.73 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8832,7 +8842,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 124.206 63.5 0)
+			(at 125.476 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8842,7 +8852,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 124.7648 57.15 0)
+			(at 126.0348 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8853,7 +8863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 60.96 0)
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8864,7 +8874,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 60.96 0)
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +8893,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8901,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 41.91 0)
+		(at 161.29 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8901,8 +8911,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cffc5096-6343-4995-8a66-c7c59cb2d7e4")
-		(property "Reference" "SW13"
-			(at 160.02 34.29 0)
+		(property "Reference" "SW10"
+			(at 161.29 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8912,7 +8922,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 160.02 36.83 0)
+			(at 161.29 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8922,7 +8932,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 160.02 36.83 0)
+			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +8943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 36.83 0)
+			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 41.91 0)
+			(at 161.29 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8963,7 +8973,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW13")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8981,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 19.05 156.21 180)
+		(at 20.32 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8981,7 +8991,7 @@
 		(dnp no)
 		(uuid "d1eb1c5d-fc99-47e1-a6f5-00fdc8f53640")
 		(property "Reference" "C7"
-			(at 17.78 153.924 0)
+			(at 19.05 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8991,7 +9001,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 17.526 158.75 0)
+			(at 18.796 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9001,7 +9011,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 18.0848 152.4 0)
+			(at 19.3548 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9012,7 +9022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 156.21 0)
+			(at 20.32 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9023,7 +9033,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 19.05 156.21 0)
+			(at 20.32 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +9060,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 50.8 73.66 0)
+		(at 52.07 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9060,8 +9070,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4994a55-ae76-499b-acaf-565aaea9d08b")
-		(property "Reference" "#PWR037"
-			(at 50.8 80.01 0)
+		(property "Reference" "#PWR051"
+			(at 52.07 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,7 +9082,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 50.8 78.74 0)
+			(at 52.07 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9082,7 +9092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 73.66 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9093,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 73.66 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9104,7 +9114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 50.8 73.66 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +9130,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR037")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9128,7 +9138,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 133.35 109.22 0)
+		(at 134.62 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9137,8 +9147,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8399696-0a0a-4282-a8b0-6c0237c449f3")
-		(property "Reference" "U14"
-			(at 138.43 100.33 0)
+		(property "Reference" "U17"
+			(at 139.7 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9149,7 +9159,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 127 107.9501 0)
+			(at 128.27 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9161,7 +9171,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 109.22 0)
+			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9172,7 +9182,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 133.35 109.22 0)
+			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9183,7 +9193,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 133.35 109.22 0)
+			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9215,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U14")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -9213,7 +9223,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 90.17 0)
+		(at 161.29 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9223,8 +9233,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ab459f-1ee9-4d08-bdfe-2f4eb777a34b")
-		(property "Reference" "SW14"
-			(at 160.02 82.55 0)
+		(property "Reference" "SW18"
+			(at 161.29 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9234,7 +9244,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 160.02 85.09 0)
+			(at 161.29 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9244,7 +9254,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 160.02 85.09 0)
+			(at 161.29 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9255,7 +9265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 85.09 0)
+			(at 161.29 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9266,7 +9276,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 90.17 0)
+			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,7 +9295,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW14")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -9293,7 +9303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 109.22 180)
+		(at 46.99 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9302,8 +9312,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e66388b1-74f9-4617-942c-c6270d95ce8c")
-		(property "Reference" "C9"
-			(at 44.45 106.934 0)
+		(property "Reference" "C18"
+			(at 45.72 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9313,7 +9323,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 44.196 111.76 0)
+			(at 45.466 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9323,7 +9333,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 44.7548 105.41 0)
+			(at 46.0248 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9334,7 +9344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 109.22 0)
+			(at 46.99 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9355,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 109.22 0)
+			(at 46.99 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,7 +9374,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C9")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9372,7 +9382,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
-		(at 80.01 109.22 0)
+		(at 81.28 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9380,10 +9390,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb9537a8-530b-429d-b143-8e7cfb24d639")
-		(property "Reference" "U10"
-			(at 73.66 109.2199 0)
+		(property "Reference" "U15"
+			(at 86.36 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9394,7 +9403,7 @@
 			)
 		)
 		(property "Value" "DRV5055A4xDBZxQ1"
-			(at 73.66 107.9501 0)
+			(at 74.93 142.2401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9406,7 +9415,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 80.01 109.22 0)
+			(at 81.28 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9417,7 +9426,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
-			(at 80.01 109.22 0)
+			(at 81.28 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9428,7 +9437,7 @@
 			)
 		)
 		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
-			(at 80.01 109.22 0)
+			(at 81.28 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9450,7 +9459,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U10")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9467,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 130.81 96.52 0)
+		(at 132.08 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9467,8 +9476,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee9f0402-f3a4-4541-9c32-a19b19e5e255")
-		(property "Reference" "#PWR052"
-			(at 130.81 100.33 0)
+		(property "Reference" "#PWR062"
+			(at 132.08 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9479,7 +9488,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 130.81 92.456 0)
+			(at 132.08 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9489,7 +9498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 96.52 0)
+			(at 132.08 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9500,7 +9509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 96.52 0)
+			(at 132.08 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9511,7 +9520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 130.81 96.52 0)
+			(at 132.08 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9527,7 +9536,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR052")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9535,7 +9544,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 184.15 121.92 0)
+		(at 185.42 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9545,8 +9554,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeff5e83-fecb-4908-9224-8dcae9c459cf")
-		(property "Reference" "#PWR061"
-			(at 184.15 128.27 0)
+		(property "Reference" "#PWR072"
+			(at 185.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9557,7 +9566,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 184.15 127 0)
+			(at 185.42 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9567,7 +9576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 121.92 0)
+			(at 185.42 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,7 +9587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 121.92 0)
+			(at 185.42 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9589,7 +9598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 184.15 121.92 0)
+			(at 185.42 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9605,7 +9614,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR061")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9613,7 +9622,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 60.96 180)
+		(at 46.99 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9622,8 +9631,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0b57e9e-f578-4db8-972a-7c0e2343be40")
-		(property "Reference" "C8"
-			(at 44.45 58.674 0)
+		(property "Reference" "C10"
+			(at 45.72 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9633,7 +9642,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 44.196 63.5 0)
+			(at 45.466 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9643,7 +9652,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 44.7548 57.15 0)
+			(at 46.0248 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9654,7 +9663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 60.96 0)
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9665,7 +9674,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 60.96 0)
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9693,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9692,7 +9701,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 77.47 96.52 0)
+		(at 78.74 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9701,8 +9710,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f10091cd-b731-4b02-87bb-540215417128")
-		(property "Reference" "#PWR044"
-			(at 77.47 100.33 0)
+		(property "Reference" "#PWR060"
+			(at 78.74 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +9722,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 77.47 92.456 0)
+			(at 78.74 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9723,7 +9732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 96.52 0)
+			(at 78.74 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9734,7 +9743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 96.52 0)
+			(at 78.74 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9745,7 +9754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 77.47 96.52 0)
+			(at 78.74 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9761,7 +9770,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR044")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9769,7 +9778,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 80.01 90.17 0)
+		(at 81.28 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9779,8 +9788,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f580c6b4-edca-4607-b29c-749e19ae8729")
-		(property "Reference" "SW8"
-			(at 80.01 82.55 0)
+		(property "Reference" "SW15"
+			(at 81.28 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9790,7 +9799,7 @@
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 80.01 85.09 0)
+			(at 81.28 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9800,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 80.01 85.09 0)
+			(at 81.28 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9811,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 85.09 0)
+			(at 81.28 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9822,7 +9831,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 80.01 90.17 0)
+			(at 81.28 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +9850,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "SW8")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -9849,7 +9858,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 24.13 168.91 0)
+		(at 25.4 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9859,8 +9868,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6797f84-8df2-4e18-84bf-645589e4dd15")
-		(property "Reference" "#PWR035"
-			(at 24.13 175.26 0)
+		(property "Reference" "#PWR040"
+			(at 25.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +9880,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 24.13 173.99 0)
+			(at 25.4 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9881,7 +9890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 168.91 0)
+			(at 25.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9892,7 +9901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 168.91 0)
+			(at 25.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9903,7 +9912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 24.13 168.91 0)
+			(at 25.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9919,7 +9928,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9927,7 +9936,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 24.13 143.51 0)
+		(at 25.4 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9936,8 +9945,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f716eb6f-4e2c-4156-8233-42ac608bae1c")
-		(property "Reference" "#PWR034"
-			(at 24.13 147.32 0)
+		(property "Reference" "#PWR038"
+			(at 25.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9948,7 +9957,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 24.13 139.446 0)
+			(at 25.4 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9958,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 143.51 0)
+			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9969,7 +9978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 143.51 0)
+			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +9989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 24.13 143.51 0)
+			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +10005,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10004,7 +10013,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 109.22 180)
+		(at 127 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10013,8 +10022,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdfa8886-83b3-4b08-bebd-03a8e7ce5db9")
-		(property "Reference" "C16"
-			(at 124.46 106.934 0)
+		(property "Reference" "C21"
+			(at 125.73 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10024,7 +10033,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 124.206 111.76 0)
+			(at 125.476 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10034,7 +10043,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 124.7648 105.41 0)
+			(at 126.0348 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,7 +10054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 109.22 0)
+			(at 127 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +10065,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 109.22 0)
+			(at 127 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10075,7 +10084,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 109.22 180)
+		(at 180.34 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10092,8 +10101,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe705518-3264-4284-9047-ad7c3043cf3a")
-		(property "Reference" "C20"
-			(at 177.8 106.934 0)
+		(property "Reference" "C23"
+			(at 179.07 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10103,7 +10112,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 177.546 111.76 0)
+			(at 178.816 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10113,7 +10122,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 178.1048 105.41 0)
+			(at 179.3748 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10124,7 +10133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 109.22 0)
+			(at 180.34 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10144,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 109.22 0)
+			(at 180.34 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +10163,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C20")
+					(reference "C23")
 					(unit 1)
 				)
 			)
