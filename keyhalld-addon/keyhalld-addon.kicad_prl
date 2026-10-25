@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "keyhalld.kicad_prl",
+    "filename": "keyhalld-addon.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

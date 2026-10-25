@@ -617,7 +617,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDA"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -642,7 +642,7 @@
 					)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -674,7 +674,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -696,7 +696,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -710,7 +710,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -735,12 +735,11 @@
 	)
 	(text "Hall Sensor footprint should be centered underneath switch!!!"
 		(exclude_from_sim no)
-		(at 155.956 141.986 0)
+		(at 175.26 155.194 0)
 		(effects
 			(font
 				(size 3.81 3.81)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.4763)
 				(color 255 10 23 1)
 			)
 		)
@@ -925,12 +924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5972a95-6e18-42b1-a3af-ea635bbaa0ca")
-	)
-	(junction
-		(at 104.14 121.9145)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d39b30b9-cc10-4d19-a46d-a81b8684fffc")
 	)
 	(junction
 		(at 104.14 97.79)
@@ -1984,16 +1977,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 121.9145) (xy 104.14 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8419b1b1-2e38-4e1c-af74-355505b2b0c2")
-	)
-	(wire
-		(pts
 			(xy 19.05 113.03) (xy 19.05 120.65)
 		)
 		(stroke
@@ -2204,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 121.92) (xy 104.14 121.9145)
+			(xy 104.14 120.65) (xy 104.14 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2995,6 +2978,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 157.48 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c36374-04b6-4de7-b428-ce249bf60425")
+		(property "Reference" "#PWR057"
+			(at 157.48 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 157.48 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 157.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c2f01ad-bd12-47d1-a0b1-0c9b8d0e963c")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 50.8 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "022a7101-40e8-472d-8a53-4aa7e9dc8e01")
+		(property "Reference" "#PWR041"
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 50.8 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 50.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f839c4c-a2a1-4af6-8893-ca37242d33ea")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 157.48 48.26 0)
 		(unit 1)
@@ -3005,7 +3144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043ea355-0806-41a3-ba90-d3887b5f8adb")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR054"
 			(at 157.48 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3065,7 +3204,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR072")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3103,7 +3242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 26.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3162,7 +3301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a29f15-60e3-4f8c-b93c-e38759382354")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 17.78 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,85 +3363,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 24.13 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f27b80a-82b8-425a-afa3-94ed333f93f0")
-		(property "Reference" "#PWR051"
-			(at 24.13 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81eecfa4-8098-440f-b187-b585053a4bc3")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR051")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12efffe2-e4f3-47c2-a544-fdb7868916b0")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR056"
 			(at 157.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3379,92 +3440,14 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR074")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 210.82 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e38c65-23ce-4546-9e70-8f965ee47d9a")
-		(property "Reference" "#PWR081"
-			(at 210.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99f9e00c-850a-401c-b1e6-adcb7164ab51")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 157.48 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -3474,8 +3457,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16efdccc-c4ea-4dab-86ce-068b6dcdd284")
-		(property "Reference" "#PWR073"
+		(uuid "137e35ac-7031-44c2-ba82-c9166a59739b")
+		(property "Reference" "#PWR055"
 			(at 157.48 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 157.48 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 157.48 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3530,12 +3513,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "e097d894-d5e4-49c7-bd1b-57cbaf3e71b2")
+			(uuid "eff538a5-ac33-498e-8e15-1f3d9ceb13e7")
 		)
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR073")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 210.82 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19668ef3-071d-4981-bc76-d99d7b88166b")
+		(property "Reference" "#PWR065"
+			(at 210.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 210.82 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 210.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc511fe2-ee24-47da-8f51-c48f1e272883")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3573,7 +3634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 80.01 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23199a51-c447-4482-8e67-0258c75b9c35")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR040"
 			(at 50.8 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3692,7 +3753,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR058")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2368bd30-073e-4eaa-9aa1-32c905d0c7c1")
-		(property "Reference" "U17"
+		(property "Reference" "U15"
 			(at 165.1 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3777,7 +3838,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U17")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b6fa2b0-f59f-4674-b0f3-c2f51a4f0f4f")
-		(property "Reference" "C37"
+		(property "Reference" "C22"
 			(at 204.47 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3856,7 +3917,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C37")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3943,6 +4004,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 24.13 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d79d6ba-f05a-4aec-b560-f6a25f8174ea")
+		(property "Reference" "#PWR033"
+			(at 24.13 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 24.13 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 24.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0802f8d-5fe0-420f-b13d-beecd9e02bd6")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 72.39 109.22 180)
 		(unit 1)
@@ -3953,7 +4092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ea3536b-9e00-4bbe-a7f6-8fb0a9a218d4")
-		(property "Reference" "C27"
+		(property "Reference" "C12"
 			(at 71.12 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4154,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C27")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4032,7 +4171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fb7536c-9219-4b12-b639-69f9be17f4c4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR038"
 			(at 50.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4092,7 +4231,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR056")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "318b1282-2918-4838-87bc-5a70a9caa886")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR058"
 			(at 184.15 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4169,85 +4308,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3202c0de-e613-4645-8e00-83ce42f8d5c3")
-		(property "Reference" "#PWR061"
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ccd79f0e-7cb7-4b38-8bc3-a14ce7b9e8a5")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR061")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4264,7 +4325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "365f299a-9438-4297-b9b4-a5ef0b7f9b25")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR062"
 			(at 210.82 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4324,7 +4385,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR080")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "377cf765-ffae-4d3c-b281-c1e210941cbe")
-		(property "Reference" "C36"
+		(property "Reference" "C21"
 			(at 204.47 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4464,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C36")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4420,7 +4481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e4b6d5b-5bf1-4001-8622-fc6da0528aa3")
-		(property "Reference" "U18"
+		(property "Reference" "U16"
 			(at 165.1 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4549,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U18")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -4526,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4606,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 133.35 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4091320d-7759-4958-bd3c-222ee71156c1")
-		(property "Reference" "C20"
+		(property "Reference" "C5"
 			(at 17.78 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4788,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C20")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4744,7 +4805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4488f563-c377-4c3d-b234-7c7f6a8c20fe")
-		(property "Reference" "U22"
+		(property "Reference" "U20"
 			(at 218.44 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,7 +4873,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U22")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4555ef32-2aa7-40e6-9d4c-749cef4aff86")
-		(property "Reference" "C33"
+		(property "Reference" "C18"
 			(at 151.13 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4952,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C33")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4908,7 +4969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4681a89d-d0bc-4711-b28e-c6caa7b1f2da")
-		(property "Reference" "C32"
+		(property "Reference" "C17"
 			(at 151.13 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +5031,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C32")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 184.15 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4871dfae-c208-417f-9958-0f191815a0e5")
+		(property "Reference" "#PWR059"
+			(at 184.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 184.15 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 184.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc7570e-99fb-4d5b-927f-166c9423df63")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4987,7 +5126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50946a0d-ec8b-4aff-9986-8a027c3b2f7d")
-		(property "Reference" "C26"
+		(property "Reference" "C11"
 			(at 71.12 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5049,7 +5188,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C26")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 104.14 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54239598-7a6d-48d4-9fb5-cd03c62b30fa")
+		(property "Reference" "#PWR047"
+			(at 104.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 104.14 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9162b7e4-5af5-4fc6-8fbc-287ed24f1781")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5066,7 +5283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56d3bbd6-91c1-4b64-90f4-7eb90bca86b9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR032"
 			(at 24.13 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5126,7 +5343,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR050")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5143,7 +5360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5818ea60-1aa5-4b64-88b5-6342b9536092")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR046"
 			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5203,7 +5420,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR064")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5220,7 +5437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "582a3a45-612b-49af-b762-1398751f6943")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 31.75 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,85 +5505,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58f0c999-f55f-46db-b4b8-e56541c74aed")
-		(property "Reference" "#PWR071"
-			(at 130.81 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "867d11a8-24db-45cd-bf1e-87c8991e56ec")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR071")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a47338e-3f3a-4e98-8354-652003f96d77")
-		(property "Reference" "C28"
+		(property "Reference" "C13"
 			(at 97.79 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5445,7 +5584,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C28")
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 210.82 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c3d7d93-80f6-42e1-8799-e1b1d5f1ff1f")
+		(property "Reference" "#PWR063"
+			(at 210.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 210.82 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 210.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e092ade-ba6f-4220-b696-309a38237b0b")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e7911c1-2c35-45bd-9b11-0ec09c09601c")
-		(property "Reference" "U21"
+		(property "Reference" "U19"
 			(at 218.44 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +5747,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U21")
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 24.13 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f1a0dcd-349f-4729-b099-23d0eedf30a8")
+		(property "Reference" "#PWR031"
+			(at 24.13 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 24.13 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 24.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00ae6f4e-b4d0-46b8-af27-5476157a7b54")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5568,7 +5863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 186.69 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5617,6 +5912,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 50.8 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "626b9309-aa7b-4098-aa2a-53d5db005460")
+		(property "Reference" "#PWR039"
+			(at 50.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 50.8 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 50.8 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e5103ed-27b9-4f63-a851-99b498847d60")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 26.67 137.16 0)
 		(unit 1)
@@ -5648,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 26.67 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5707,7 +6080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "660cc92a-672b-4e8a-8bf0-f529a10a51bc")
-		(property "Reference" "C29"
+		(property "Reference" "C14"
 			(at 97.79 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +6142,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C29")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5807,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 186.69 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5856,84 +6229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 77.47 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d338b90-368b-4a4d-a5bf-5ba832eca1b3")
-		(property "Reference" "#PWR063"
-			(at 77.47 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6966e94d-9bb1-4f53-b0a7-9655a6cd5b5f")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 130.81 48.26 0)
 		(unit 1)
@@ -5944,7 +6239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f342589-ea7b-4027-beb4-e3983c158f12")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR050"
 			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6004,85 +6299,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f4f9075-b796-40bb-92f2-ffb96d7162a5")
-		(property "Reference" "#PWR065"
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e59d9f7-960e-44a2-ab9d-e4a65d85caa5")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR065")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6099,7 +6316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ff32827-97fe-4a49-8c12-d9acb97eda1d")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 58.42 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6384,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705bee83-72c6-472c-8472-782394ea73ff")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 44.45 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6463,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6284,7 +6501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 213.36 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6343,7 +6560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8448b4d4-f02e-4ec5-91f7-90dfe780c3cd")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 31.75 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6628,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 26.67 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6508,7 +6725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86caa315-2dbc-4031-98e4-337881687816")
-		(property "Reference" "U14"
+		(property "Reference" "U12"
 			(at 111.76 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,85 +6793,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "872d0ff9-5832-46bf-a6bd-9dd31d27d141")
-		(property "Reference" "#PWR069"
-			(at 130.81 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ccef5ee-f39d-446f-9d6f-7f980cdc4ab8")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR069")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "874f7c24-9bec-46b7-b2ca-3eaf700c47f5")
-		(property "Reference" "U19"
+		(property "Reference" "U17"
 			(at 191.77 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,85 +6878,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88147988-5af6-4074-a287-c1996e1a03d3")
-		(property "Reference" "#PWR079"
-			(at 184.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d178a0b-6a59-4665-9617-aa4d7bfa1753")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR079")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c24d2a3-cd8a-4216-858c-2afeedbd2dd1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR042"
 			(at 77.47 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6894,7 +6955,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR060")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d580b38-f8f9-46a0-87e2-d931767a88c3")
-		(property "Reference" "C34"
+		(property "Reference" "C19"
 			(at 177.8 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,163 +7034,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f4bb054-5c23-492b-8a8c-0bf444379146")
-		(property "Reference" "#PWR057"
-			(at 50.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51971880-5d2c-4231-b94a-5148031a77be")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 121.9145 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9067e33e-13b1-449d-baa6-fe4adfe3c7b3")
-		(property "Reference" "#PWR067"
-			(at 104.14 128.2645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 126.9945 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 121.9145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 121.9145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 121.9145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "001c28f3-dec3-4f88-a541-7318b7305c5c")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR067")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7146,7 +7051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91848018-6214-4211-b7da-1ef4f2bd6fb8")
-		(property "Reference" "U10"
+		(property "Reference" "U8"
 			(at 58.42 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7214,85 +7119,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a10018f-6e71-4da1-aea7-ebfecab23a5a")
-		(property "Reference" "#PWR083"
-			(at 210.82 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "732cb530-a0ef-443a-80fa-36a3fe1da3e7")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR083")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7309,7 +7136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b66d3cf-d8b5-4e8f-bac6-1a8a8bc99168")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR064"
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7369,7 +7196,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR082")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 130.81 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c6600f8-22d8-48da-9850-01b0ead576cf")
+		(property "Reference" "#PWR051"
+			(at 130.81 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 130.81 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eddb99cf-a0ce-4c83-9464-afa78a319d4f")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7407,7 +7312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 106.68 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7466,7 +7371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f120cd7-e36a-4cd4-9bde-b28eaabd1a97")
-		(property "Reference" "U13"
+		(property "Reference" "U11"
 			(at 111.76 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,85 +7439,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a024af8d-7bcc-45ee-9c04-1c7804615ab4")
-		(property "Reference" "#PWR075"
-			(at 157.48 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15603bbe-7699-41f3-bfe0-13a79a311077")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR075")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -7629,7 +7456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a06144fa-ac62-420b-a4ed-5dcad26806a2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR036"
 			(at 50.8 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7689,7 +7516,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR054")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7706,7 +7533,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a081c038-8354-446c-bca3-fb439dca0981")
-		(property "Reference" "U15"
+		(property "Reference" "U13"
 			(at 138.43 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7601,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U15")
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 130.81 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a08ae195-a52a-4e2a-8ab3-1a46fa07d246")
+		(property "Reference" "#PWR053"
+			(at 130.81 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 130.81 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 130.81 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6be7e87f-723b-4be3-814a-80ef3fba075b")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7791,7 +7696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a24f57b2-faa7-45b8-9728-6f670c552e3e")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR030"
 			(at 24.13 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7851,7 +7756,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR048")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7868,7 +7773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a535eda2-9857-457a-ba44-626ed62942a1")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR060"
 			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7928,85 +7833,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 24.13 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5e2af2e-f6eb-4140-a2f3-3437f963a61f")
-		(property "Reference" "#PWR049"
-			(at 24.13 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69f26bf7-9717-4089-b696-bb7c5c16d7ec")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR049")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8023,7 +7850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7db47a4-593f-404b-ba3c-40a8b1518622")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 58.42 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +7918,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8129,7 +7956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 213.36 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8178,6 +8005,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 77.47 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acf3fa52-8b68-4226-aa62-215e838bb9bd")
+		(property "Reference" "#PWR045"
+			(at 77.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 77.47 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcfbc1e4-e54e-42da-877b-dc9e7a11b9f8")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 53.34 41.91 0)
 		(unit 1)
@@ -8209,7 +8114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 53.34 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8289,7 +8194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8348,7 +8253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b84e4099-88bc-4bc9-8d1f-208a53236684")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 31.75 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8416,7 +8321,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U7")
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 104.14 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8a28eb6-5a4a-4266-9cab-0715841ee53a")
+		(property "Reference" "#PWR049"
+			(at 104.14 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 104.14 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85bb3f4d-ef0c-45c1-8dba-63e260e4755f")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8454,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 133.35 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8513,7 +8496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb1ee04f-8355-4d05-a01f-09d58323a1c9")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 85.09 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +8564,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8598,7 +8581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c72113-cae2-47b9-8be1-fd7a986427e8")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR048"
 			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8658,7 +8641,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR066")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8675,7 +8658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c92264f8-983d-47a2-b41b-22a354030ab3")
-		(property "Reference" "U20"
+		(property "Reference" "U18"
 			(at 191.77 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,15 +8726,15 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U20")
+					(reference "U18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 73.66 0)
+		(lib_id "power:GNDA")
+		(at 77.47 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8760,9 +8743,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb4e725d-bb68-42b2-b460-91de289b368d")
-		(property "Reference" "#PWR055"
-			(at 50.8 80.01 0)
+		(uuid "ca8b1955-1466-441a-9936-01af55d9db4f")
+		(property "Reference" "#PWR043"
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,8 +8755,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 50.8 78.74 0)
+		(property "Value" "GNDA"
+			(at 77.47 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8783,7 +8766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 73.66 0)
+			(at 77.47 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8794,7 +8777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 73.66 0)
+			(at 77.47 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,8 +8787,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 77.47 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8816,12 +8799,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2149e449-5d1e-4260-a894-b03dcf745132")
+			(uuid "fd3e4df6-e558-4e3d-b5d6-a88133de0646")
 		)
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR055")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8838,7 +8821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cddbb71e-7982-41f5-9057-ff6e5d3dfdc6")
-		(property "Reference" "C30"
+		(property "Reference" "C15"
 			(at 124.46 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,7 +8883,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C30")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8938,7 +8921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8997,7 +8980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1eb1c5d-fc99-47e1-a6f5-00fdc8f53640")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 17.78 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9059,15 +9042,15 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 168.91 0)
+		(lib_id "power:GNDA")
+		(at 50.8 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9076,9 +9059,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d54bca36-cad1-4ff9-a024-1c52a6c16358")
-		(property "Reference" "#PWR053"
-			(at 24.13 175.26 0)
+		(uuid "d4994a55-ae76-499b-acaf-565aaea9d08b")
+		(property "Reference" "#PWR037"
+			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9088,8 +9071,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 24.13 173.99 0)
+		(property "Value" "GNDA"
+			(at 50.8 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9099,7 +9082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 168.91 0)
+			(at 50.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 168.91 0)
+			(at 50.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,8 +9103,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 168.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 50.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,12 +9115,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "86eac8c9-3333-4772-80e2-677590ba0cac")
+			(uuid "f208fb10-01c3-4e22-8036-8f62b89d1821")
 		)
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR053")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9154,7 +9137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8399696-0a0a-4282-a8b0-6c0237c449f3")
-		(property "Reference" "U16"
+		(property "Reference" "U14"
 			(at 138.43 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9222,85 +9205,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3a034a2-36b3-448f-91ed-fdc33fbe09a9")
-		(property "Reference" "#PWR077"
-			(at 184.15 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "925c3a65-41e5-4f44-b54a-5e44df50ae27")
-		)
-		(instances
-			(project "keyhalld"
-				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR077")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -9338,7 +9243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 160.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9397,7 +9302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e66388b1-74f9-4617-942c-c6270d95ce8c")
-		(property "Reference" "C24"
+		(property "Reference" "C9"
 			(at 44.45 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +9364,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C24")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9475,9 +9380,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eb9537a8-530b-429d-b143-8e7cfb24d639")
-		(property "Reference" "U12"
-			(at 85.09 100.33 0)
+		(property "Reference" "U10"
+			(at 73.66 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9544,7 +9450,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "U12")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -9561,7 +9467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee9f0402-f3a4-4541-9c32-a19b19e5e255")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR052"
 			(at 130.81 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9621,7 +9527,85 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR070")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 184.15 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeff5e83-fecb-4908-9224-8dcae9c459cf")
+		(property "Reference" "#PWR061"
+			(at 184.15 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 184.15 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 184.15 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea4bc226-8708-459f-97a2-75be40e9274e")
+		)
+		(instances
+			(project "keyhalld"
+				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9638,7 +9622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0b57e9e-f578-4db8-972a-7c0e2343be40")
-		(property "Reference" "C23"
+		(property "Reference" "C8"
 			(at 44.45 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9700,7 +9684,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C23")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9717,7 +9701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f10091cd-b731-4b02-87bb-540215417128")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR044"
 			(at 77.47 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9777,7 +9761,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR062")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9815,7 +9799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Custom_MX_PCB_1.00u"
+		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
 			(at 80.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9864,8 +9848,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 168.91 0)
+		(lib_id "power:GNDA")
+		(at 24.13 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9874,9 +9858,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f64ddbb9-1561-4576-90d1-b189fa1041ca")
-		(property "Reference" "#PWR059"
-			(at 50.8 175.26 0)
+		(uuid "f6797f84-8df2-4e18-84bf-645589e4dd15")
+		(property "Reference" "#PWR035"
+			(at 24.13 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,8 +9870,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 50.8 173.99 0)
+		(property "Value" "GNDA"
+			(at 24.13 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9897,7 +9881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 168.91 0)
+			(at 24.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9908,7 +9892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 168.91 0)
+			(at 24.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,8 +9902,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 168.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 24.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,12 +9914,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b13313b5-c203-4ebc-94f6-78ebc5432b1a")
+			(uuid "06eab65b-8ed2-4417-9ddc-26f7d3152e5a")
 		)
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR059")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9952,7 +9936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f716eb6f-4e2c-4156-8233-42ac608bae1c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR034"
 			(at 24.13 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10012,7 +9996,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "#PWR052")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10029,7 +10013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdfa8886-83b3-4b08-bebd-03a8e7ce5db9")
-		(property "Reference" "C31"
+		(property "Reference" "C16"
 			(at 124.46 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10075,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C31")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10108,7 +10092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe705518-3264-4284-9047-ad7c3043cf3a")
-		(property "Reference" "C35"
+		(property "Reference" "C20"
 			(at 177.8 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10170,7 +10154,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
-					(reference "C35")
+					(reference "C20")
 					(unit 1)
 				)
 			)

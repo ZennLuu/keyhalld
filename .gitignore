@@ -1,3 +1,5 @@
 *.lck
-keyhalld-backups
+*-backups/
+production/
 *.bak
+.history/

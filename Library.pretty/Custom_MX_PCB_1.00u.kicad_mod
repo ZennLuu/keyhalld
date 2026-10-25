@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -8 0)
 		(layer "F.SilkS")
-		(uuid "440a2f06-ffaf-41b6-b075-d86d0bfe9e57")
+		(uuid "914c04f1-06cc-47dc-8f53-051606c9db68")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Custom_MX_PCB_1.00u"
 		(at 0 8 0)
 		(layer "F.Fab")
-		(uuid "3d9e962b-5137-49b5-8cd1-9e98b1d652b8")
+		(uuid "ba04aa58-c574-40d1-8154-e103dbaa16d5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "473064b2-b77e-4471-a6f8-e72f3459c706")
+		(uuid "cb7baef3-8b9a-42aa-af22-02c566eb6ed2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a68449a-811e-4b82-b3ed-281c008d1c19")
+		(uuid "47e79ad2-47ee-4e5b-8ad8-4e57e6855de8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1f445f97-ec31-46f5-84f5-a2128ed0e595")
+		(uuid "5fed8f1e-3daa-4954-86eb-85bb616c137a")
 	)
 	(fp_line
 		(start -7.1 7.1)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5ae5cac6-70ff-4b9e-8bed-4884bf4cb861")
+		(uuid "19d25b0e-82c6-4e12-8882-74d518b589d5")
 	)
 	(fp_line
 		(start 7.1 -7.1)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d451d878-15ca-49b7-89f4-d2b4baa1cd84")
+		(uuid "3820f156-934d-4af5-99a5-0a94bfd157f0")
 	)
 	(fp_line
 		(start 7.1 7.1)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8fa2e8c8-54a4-4500-bad3-0cc876dd06ac")
+		(uuid "10ed8014-be0c-4c1a-8812-f67c4365a888")
 	)
 	(fp_line
 		(start -9.525 -9.525)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "645fdc15-ea3d-4b31-a3ca-a14affb65b78")
+		(uuid "a2a0114a-e539-4cc2-8199-3ddf7ce82020")
 	)
 	(fp_line
 		(start -9.525 9.525)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "de5d6b6a-8dd8-424e-94ad-e347b0b0816b")
+		(uuid "6b4bc103-71a9-401d-b99f-9ca81797c3ab")
 	)
 	(fp_line
 		(start 9.525 -9.525)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "51f4f1de-f96f-4b40-b575-d4f1d227c927")
+		(uuid "f13b91f5-3b08-4a05-83b3-13e5cd421333")
 	)
 	(fp_line
 		(start 9.525 9.525)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "b0290973-77df-4797-8109-2f936f482e27")
+		(uuid "08c3ab0d-eee3-434c-9673-ea89b720660d")
 	)
 	(fp_line
 		(start -7 -7)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "1543e439-a890-4ca6-925f-d49be0238899")
+		(uuid "33f25f08-25e9-4603-becd-26ecabb7e399")
 	)
 	(fp_line
 		(start -7 7)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "0759ec8e-eefc-4401-bfce-6c8694c37438")
+		(uuid "aed899a4-6e26-40b7-9ecd-5494a6315cfb")
 	)
 	(fp_line
 		(start 7 -7)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "6c694880-90f8-4200-9598-35e433874884")
+		(uuid "387c2752-be35-456f-92c8-cb8533a36b05")
 	)
 	(fp_line
 		(start 7 7)
@@ -169,7 +169,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "3c8962ee-a880-4c03-b43c-b5613dd72876")
+		(uuid "542e1c29-e5c0-4221-8fca-c59b90773183")
 	)
 	(fp_line
 		(start -7.25 -7.25)
@@ -179,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fa4356b6-dfb9-43b9-adcb-47a75e52ab22")
+		(uuid "02a02acf-46e5-4ac9-a6a0-1250e5666e4d")
 	)
 	(fp_line
 		(start -7.25 7.25)
@@ -189,7 +189,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e74b7fef-6799-4fd4-bd9c-23a47cf4a025")
+		(uuid "d928e7d8-eac4-4077-8fbf-193352641ae2")
 	)
 	(fp_line
 		(start 7.25 -7.25)
@@ -199,7 +199,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d30b7e8a-ee64-4504-921e-70cc5e3827be")
+		(uuid "52267020-e634-4e20-8986-1077a310c0e7")
 	)
 	(fp_line
 		(start 7.25 7.25)
@@ -209,7 +209,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "12c1dd49-0afc-418a-948e-ee5479792f71")
+		(uuid "82928984-1e96-44e5-bff9-fffec9cf1c3d")
 	)
 	(fp_line
 		(start -7 -7)
@@ -219,7 +219,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c64d5692-f95a-403c-bc67-d692b2bd0145")
+		(uuid "32b4eeed-7df5-498b-9bcc-3765bde1525b")
 	)
 	(fp_line
 		(start -7 7)
@@ -229,7 +229,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7fdcc97f-b1a7-48ff-9c29-7c18a6d1856e")
+		(uuid "c886be0a-dc6f-4554-9dcb-3769c830c765")
 	)
 	(fp_line
 		(start 7 -7)
@@ -239,7 +239,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7b50dac8-cbf6-42b1-b8c0-9fe1e997e527")
+		(uuid "4a3d1f97-1fe6-4dc6-bf69-9c885c372b64")
 	)
 	(fp_line
 		(start 7 7)
@@ -249,12 +249,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8c9f9e14-9898-4fcf-a6f5-a3240b88f224")
+		(uuid "5b00fb9a-e3c6-49b3-899f-0ca3b531d009")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "96a15ca7-a397-40be-90e8-1505e3a91543")
+		(uuid "113a97a2-7d9f-443f-a3ff-6209700b11f7")
 		(effects
 			(font
 				(size 1 1)
@@ -267,17 +267,17 @@
 		(size 1.75 1.75)
 		(drill 1.75)
 		(layers "*.Cu" "*.Mask")
-		(uuid "5b897b36-f656-4306-88e8-b71be56846d7")
+		(uuid "658761c4-e082-451b-b422-ab5a724ee69e")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0)
 		(size 1.75 1.75)
 		(drill 1.75)
 		(layers "*.Cu" "*.Mask")
-		(uuid "73aa1b5b-922e-4aec-a179-41af0430fb54")
+		(uuid "e554e8ae-1574-42da-b70e-5e1f4eb6000c")
 	)
 	(embedded_fonts no)
-	(model "/home/zen/Downloads/GateronKS-20MagneticHallSensorSwitchKS-20T-20210922/Gateron KS-20 Magnetic Hall Sensor Switch KS-20T-20210922.stp"
+	(model "${KIPRJMOD}/../Library.pretty/gateron-switch.stp"
 		(offset
 			(xyz -26.5 0 13)
 		)
