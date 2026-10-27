@@ -26,7 +26,7 @@ jobs:
           sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
           sudo apt-get update
           sudo apt-get install --yes --no-install-recommends \
-            kicad kicad-symbols kicad-footprints
+            kicad kicad-symbols kicad-footprints kicad-packages3d
           kicad-cli version
 
           # Initialize standard libraries without opening the KiCad GUI.
@@ -98,4 +98,57 @@ jobs:
           name: kicad-check-reports
           path: reports/*.rpt
           if-no-files-found: warn
+          retention-days: 14
+
+      - name: Export Main PCB STEP model
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: |
+          mkdir -p models
+          # Omit soldermask faces so the exported copper remains visible.
+          kicad-cli pcb export step \
+            --subst-models \
+            --include-silkscreen \
+            --include-tracks --include-pads --include-zones \
+            --output models/keyhalld.step \
+            keyhalld/keyhalld.kicad_pcb
+
+      - name: Export Addon PCB STEP model
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: |
+          mkdir -p models
+          kicad-cli pcb export step \
+            --subst-models \
+            --include-silkscreen \
+            --include-tracks --include-pads --include-zones \
+            --output models/keyhalld-addon.step \
+            keyhalld-addon/keyhalld-addon.kicad_pcb
+
+      - name: Upload PCB STEP models
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-pcb-step-models
+          path: models/*.step
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Export Main copper layers and dimensions
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: |
+          /usr/bin/python3 .github/scripts/export-pcb-docs.py \
+            keyhalld/keyhalld.kicad_pcb pcb-docs
+
+      - name: Export Addon copper layers and dimensions
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: |
+          /usr/bin/python3 .github/scripts/export-pcb-docs.py \
+            keyhalld-addon/keyhalld-addon.kicad_pcb pcb-docs
+
+      - name: Upload copper layers and dimensions
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-pcb-copper-and-dimensions
+          path: pcb-docs/
+          if-no-files-found: error
           retention-days: 14
