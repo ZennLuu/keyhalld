@@ -5254,16 +5254,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 73.66) (xy 34.29 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fcb549-a789-4c0c-9629-1a977fc341ab")
-	)
-	(wire
-		(pts
 			(xy 106.68 135.89) (xy 114.3 135.89)
 		)
 		(stroke
@@ -5744,16 +5734,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 29.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c5e47a-8c90-4769-851f-2d9538f3d0a0")
-	)
-	(wire
-		(pts
 			(xy 110.49 66.04) (xy 110.49 67.31)
 		)
 		(stroke
@@ -5791,6 +5771,16 @@
 			(type default)
 		)
 		(uuid "6d20006e-faaa-45f6-94f4-71701dbbca17")
+	)
+	(wire
+		(pts
+			(xy 29.21 71.12) (xy 34.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7252609a-4890-4da2-8371-1855f1c38b8c")
 	)
 	(wire
 		(pts
@@ -5941,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "99744236-9cfc-4fe6-b922-1e92063c1d2b")
+	)
+	(wire
+		(pts
+			(xy 29.21 73.66) (xy 34.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c9462f-c880-426a-bf52-e071d693c7f5")
 	)
 	(wire
 		(pts
@@ -7099,7 +7099,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 34.29 73.66 0)
+		(at 34.29 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7109,7 +7109,7 @@
 		)
 		(uuid "849aee11-3261-4839-93cf-12074168a27b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1414 73.66 0)
+			(at 43.1414 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +7459,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 34.29 71.12 0)
+		(at 34.29 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7469,7 +7469,7 @@
 		)
 		(uuid "ea301006-5d3d-4d72-9864-54010aa2a8f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.5042 71.12 0)
+			(at 43.5042 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
