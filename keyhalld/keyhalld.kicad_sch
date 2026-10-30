@@ -7747,7 +7747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "119f775e-3900-45f0-8599-1776d9a6b46b")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR034"
 			(at 238.76 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7808,7 +7808,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR094")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d2839b-333b-4c28-b806-9e7528e0eb40")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 36.83 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8214,7 +8214,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8941,7 +8941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50f72dc6-0ed1-4bb2-92c2-88e3ed8d9e2d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 39.37 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9002,7 +9002,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9099,7 +9099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a3d28e-c50b-4a3e-99b5-d952bfc9a8ad")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR033"
 			(at 231.14 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9160,7 +9160,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR093")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9874,7 +9874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a71ad53-cdbf-4389-809c-428bc047430e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 49.53 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9935,7 +9935,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10509,7 +10509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0b4436-b2df-4d1a-91e8-bad828699b4b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10569,7 +10569,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11860,7 +11860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac1cc80-e7c0-4f1e-85d9-8e72aeb69b9b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 85.09 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11921,7 +11921,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12341,7 +12341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b921b453-4408-4eed-b872-45d3b46447de")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR031"
 			(at 269.24 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12402,7 +12402,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR092")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12966,7 +12966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9cc92c9-4400-4fe3-8855-25e7abf8c68c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 36.83 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13026,7 +13026,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13464,7 +13464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd448fb9-f3aa-48ff-a76f-bd3298606841")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 132.08 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13525,7 +13525,7 @@
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
