@@ -5704,7 +5704,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 135.89 54.61)
+			(xy 135.89 50.8) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5924,7 +5924,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 62.23) (xy 135.89 67.31)
+			(xy 135.89 59.69) (xy 135.89 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6104,7 +6104,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 138.43 54.61)
+			(xy 138.43 50.8) (xy 138.43 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6264,7 +6264,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 62.23) (xy 138.43 67.31)
+			(xy 138.43 59.69) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6593,6 +6593,26 @@
 			"8hwrGZC7VA7m18Oz7DmRQ1McG/0tDFrSkjst6HmhJWS/AZj7Ijq1nAKuAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "USB_D+"
+		(at 135.89 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b074115-cc55-4bf2-a47c-2dde32c87921")
+	)
+	(label "USB_D-"
+		(at 138.43 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0213bbb-a178-4bc7-8fbd-0962f612a5b2")
+	)
 	(global_label "AM7"
 		(shape input)
 		(at 205.74 104.14 0)
@@ -6667,7 +6687,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 135.89 53.34 90)
+		(at 135.89 50.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6677,7 +6697,7 @@
 		)
 		(uuid "117711de-f006-404f-a73a-33dd6b960807")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 47.5124 90)
+			(at 135.89 44.9724 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7407,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 138.43 53.34 90)
+		(at 138.43 50.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7397,7 +7417,7 @@
 		)
 		(uuid "d6419479-b6c5-4eba-a75b-34eede885001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 47.5124 90)
+			(at 138.43 44.9724 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,7 +9963,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 58.42 0)
+		(at 138.43 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9953,7 +9973,7 @@
 		(dnp no)
 		(uuid "6b0b2885-9753-42a2-bd1e-7012819d8c7a")
 		(property "Reference" "R3"
-			(at 140.462 58.42 90)
+			(at 140.462 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9963,7 +9983,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 138.43 58.42 90)
+			(at 138.43 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9973,7 +9993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 136.652 58.42 90)
+			(at 136.652 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +10004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 58.42 0)
+			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +10015,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 58.42 0)
+			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +11305,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 58.42 180)
+		(at 135.89 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11295,7 +11315,7 @@
 		(dnp no)
 		(uuid "983f1066-d665-4944-adad-ed0d6c3265c9")
 		(property "Reference" "R2"
-			(at 133.858 58.42 90)
+			(at 133.858 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11305,7 +11325,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 135.89 58.42 90)
+			(at 135.89 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11315,7 +11335,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 137.668 58.42 90)
+			(at 137.668 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11326,7 +11346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 58.42 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11337,7 +11357,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 58.42 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
