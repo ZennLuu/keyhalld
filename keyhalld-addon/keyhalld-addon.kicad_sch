@@ -6017,7 +6017,7 @@
 	)
 	(rectangle
 		(start 138.43 179.07)
-		(end 173.99 195.58)
+		(end 176.53 195.58)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -7076,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 74.93) (xy 222.25 77.47)
+			(xy 222.25 64.77) (xy 222.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7266,7 +7266,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 85.09) (xy 222.25 87.63)
+			(xy 222.25 80.01) (xy 222.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7446,7 +7446,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 85.09) (xy 224.79 87.63)
+			(xy 224.79 80.01) (xy 224.79 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7856,16 +7856,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 74.93) (xy 224.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924f482d-5042-4095-bc66-64f433eb9bfa")
-	)
-	(wire
-		(pts
 			(xy 219.71 85.09) (xy 214.63 85.09)
 		)
 		(stroke
@@ -8093,6 +8083,16 @@
 			(type default)
 		)
 		(uuid "a645ac83-2714-4266-9952-dd4d30af016b")
+	)
+	(wire
+		(pts
+			(xy 224.79 64.77) (xy 224.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77de482-d87a-47bf-a5d7-38b5e0f69be5")
 	)
 	(wire
 		(pts
@@ -8814,6 +8814,16 @@
 		)
 		(uuid "fd1a6844-0610-4542-9360-aa8a70f56f86")
 	)
+	(label "USB_D-"
+		(at 224.79 87.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "034e157d-b125-45cf-bf2f-8152797efc27")
+	)
 	(label "CONN_D-"
 		(at 88.9 140.97 0)
 		(effects
@@ -8823,6 +8833,16 @@
 			(justify left bottom)
 		)
 		(uuid "13eea34b-46e1-4950-bc9c-109d0fdc3e49")
+	)
+	(label "USB_D+"
+		(at 222.25 87.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bd09644-80ff-46a1-9c62-d6aa0c59c220")
 	)
 	(label "CONN_D+"
 		(at 88.9 143.51 0)
@@ -9896,7 +9916,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 222.25 74.93 90)
+		(at 222.25 64.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9906,7 +9926,7 @@
 		)
 		(uuid "be55a27b-3721-4876-ba73-59956875bb6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 69.1024 90)
+			(at 222.25 58.9424 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +9988,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 224.79 74.93 90)
+		(at 224.79 64.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9978,7 +9998,7 @@
 		)
 		(uuid "c6dad636-0674-47c6-9fb3-5576b5046afe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.79 69.1024 90)
+			(at 224.79 58.9424 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10313,7 +10333,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 160.02 191.77 0)
+		(at 156.21 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10323,7 +10343,7 @@
 		(dnp no)
 		(uuid "01bb002c-966d-493d-90a7-870bce0b1685")
 		(property "Reference" "#PWR064"
-			(at 160.02 198.12 0)
+			(at 156.21 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 194.564 0)
+			(at 158.75 194.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10344,7 +10364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 191.77 0)
+			(at 156.21 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10355,7 +10375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 191.77 0)
+			(at 156.21 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10366,7 +10386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 160.02 191.77 0)
+			(at 156.21 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +10802,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.02 189.23 0)
+		(at 156.21 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10793,7 +10813,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b4667b6-c194-4ad2-bef5-d2cc1c2951bf")
 		(property "Reference" "H3"
-			(at 162.56 187.9599 0)
+			(at 158.75 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10804,7 +10824,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 162.56 189.2299 0)
+			(at 158.75 189.2299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10816,7 +10836,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 160.02 189.23 0)
+			(at 156.21 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 189.23 0)
+			(at 156.21 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10838,7 +10858,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 160.02 189.23 0)
+			(at 156.21 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11256,7 +11276,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 167.64 191.77 0)
+		(at 163.83 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11266,7 +11286,7 @@
 		(dnp no)
 		(uuid "19c5e6db-3e3a-4f45-a87e-e1a1369827a9")
 		(property "Reference" "#PWR065"
-			(at 167.64 198.12 0)
+			(at 163.83 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11277,7 +11297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 194.564 0)
+			(at 166.37 194.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11287,7 +11307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 191.77 0)
+			(at 163.83 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 191.77 0)
+			(at 163.83 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11309,7 +11329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 167.64 191.77 0)
+			(at 163.83 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12043,7 +12063,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 144.78 191.77 0)
+		(at 140.97 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12053,7 +12073,7 @@
 		(dnp no)
 		(uuid "2f9acd8d-b6cd-43e6-8ed7-d79e5634616a")
 		(property "Reference" "#PWR062"
-			(at 144.78 198.12 0)
+			(at 140.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12064,7 +12084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 194.564 0)
+			(at 143.51 194.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12074,7 +12094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 191.77 0)
+			(at 140.97 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12085,7 +12105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 191.77 0)
+			(at 140.97 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12096,7 +12116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 144.78 191.77 0)
+			(at 140.97 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12516,7 +12536,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 189.23 0)
+		(at 140.97 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12527,7 +12547,7 @@
 		(fields_autoplaced yes)
 		(uuid "346f7f3c-30e1-4aa1-9582-56781c24995c")
 		(property "Reference" "H1"
-			(at 147.32 187.9599 0)
+			(at 143.51 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12538,7 +12558,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 147.32 189.2299 0)
+			(at 143.51 189.2299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12550,7 +12570,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 144.78 189.23 0)
+			(at 140.97 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12561,7 +12581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 189.23 0)
+			(at 140.97 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12572,7 +12592,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 189.23 0)
+			(at 140.97 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13964,7 +13984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 81.28 0)
+		(at 224.79 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13975,7 +13995,7 @@
 		(dnp no)
 		(uuid "57456707-0245-4d70-8417-9c910d892fba")
 		(property "Reference" "R13"
-			(at 226.822 81.28 90)
+			(at 226.822 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13985,7 +14005,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 224.79 81.28 90)
+			(at 224.79 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13995,7 +14015,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 226.568 81.28 90)
+			(at 226.568 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +14026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 81.28 0)
+			(at 224.79 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +14037,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 81.28 0)
+			(at 224.79 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14516,7 +14536,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 167.64 189.23 0)
+		(at 163.83 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14527,7 +14547,7 @@
 		(fields_autoplaced yes)
 		(uuid "62b92d11-d459-4800-93c8-bd877930f07c")
 		(property "Reference" "H4"
-			(at 170.18 187.9599 0)
+			(at 166.37 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14538,7 +14558,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 170.18 189.2299 0)
+			(at 166.37 189.2299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14550,7 +14570,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 167.64 189.23 0)
+			(at 163.83 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14561,7 +14581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 189.23 0)
+			(at 163.83 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14572,7 +14592,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 167.64 189.23 0)
+			(at 163.83 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14822,6 +14842,86 @@
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 171.45 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c3000dd-90c8-4451-8dc9-44c8414dfd5a")
+		(property "Reference" "H5"
+			(at 173.99 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 173.99 189.2299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 171.45 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 171.45 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d63007c-dc65-4541-8709-64e435cb4f79")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -18090,7 +18190,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 189.23 0)
+		(at 148.59 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18101,7 +18201,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7105a51-0009-4abe-9c4c-e0abcf247509")
 		(property "Reference" "H2"
-			(at 154.94 187.9599 0)
+			(at 151.13 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18112,7 +18212,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 189.2299 0)
+			(at 151.13 189.2299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18124,7 +18224,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 152.4 189.23 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18135,7 +18235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 189.23 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18146,7 +18246,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 189.23 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18403,7 +18503,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 222.25 81.28 0)
+		(at 222.25 76.2 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18414,7 +18514,7 @@
 		(dnp no)
 		(uuid "bb926b00-abe7-461e-be36-6045af6fd136")
 		(property "Reference" "R12"
-			(at 220.218 81.28 90)
+			(at 220.218 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18424,7 +18524,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 222.25 81.28 90)
+			(at 222.25 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18434,7 +18534,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 220.472 81.28 90)
+			(at 220.472 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18445,7 +18545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 81.28 0)
+			(at 222.25 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18456,7 +18556,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 81.28 0)
+			(at 222.25 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18476,6 +18576,83 @@
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 171.45 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc0a2944-cf59-4154-a311-401349ae7534")
+		(property "Reference" "#PWR093"
+			(at 171.45 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 194.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 171.45 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7e4918a-c2c6-454d-aa95-a65def45fdb7")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -20029,7 +20206,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 152.4 191.77 0)
+		(at 148.59 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20039,7 +20216,7 @@
 		(dnp no)
 		(uuid "da3a19b2-f78d-4edf-8249-09e5542f3745")
 		(property "Reference" "#PWR063"
-			(at 152.4 198.12 0)
+			(at 148.59 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20050,7 +20227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 194.564 0)
+			(at 151.13 194.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20060,7 +20237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 191.77 0)
+			(at 148.59 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20071,7 +20248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 191.77 0)
+			(at 148.59 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20082,7 +20259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 152.4 191.77 0)
+			(at 148.59 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21870,7 +22047,7 @@
 	)
 	(sheet
 		(at 138.43 140.97)
-		(size 35.56 35.56)
+		(size 38.1 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
