@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.8,
-          "width": 2.0
+          "height": 1.15,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -92,6 +92,10 @@
         [
           "hole_clearance|186550000|61005000|46a989a6-7aaf-4a4c-99d9-5b7bca7d2563|93ef0449-a3ca-4695-bfec-c99282cf5f1b",
           ""
+        ],
+        [
+          "via_dangling|380250000|70500000|e700900b-ae97-4fdb-a683-fc8219721b72|00000000-0000-0000-0000-000000000000",
+          "vlad"
         ]
       ],
       "meta": {
