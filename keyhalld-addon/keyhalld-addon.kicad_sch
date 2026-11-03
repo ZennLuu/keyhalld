@@ -273,351 +273,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x06_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1321,6 +976,251 @@
 						)
 					)
 					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6986,16 +6886,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 184.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ccf17f9-e52c-46a1-97b8-cbcbc71b1cc7")
-	)
-	(wire
-		(pts
 			(xy 176.53 38.1) (xy 177.8 38.1)
 		)
 		(stroke
@@ -7093,6 +6983,16 @@
 			(type default)
 		)
 		(uuid "2a85b357-05e8-44b2-9029-11b67479ef7f")
+	)
+	(wire
+		(pts
+			(xy 232.41 58.42) (xy 256.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b615fd5-92c6-4ce7-ba52-54cbc00af089")
 	)
 	(wire
 		(pts
@@ -7293,6 +7193,16 @@
 			(type default)
 		)
 		(uuid "47242295-4ba4-4a57-adf4-f091e527c9aa")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d1e9b9-eb83-4224-8374-7e330ef02c81")
 	)
 	(wire
 		(pts
@@ -7546,6 +7456,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 111.76) (xy 257.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6767c8d0-2802-4c29-81d7-b47020ed8300")
+	)
+	(wire
+		(pts
 			(xy 33.02 186.69) (xy 33.02 187.96)
 		)
 		(stroke
@@ -7583,16 +7503,6 @@
 			(type default)
 		)
 		(uuid "68e8667a-9740-4c1a-a00c-4b7cff162f92")
-	)
-	(wire
-		(pts
-			(xy 29.21 66.04) (xy 35.56 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6947a911-7988-47bc-bf17-8c5f857f935e")
 	)
 	(wire
 		(pts
@@ -7696,6 +7606,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 180.34) (xy 38.1 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748d680b-ad6d-4a0a-a26e-1115746d03d8")
+	)
+	(wire
+		(pts
 			(xy 102.87 127) (xy 102.87 129.54)
 		)
 		(stroke
@@ -7723,6 +7643,16 @@
 			(type default)
 		)
 		(uuid "7834238c-d9ac-4c58-ad56-b02c05b91171")
+	)
+	(wire
+		(pts
+			(xy 29.21 182.88) (xy 38.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd04711-62c8-42e8-884e-63f63830a2a4")
 	)
 	(wire
 		(pts
@@ -7793,16 +7723,6 @@
 			(type default)
 		)
 		(uuid "80acfb9d-2a25-4792-8fcf-0a40b882daf7")
-	)
-	(wire
-		(pts
-			(xy 232.41 58.42) (xy 256.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82b75eb5-49d6-49c9-9801-84fda542ef79")
 	)
 	(wire
 		(pts
@@ -8856,7 +8776,7 @@
 	)
 	(global_label "WS_LED"
 		(shape input)
-		(at 252.73 111.76 0)
+		(at 257.81 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8866,7 +8786,7 @@
 		)
 		(uuid "03768f9e-d21b-40b3-93cb-0a2d86ced16e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.7908 111.76 0)
+			(at 267.8708 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9194,7 +9114,7 @@
 	)
 	(global_label "MAG_UART_RX"
 		(shape input)
-		(at 29.21 182.88 0)
+		(at 38.1 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9204,7 +9124,7 @@
 		)
 		(uuid "47ff38e0-f9c2-4286-9f34-52fd3f0c8f96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.0766 182.88 0)
+			(at 53.9666 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,7 +9234,7 @@
 	)
 	(global_label "MAG_UART_TX"
 		(shape input)
-		(at 29.21 180.34 0)
+		(at 38.1 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9324,7 +9244,7 @@
 		)
 		(uuid "5df9b64f-8456-41ae-bfa1-1921ade795de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7742 180.34 0)
+			(at 53.6642 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,7 +9498,7 @@
 	)
 	(global_label "DBG_TX"
 		(shape input)
-		(at 181.61 104.14 180)
+		(at 175.26 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9588,7 +9508,7 @@
 		)
 		(uuid "8de1af09-aae3-4198-bc5e-16a688b91f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6701 104.14 0)
+			(at 165.3201 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10342,7 +10262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01bb002c-966d-493d-90a7-870bce0b1685")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 156.21 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -10402,7 +10322,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10657,7 +10577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09cb8430-b21c-4bac-abfb-62af4fe98708")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 251.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10717,7 +10637,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a3025e4-85cf-4f1f-bd73-c40e1a73384a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 140.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10794,7 +10714,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11208,7 +11128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181131df-a0d8-4ebc-a585-5de5228c892c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 99.06 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11268,7 +11188,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11285,7 +11205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19c5e6db-3e3a-4f45-a87e-e1a1369827a9")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 163.83 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -11345,7 +11265,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -11363,7 +11283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cd651ab-1efc-48d8-bbfc-39fb1e948ed9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11423,7 +11343,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11440,7 +11360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1de8ead3-00be-40f7-bf9f-4bab942eadfa")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 64.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11500,7 +11420,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11518,7 +11438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202d562e-b3ef-4f76-a054-0565112640b7")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 21.59 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11578,7 +11498,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12072,7 +11992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f9acd8d-b6cd-43e6-8ed7-d79e5634616a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 140.97 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12132,7 +12052,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -12313,7 +12233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3167f33e-04f6-4b82-80ee-bbd7f2a98ea5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 16.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12373,7 +12293,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12451,84 +12371,6 @@
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3321b1fa-d82d-49f1-a41c-4d1635c02113")
-		(property "Reference" "#PWR016"
-			(at 35.56 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4bca281-970f-43f7-834c-80dcf50844df")
-		)
-		(instances
-			(project "keyhalld-addon"
-				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12965,7 +12807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "427ff57a-37e2-4a84-94ed-46f4d13a6fc3")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13025,7 +12867,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13121,7 +12963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4587fd75-3405-4f4e-bba8-e77aa68db9c5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 162.56 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13182,7 +13024,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13596,7 +13438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52bf0aeb-1449-41c1-a597-9e119c1f1343")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13656,7 +13498,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13832,7 +13674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "555e10d9-54bf-41dc-9410-ed5f3076a424")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -13893,7 +13735,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14074,7 +13916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a33924-77c4-4739-b457-f290c44438e7")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14134,7 +13976,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -14468,7 +14310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "603d5e20-674e-459b-86f3-49987125968d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 64.77 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14528,7 +14370,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14704,7 +14546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6aaa1c50-882f-4b3b-b191-7c52a4cf2d16")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 102.87 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14764,7 +14606,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14781,7 +14623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6af7941e-9066-47b0-a3a0-540cb66067eb")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 116.84 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14841,7 +14683,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -15478,7 +15320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "722f699f-c208-4ba2-b6ff-ba2582b5bc80")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15539,7 +15381,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16031,7 +15873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f416361-3413-485e-85e4-9c0d92d63b0a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 33.02 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16091,7 +15933,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -16108,7 +15950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82b27d07-e2b7-4207-9c69-86e337c16816")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 115.57 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16168,7 +16010,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16341,7 +16183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cdc0cfd-9f26-4a21-b160-33a00bca5285")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 90.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16401,7 +16243,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16418,7 +16260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e7396e0-8b2e-4878-bc51-2965e4ef8dc7")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16478,7 +16320,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16496,7 +16338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe94067-6357-4860-8f5e-942996d516c1")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 33.02 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16556,7 +16398,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16574,7 +16416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912a5925-3a09-4103-831d-a06a2109d6e3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 72.39 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16634,7 +16476,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16652,7 +16494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9569e4a4-ae5d-4110-bb5e-dbf78f8ae9e2")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 44.45 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16712,7 +16554,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -16729,7 +16571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9739f2bd-cb76-466b-b874-f46a0d5606fa")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 35.56 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16789,99 +16631,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 24.13 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a011d93-b0b5-4349-8a29-38fa95fee318")
-		(property "Reference" "J1"
-			(at 24.765 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 24.765 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
-			(at 24.13 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 24.13 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f9e277c-4a86-4e32-83ab-e9831af3a625")
-		)
-		(pin "6"
-			(uuid "869c94e0-3963-4da6-851e-611436899e35")
-		)
-		(pin "4"
-			(uuid "42764c3a-9897-4262-b95d-e795226a4145")
-		)
-		(pin "3"
-			(uuid "4c9665c5-b2af-4381-a643-d7957a64f41a")
-		)
-		(pin "2"
-			(uuid "59e4213a-a1eb-414e-be23-737cf554dca9")
-		)
-		(pin "5"
-			(uuid "87e3ed55-87e8-4f07-97d9-1640f31fe47c")
-		)
-		(instances
-			(project "keyhalld-addon"
-				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "J1")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16898,7 +16648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e422d68-429a-429a-ba75-dd22918d4130")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 90.17 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16958,7 +16708,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16976,7 +16726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03ffa25-8e27-4622-82a7-bcc14e5c4652")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 77.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17036,7 +16786,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17150,7 +16900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a51f4a-37b2-4435-b697-1015657b969b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 153.67 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17210,7 +16960,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17567,7 +17317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abaae011-9d2e-4275-a842-9c29c3972a5f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 248.92 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17628,7 +17378,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17646,7 +17396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd2b7a6-fda7-4c01-816e-f2d16c02b385")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 187.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17707,7 +17457,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17964,7 +17714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0f23510-276b-47a9-8555-8640a863b194")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 214.63 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18024,7 +17774,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18121,7 +17871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c47f55-193b-499a-8b52-f6e24d342294")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 248.92 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -18182,7 +17932,96 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR043")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 24.13 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e5df14-a712-4ee0-a481-c5e58887b807")
+		(property "Reference" "J1"
+			(at 24.13 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 24.13 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
+			(at 24.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f82691b4-2c66-4e5e-8300-8d110af90c57")
+		)
+		(pin "5"
+			(uuid "9eaed4ce-3a1c-4f2d-b56a-6396faf5870f")
+		)
+		(pin "4"
+			(uuid "57364e6a-82ac-48cb-8b0b-aa93b08cdffe")
+		)
+		(pin "3"
+			(uuid "f16dfb4b-cddc-4475-8218-408b79b927a5")
+		)
+		(pin "2"
+			(uuid "7685e3bc-9f25-4f1f-86a0-38dc8634c1fa")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -18358,7 +18197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba25c868-d9eb-4044-8dc3-fd1b2025c6c7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 199.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18418,7 +18257,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18435,7 +18274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba69783f-25eb-42e9-a223-4dd00ee7a9dc")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 210.82 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18495,7 +18334,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -18592,7 +18431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc0a2944-cf59-4154-a311-401349ae7534")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR065"
 			(at 171.45 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18652,7 +18491,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR093")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -18755,7 +18594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc8e04b6-fbd0-4ecb-a3dc-92fc0d2b3ade")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 111.76 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18815,7 +18654,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -18832,7 +18671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2f99a02-3543-4b77-a29d-a0d2c5c0f432")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 115.57 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18892,7 +18731,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18990,7 +18829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3dd66b2-6aad-4e64-a127-a1b4d70fd22b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19050,7 +18889,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -19068,7 +18907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c605dc63-3cee-4f81-8705-fdbf91642bf2")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19128,7 +18967,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -19383,7 +19222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccce4890-de7a-4c4c-9ce8-93b8475580b7")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 128.27 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19443,7 +19282,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -19618,7 +19457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d086b8ea-32ff-4a7b-b302-f9d5d2a782dd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 248.92 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -19679,7 +19518,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -19696,7 +19535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0d5dcf7-3e6e-43a7-aef5-e9ceb24db8cf")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19756,7 +19595,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -19787,6 +19626,7 @@
 		)
 		(property "Value" "PWR_FLAG"
 			(at 36.83 186.6899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20215,7 +20055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da3a19b2-f78d-4edf-8249-09e5542f3745")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 148.59 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -20275,7 +20115,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -20293,7 +20133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd37535-a203-43c5-b8cf-684c935498c4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 111.76 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20353,7 +20193,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -20922,7 +20762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63cfda4-375a-48d9-8ecf-12253cfd10d4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 248.92 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20983,7 +20823,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -21158,7 +20998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec1b5507-451c-402f-a523-e2d460bf71cf")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 102.87 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21218,7 +21058,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21666,7 +21506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5e295cb-8ddd-46a1-aaca-93c19ab045b8")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 93.98 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -21726,7 +21566,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -21979,7 +21819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc866564-3822-41b3-b85d-566b25064fe3")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 218.44 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -22039,7 +21879,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
