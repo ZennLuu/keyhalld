@@ -5,6 +5,161 @@
 	(uuid "4fb4ba84-692e-4e34-b845-8eee811e706f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:WS2812B-2020"
 			(pin_names
 				(offset 0.254)
@@ -531,9 +686,83 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ede4b27-46c5-404f-9b04-9f8472f5e806")
+	)
+	(junction
+		(at 76.2 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "307d7277-f685-4dcc-9a8c-a48c9b89f18c")
+	)
+	(junction
+		(at 101.6 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c280556-3613-46cd-b357-218722d331c3")
+	)
+	(junction
+		(at 50.8 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47bd176c-4832-4a81-81da-10e874faf64e")
+	)
+	(junction
+		(at 127 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bc4ed56-16fb-436e-a839-7cc73c222e2c")
+	)
+	(junction
+		(at 127 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a40131f-c419-4850-b147-5fe2f6a205cf")
+	)
+	(junction
+		(at 76.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821858b9-c1d9-48d8-b5b6-82835b3faedc")
+	)
+	(junction
+		(at 101.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b516af65-2b62-4cc7-b849-68729db1e700")
+	)
+	(junction
+		(at 152.4 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd87f8f8-9364-4407-b01e-274db97e2157")
+	)
 	(no_connect
-		(at 160.02 63.5)
+		(at 160.02 67.31)
 		(uuid "458f96c6-30d5-4c83-a3d9-88eff4c57181")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01741658-8ea6-4bc7-8a83-4a4322c7b9df")
+	)
+	(wire
+		(pts
+			(xy 127 27.94) (xy 127 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127fae30-e618-436d-94f0-46e06db5430b")
 	)
 	(wire
 		(pts
@@ -547,7 +776,67 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 63.5) (xy 144.78 63.5)
+			(xy 152.4 58.42) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23acc3db-a159-4e57-9790-a304796dd1fc")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 92.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274abf51-792e-4247-a9e1-9b4f32dea1b3")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287bdd19-9d6b-46cd-b65a-594ead7cfb10")
+	)
+	(wire
+		(pts
+			(xy 50.8 29.21) (xy 50.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2975b19d-0b9b-4e2a-8a7b-88da32d626d8")
+	)
+	(wire
+		(pts
+			(xy 143.51 29.21) (xy 144.78 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d40e1df-dd68-4db3-9e6f-2392fda58ec6")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df5b2d7-3269-4aeb-a021-9249dead7f09")
+	)
+	(wire
+		(pts
+			(xy 134.62 67.31) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
@@ -567,6 +856,36 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 29.21) (xy 68.58 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35407f33-ca33-415b-9dc2-72fb5c9ca122")
+	)
+	(wire
+		(pts
+			(xy 152.4 27.94) (xy 152.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fec485c-a10d-4857-becc-be5b20fbe08e")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ae297d-88ae-4284-8e61-385cdd77175b")
+	)
+	(wire
+		(pts
 			(xy 58.42 38.1) (xy 68.58 38.1)
 		)
 		(stroke
@@ -574,6 +893,46 @@
 			(type default)
 		)
 		(uuid "4858082c-84dc-47ed-b6b0-e564ee5aca61")
+	)
+	(wire
+		(pts
+			(xy 41.91 30.48) (xy 41.91 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488f6c92-ae20-4545-b5e2-116e230f8b2a")
+	)
+	(wire
+		(pts
+			(xy 67.31 59.69) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d06193f-f9d4-4d63-b1e8-eee0df57bbb4")
+	)
+	(wire
+		(pts
+			(xy 92.71 30.48) (xy 92.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503dfea4-0613-4e0d-93bb-b6f4f50a889c")
+	)
+	(wire
+		(pts
+			(xy 92.71 29.21) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5948b356-27a0-4c0d-9613-9d14cdf234f6")
 	)
 	(wire
 		(pts
@@ -587,7 +946,37 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 68.58 50.8)
+			(xy 67.31 30.48) (xy 67.31 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa4e3d6-ed88-430b-8de9-2e06c7e6a53b")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679c0f15-f01d-4741-b152-bf28157aed1c")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2b7dc3-2343-4fc9-bdf5-f5e90cdc0f26")
+	)
+	(wire
+		(pts
+			(xy 160.02 52.07) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0)
@@ -597,13 +986,33 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 93.98 63.5)
+			(xy 118.11 29.21) (xy 119.38 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7452953d-c339-4029-b3ec-8d3258bdcf5e")
+	)
+	(wire
+		(pts
+			(xy 83.82 67.31) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b363002-cea8-4542-9a33-4405ca851c4b")
+	)
+	(wire
+		(pts
+			(xy 76.2 29.21) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ff5666-f18f-471d-8b22-15336f80c687")
 	)
 	(wire
 		(pts
@@ -617,7 +1026,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 38.1) (xy 160.02 50.8)
+			(xy 118.11 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae545589-e0ec-41ea-ae04-551b0c511198")
+	)
+	(wire
+		(pts
+			(xy 160.02 38.1) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +1046,107 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 119.38 63.5)
+			(xy 143.51 58.42) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52e101f-73f0-40e9-9be3-d631cb9d00b7")
+	)
+	(wire
+		(pts
+			(xy 101.6 58.42) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cf900d-53b7-4a03-9772-948343a2554d")
+	)
+	(wire
+		(pts
+			(xy 76.2 57.15) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b953f25a-8b52-4828-a1b0-dcbdb02560a4")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 143.51 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b963ee99-abbd-404e-9a9d-05fde68dc4d2")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbde06d2-29ab-4dc2-bc3d-58b78aadb0ea")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c175d40a-c204-46fa-b371-7fbbacb61e7d")
+	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c350c82e-16eb-4a19-9dc3-4e058a6e08ac")
+	)
+	(wire
+		(pts
+			(xy 101.6 29.21) (xy 101.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3673d7f-daa0-4c31-aa86-5b6934124f4a")
+	)
+	(wire
+		(pts
+			(xy 41.91 29.21) (xy 43.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4810496-347f-4de6-b742-3bff080b44e5")
+	)
+	(wire
+		(pts
+			(xy 152.4 29.21) (xy 152.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a290ed-ac09-49e4-a0fc-69cbb50231c6")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 119.38 67.31)
 		)
 		(stroke
 			(width 0)
@@ -637,13 +1156,73 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 50.8) (xy 68.58 63.5)
+			(xy 143.51 59.69) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafdc2f0-6c1c-4731-9177-93d27a55c65a")
+	)
+	(wire
+		(pts
+			(xy 118.11 30.48) (xy 118.11 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d283e089-adaf-4016-a53f-6be710c1c9d8")
+	)
+	(wire
+		(pts
+			(xy 127 29.21) (xy 127 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ecad8f-d239-4fe7-8acd-d53869ea4168")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd37d749-daa7-43d9-8dce-ba218ea5058a")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8abcbd-8e8a-4b3f-ad9c-29c61f3b3e6e")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "faa59ad4-a41b-4a30-8aa9-4f540164aa72")
+	)
+	(wire
+		(pts
+			(xy 101.6 27.94) (xy 101.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe189d81-91fd-4a8a-bcfc-f4a6c8f25276")
 	)
 	(global_label "WS_LED"
 		(shape input)
@@ -671,7 +1250,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 127 71.12 0)
+		(at 127 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -680,8 +1259,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e16c68f-0162-4e8b-b83c-ff75462ad39a")
-		(property "Reference" "#PWR082"
-			(at 127 77.47 0)
+		(property "Reference" "#PWR091"
+			(at 127 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -692,7 +1271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 74.93 0)
+			(at 127 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -702,7 +1281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 71.12 0)
+			(at 127 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -713,7 +1292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 71.12 0)
+			(at 127 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -724,7 +1303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 127 71.12 0)
+			(at 127 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -740,15 +1319,15 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR082")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 55.88 0)
+		(lib_id "Device:C")
+		(at 97.79 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -756,10 +1335,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "14ae33c5-fc6d-4946-b078-bbba58d524d5")
-		(property "Reference" "#PWR079"
-			(at 152.4 59.69 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "13106e0f-b56f-4655-a661-d5cdeb5593a8")
+		(property "Reference" "C19"
+			(at 97.79 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -768,8 +1347,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 152.4 52.07 0)
+		(property "Value" "100n"
+			(at 97.79 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -778,8 +1357,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 28.2448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -790,7 +1369,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 55.88 0)
+			(at 97.79 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28dca7c8-0318-411b-ac95-dd4af4f41ff4")
+		)
+		(pin "2"
+			(uuid "c9287558-bb53-4d82-aabb-ff8a74e6b4d1")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14ae33c5-fc6d-4946-b078-bbba58d524d5")
+		(property "Reference" "#PWR084"
+			(at 152.4 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -801,7 +1460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 55.88 0)
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -817,7 +1476,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR079")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -844,8 +1503,8 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020 STATUS"
-			(at 60.96 29.464 0)
+		(property "Value" "STATUS"
+			(at 57.15 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1086,7 +1745,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 127 63.5 0)
+		(at 127 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1096,7 +1755,7 @@
 		(dnp no)
 		(uuid "191b14ac-a724-4eba-8ad9-582e5868f944")
 		(property "Reference" "D10"
-			(at 131.064 56.896 0)
+			(at 131.064 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1106,7 +1765,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 137.16 54.864 0)
+			(at 137.16 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1116,7 +1775,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 128.27 71.12 0)
+			(at 128.27 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,7 +1787,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 129.54 73.025 0)
+			(at 129.54 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1799,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 127 63.5 0)
+			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1172,8 +1831,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 55.88 0)
+		(lib_id "Device:C")
+		(at 148.59 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1181,10 +1840,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1ae6a411-75f4-4745-bb8f-263d0688f373")
-		(property "Reference" "#PWR076"
-			(at 76.2 59.69 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "1ae4502f-4e83-4047-83ee-cae47dfa65d7")
+		(property "Reference" "C21"
+			(at 148.59 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1193,8 +1852,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 76.2 52.07 0)
+		(property "Value" "100n"
+			(at 148.59 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1203,8 +1862,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 152.4 28.2448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1215,7 +1874,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 55.88 0)
+			(at 148.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50efc17c-3c65-401c-8e12-0575296dde5d")
+		)
+		(pin "2"
+			(uuid "34a9e283-1e01-4a48-bd22-7b19ae747717")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ae6a411-75f4-4745-bb8f-263d0688f373")
+		(property "Reference" "#PWR081"
+			(at 76.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 76.2 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1226,7 +1965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 55.88 0)
+			(at 76.2 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1242,7 +1981,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR076")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -1250,7 +1989,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 101.6 71.12 0)
+		(at 101.6 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1259,8 +1998,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e237016-23a0-4ab3-befb-9634210ae967")
-		(property "Reference" "#PWR081"
-			(at 101.6 77.47 0)
+		(property "Reference" "#PWR090"
+			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,7 +2010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 74.93 0)
+			(at 101.6 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1281,7 +2020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 71.12 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +2031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 71.12 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1303,7 +2042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 101.6 71.12 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,7 +2058,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR081")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1327,7 +2066,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 152.4 71.12 0)
+		(at 152.4 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1336,8 +2075,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2436e371-b580-4c28-9879-ff08f1c9dc6c")
-		(property "Reference" "#PWR083"
-			(at 152.4 77.47 0)
+		(property "Reference" "#PWR092"
+			(at 152.4 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +2087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 74.93 0)
+			(at 152.4 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1358,7 +2097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 71.12 0)
+			(at 152.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,7 +2108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 71.12 0)
+			(at 152.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1380,7 +2119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 152.4 71.12 0)
+			(at 152.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1396,7 +2135,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR083")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -1404,7 +2143,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 76.2 30.48 0)
+		(at 76.2 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1414,7 +2153,7 @@
 		(dnp no)
 		(uuid "29ae9154-b83b-4a2b-ac34-c4249a2599e7")
 		(property "Reference" "#PWR067"
-			(at 76.2 34.29 0)
+			(at 76.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1425,7 +2164,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 76.2 26.67 0)
+			(at 76.2 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1435,7 +2174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 30.48 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1446,7 +2185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 30.48 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1457,7 +2196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 30.48 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +2220,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 127 30.48 0)
+		(at 127 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1491,7 +2230,7 @@
 		(dnp no)
 		(uuid "35ec55f3-3afd-450b-a8d4-9106066e5e0a")
 		(property "Reference" "#PWR069"
-			(at 127 34.29 0)
+			(at 127 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,7 +2241,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127 26.67 0)
+			(at 127 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1512,7 +2251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 30.48 0)
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +2262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 30.48 0)
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +2273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 30.48 0)
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,6 +2297,83 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 118.11 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49918bdd-7b66-49d6-b988-b852a979bce2")
+		(property "Reference" "#PWR087"
+			(at 118.11 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 118.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0cdea9f-e5c8-468f-a84f-664e0086eed5")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 76.2 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -1567,7 +2383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b268139-c647-4a4d-b53b-c431ca398b3f")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR077"
 			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1627,15 +2443,15 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR072")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 30.48 0)
+		(lib_id "Device:C")
+		(at 148.59 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1643,10 +2459,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4d786c8c-7ca6-4871-a15c-4d659aac7706")
-		(property "Reference" "#PWR070"
-			(at 152.4 34.29 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "4b31ef95-5b34-484f-8a4d-ad32669f9fd1")
+		(property "Reference" "C25"
+			(at 148.59 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1655,8 +2471,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 152.4 26.67 0)
+		(property "Value" "100n"
+			(at 148.59 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1665,8 +2481,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 30.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 152.4 57.4548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1677,7 +2493,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 30.48 0)
+			(at 148.59 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2effd329-64d6-4b5f-af1b-c1aafb7a73b5")
+		)
+		(pin "2"
+			(uuid "afcd2870-53b8-41d4-8eb7-60af74a4c432")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d786c8c-7ca6-4871-a15c-4d659aac7706")
+		(property "Reference" "#PWR070"
+			(at 152.4 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1688,7 +2584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 30.48 0)
+			(at 152.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,8 +2607,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 30.48 0)
+		(lib_id "Device:C")
+		(at 123.19 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1720,10 +2616,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "591b9cb6-1971-40be-864a-24086f9c7fbb")
-		(property "Reference" "#PWR068"
-			(at 101.6 34.29 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "57db2e54-aa00-4fb2-8e18-72c884c13517")
+		(property "Reference" "C20"
+			(at 123.19 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1732,8 +2628,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 101.6 26.67 0)
+		(property "Value" "100n"
+			(at 123.19 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1742,8 +2638,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 30.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 28.2448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1754,7 +2650,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 30.48 0)
+			(at 123.19 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfff5c6f-dd51-4eb3-9cca-417cfd58551d")
+		)
+		(pin "2"
+			(uuid "3a955e33-f018-4b67-84e4-ece17e12f3a8")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "591b9cb6-1971-40be-864a-24086f9c7fbb")
+		(property "Reference" "#PWR068"
+			(at 101.6 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1765,7 +2741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 30.48 0)
+			(at 101.6 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,8 +2764,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 127 55.88 0)
+		(lib_id "power:GNDA")
+		(at 67.31 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1797,9 +2773,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6550a7e2-00d9-4661-969a-bab25878cd87")
-		(property "Reference" "#PWR078"
-			(at 127 59.69 0)
+		(uuid "5f2d7fe0-03f4-45e3-ab20-db3a60cb5aa7")
+		(property "Reference" "#PWR072"
+			(at 67.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,8 +2785,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 127 52.07 0)
+		(property "Value" "GND"
+			(at 67.31 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1820,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 55.88 0)
+			(at 67.31 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1831,7 +2807,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 55.88 0)
+			(at 67.31 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 67.31 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "706bdc73-7e25-4923-822e-f90715bb0c75")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f312a5a-27d4-496a-b943-a8c7aa075ffd")
+		(property "Reference" "C23"
+			(at 97.79 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 97.79 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 57.4548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8de310c9-6a81-4263-831a-282e9758b445")
+		)
+		(pin "2"
+			(uuid "c6f71eb8-cfe7-4d11-96f5-34bb83eb6d06")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6550a7e2-00d9-4661-969a-bab25878cd87")
+		(property "Reference" "#PWR083"
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1842,7 +2975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 55.88 0)
+			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +2991,87 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR078")
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7345b5b5-35ac-4721-b29a-c91d8fea1a8f")
+		(property "Reference" "C18"
+			(at 72.39 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 72.39 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 28.2448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6aa5ea8e-9566-4102-9f47-ffc93f1ab8a5")
+		)
+		(pin "2"
+			(uuid "53a8b7a2-d8ef-4fcb-be1a-e8a441379550")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1952,8 +3165,242 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 123.19 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db17acd-6e81-46c0-a479-03adcb55a91f")
+		(property "Reference" "C24"
+			(at 123.19 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 123.19 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 57.4548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0923134-cd56-406e-8019-75ef279ab6b5")
+		)
+		(pin "2"
+			(uuid "b733fb96-1539-4a27-9c06-2b1ae8fe0454")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 143.51 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94afc449-b902-4f9c-856c-88a5f9125173")
+		(property "Reference" "#PWR088"
+			(at 143.51 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 143.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8492c19b-90f1-4cf5-b6ed-c6cfb2a77b88")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 41.91 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "966e23d0-19e8-4cdc-a4d2-b284ef3cb545")
+		(property "Reference" "#PWR071"
+			(at 41.91 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 41.91 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c16cebf-e42d-4ef7-bed8-aac529697345")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 152.4 63.5 0)
+		(at 152.4 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1963,7 +3410,7 @@
 		(dnp no)
 		(uuid "9834b0db-14ba-443e-a0c6-0b8d6a0490d7")
 		(property "Reference" "D11"
-			(at 156.464 56.896 0)
+			(at 156.464 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1973,7 +3420,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 162.56 54.864 0)
+			(at 162.56 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1983,7 +3430,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 153.67 71.12 0)
+			(at 153.67 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1995,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 154.94 73.025 0)
+			(at 154.94 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,7 +3454,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 152.4 63.5 0)
+			(at 152.4 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2040,7 +3487,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 76.2 71.12 0)
+		(at 92.71 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2048,9 +3495,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a247c5da-ea84-4449-8741-07839e92e632")
-		(property "Reference" "#PWR080"
-			(at 76.2 77.47 0)
+		(uuid "9cba6d7b-1570-40d6-baf2-54fd3f59dca1")
+		(property "Reference" "#PWR086"
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2061,7 +3508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 74.93 0)
+			(at 92.71 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2071,7 +3518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 71.12 0)
+			(at 92.71 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +3529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 71.12 0)
+			(at 92.71 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,7 +3540,84 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 76.2 71.12 0)
+			(at 92.71 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8f36601-36ec-4ecc-9c43-c27575354ce6")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 76.2 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a247c5da-ea84-4449-8741-07839e92e632")
+		(property "Reference" "#PWR089"
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 76.2 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2109,7 +3633,238 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR080")
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 143.51 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3e346ef-d011-4ca9-9394-0cd519fd813e")
+		(property "Reference" "#PWR075"
+			(at 143.51 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 143.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f92d0904-718a-455f-892e-1d330801c368")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 92.71 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad59b933-9d76-4396-8b68-9d1fbd0ccf0a")
+		(property "Reference" "#PWR073"
+			(at 92.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ad1bb17-e73c-4985-b20a-6a9f3159ad09")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 67.31 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4cc8db4-e2c8-436a-b349-9985eda196ca")
+		(property "Reference" "#PWR085"
+			(at 67.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 67.31 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf322950-4ff6-4dbc-88b5-9adbb7dce59a")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2126,7 +3881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4e33dbe-a621-46b6-8345-985785eb25f1")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR078"
 			(at 101.6 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2186,7 +3941,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR073")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2194,7 +3949,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 76.2 63.5 0)
+		(at 76.2 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2204,7 +3959,7 @@
 		(dnp no)
 		(uuid "becec462-46e2-4b2f-8c52-b1c479de3697")
 		(property "Reference" "D8"
-			(at 80.264 56.896 0)
+			(at 80.264 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2214,7 +3969,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 86.36 54.864 0)
+			(at 86.36 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2224,7 +3979,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 77.47 71.12 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2236,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 78.74 73.025 0)
+			(at 78.74 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +4003,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 76.2 63.5 0)
+			(at 76.2 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,7 +4036,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 101.6 63.5 0)
+		(at 101.6 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2291,7 +4046,7 @@
 		(dnp no)
 		(uuid "c5813fff-d313-4a8d-bbbe-56c945c61b7d")
 		(property "Reference" "D9"
-			(at 105.664 56.896 0)
+			(at 105.664 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2301,7 +4056,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 111.76 54.864 0)
+			(at 111.76 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2311,7 +4066,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 102.87 71.12 0)
+			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +4078,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 104.14 73.025 0)
+			(at 104.14 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +4090,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 101.6 63.5 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +4132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd9d8989-080b-401a-9a61-f1e372bf87ff")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR079"
 			(at 127 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2437,7 +4192,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR074")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2454,7 +4209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3e6c7e7-793b-40d3-a6e5-221e74e1b04e")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR080"
 			(at 152.4 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2514,7 +4269,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR075")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2522,7 +4277,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 30.48 0)
+		(at 50.8 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2532,7 +4287,7 @@
 		(dnp no)
 		(uuid "d8b2352c-3136-4fca-817c-deb7fa4bdbc7")
 		(property "Reference" "#PWR066"
-			(at 50.8 34.29 0)
+			(at 50.8 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +4298,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 26.67 0)
+			(at 50.8 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2553,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 30.48 0)
+			(at 50.8 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 30.48 0)
+			(at 50.8 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,7 +4330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 30.48 0)
+			(at 50.8 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,8 +4440,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 55.88 0)
+		(lib_id "Device:C")
+		(at 46.99 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2694,10 +4449,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f946427a-1551-44e1-aab6-6edd6953ea5d")
-		(property "Reference" "#PWR077"
-			(at 101.6 59.69 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "ee598f1f-b63e-40d2-89fa-64c8ab87031f")
+		(property "Reference" "C17"
+			(at 46.99 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2706,8 +4461,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 101.6 52.07 0)
+		(property "Value" "100n"
+			(at 46.99 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2716,8 +4471,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 50.8 28.2448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2728,7 +4483,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 55.88 0)
+			(at 46.99 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10b0f4b2-afed-4991-a4b6-bfdd9c528b7e")
+		)
+		(pin "2"
+			(uuid "4deb4ead-cb3c-430f-9768-bdc5099944fe")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 118.11 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f726e11c-6b75-4cfb-9601-177ddc6d3e4c")
+		(property "Reference" "#PWR074"
+			(at 118.11 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0766cfcc-c66c-4ce4-a231-02a8efa90388")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f946427a-1551-44e1-aab6-6edd6953ea5d")
+		(property "Reference" "#PWR082"
+			(at 101.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,7 +4651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 55.88 0)
+			(at 101.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +4667,7 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR077")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2772,7 +4684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb45e306-0c99-4223-84a0-d19fb44e71de")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR076"
 			(at 50.8 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2832,7 +4744,87 @@
 		(instances
 			(project "keyhalld-addon"
 				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
-					(reference "#PWR071")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec04841-c532-48a1-a0cd-8c6b7d3c67e6")
+		(property "Reference" "C22"
+			(at 72.39 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 72.39 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 57.4548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "605bc05d-ba3b-4fb1-9541-072c84579853")
+		)
+		(pin "2"
+			(uuid "1b87475a-f38f-46a6-baab-6de627772e31")
+		)
+		(instances
+			(project "keyhalld-addon"
+				(path "/a8efb6d5-6c80-4ac0-bb97-11d91837bb7f/e1a21125-a3c8-4eef-bc5c-e0f48eefb943"
+					(reference "C22")
 					(unit 1)
 				)
 			)
