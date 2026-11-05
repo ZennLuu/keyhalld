@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.8,
-          "width": 2.0
+          "height": 1.15,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -55,11 +55,11 @@
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
-          "hatch_gap": 1.5,
+          "hatch_gap": 1.0,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
+          "hatch_thickness": 0.5,
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|180450000|61005000|27d8564a-c882-417e-9e08-6d1856ef456e|fb5d075a-4bd8-4e6e-9c84-ff6e3306b666",
+          ""
+        ],
+        [
+          "hole_clearance|180450000|61005000|793ff0e9-1ac7-4231-b00d-e18439a4891b|fb5d075a-4bd8-4e6e-9c84-ff6e3306b666",
+          ""
+        ],
+        [
+          "hole_clearance|186550000|61005000|241308b7-abb9-43c4-b8b4-b01175cbe854|93ef0449-a3ca-4695-bfec-c99282cf5f1b",
+          ""
+        ],
+        [
+          "hole_clearance|186550000|61005000|46a989a6-7aaf-4a4c-99d9-5b7bca7d2563|93ef0449-a3ca-4695-bfec-c99282cf5f1b",
+          ""
+        ],
+        [
+          "via_dangling|380250000|70500000|e700900b-ae97-4fdb-a683-fc8219721b72|00000000-0000-0000-0000-000000000000",
+          "vlad"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +107,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -121,7 +142,7 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -159,7 +180,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -213,7 +234,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -545,7 +569,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -556,7 +580,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -585,7 +609,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -843,7 +867,7 @@
         "uuid": "0a77fffd-b262-4806-b5de-d37b7b26dc4f"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR1-106,C1-51,D1,H1-5,J1-4,L1-2,R1-12,SW1-20,U1-26,X1,Y1-2",
+    "used_designators": "#FLG1-5,#PWR1-106,C1-51,D1-2,H1-8,J1-4,L1-2,R1-12,SW1-20,TP1-2,U1-26,X1,Y1-2",
     "variants": []
   },
   "sheets": [
