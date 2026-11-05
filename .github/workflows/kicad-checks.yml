@@ -104,10 +104,10 @@ jobs:
         if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
           mkdir -p models
-          # Omit soldermask faces so the exported copper remains visible.
           kicad-cli pcb export step \
             --subst-models \
-            --include-silkscreen \
+            --include-silkscreen --include-soldermask \
+            --include-inner-copper \
             --include-tracks --include-pads --include-zones \
             --output models/keyhalld.step \
             keyhalld/keyhalld.kicad_pcb
@@ -118,7 +118,8 @@ jobs:
           mkdir -p models
           kicad-cli pcb export step \
             --subst-models \
-            --include-silkscreen \
+            --include-silkscreen --include-soldermask \
+            --include-inner-copper \
             --include-tracks --include-pads --include-zones \
             --output models/keyhalld-addon.step \
             keyhalld-addon/keyhalld-addon.kicad_pcb
@@ -129,6 +130,39 @@ jobs:
         with:
           name: kicad-pcb-step-models
           path: models/*.step
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Export Main PCB GLB model
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: |
+          mkdir -p models
+          kicad-cli pcb export glb \
+            --subst-models \
+            --include-silkscreen --include-soldermask \
+            --include-inner-copper \
+            --include-tracks --include-pads --include-zones \
+            --output models/keyhalld.glb \
+            keyhalld/keyhalld.kicad_pcb
+
+      - name: Export Addon PCB GLB model
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: |
+          mkdir -p models
+          kicad-cli pcb export glb \
+            --subst-models \
+            --include-silkscreen --include-soldermask \
+            --include-inner-copper \
+            --include-tracks --include-pads --include-zones \
+            --output models/keyhalld-addon.glb \
+            keyhalld-addon/keyhalld-addon.kicad_pcb
+
+      - name: Upload PCB GLB models
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-pcb-glb-models
+          path: models/*.glb
           if-no-files-found: error
           retention-days: 14
 
