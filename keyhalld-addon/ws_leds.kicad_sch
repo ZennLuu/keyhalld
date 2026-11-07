@@ -1513,7 +1513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1600,7 +1600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 128.27 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1687,7 +1687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1774,7 +1774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 128.27 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3108,7 +3108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 153.67 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3429,7 +3429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 153.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3978,7 +3978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4065,7 +4065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4383,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 77.47 45.72 0)
 			(hide yes)
 			(show_name no)

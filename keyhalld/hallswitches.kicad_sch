@@ -164,6 +164,115 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:SW_Hall"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW_Hall"
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Hall_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Magnetic:DRV5055A4xDBZxQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -304,170 +413,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -970,150 +915,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc90a6d8-679c-41d0-94fa-96e05839769a")
-	)
-	(no_connect
-		(at 113.03 76.2)
-		(uuid "080ea727-dc1f-4364-8792-a701fcd4c118")
-	)
-	(no_connect
-		(at 219.71 76.2)
-		(uuid "0d336b0c-4dcc-48a5-9e60-1192372c2a9d")
-	)
-	(no_connect
-		(at 182.88 76.2)
-		(uuid "1f55ad55-820b-422a-884f-e34fc31d5a1e")
-	)
-	(no_connect
-		(at 59.69 76.2)
-		(uuid "20792840-b231-4c86-ab27-9494fbdca5ca")
-	)
-	(no_connect
-		(at 33.02 25.4)
-		(uuid "23e88aa5-e6aa-4490-9a7b-5337515d71cb")
-	)
-	(no_connect
-		(at 129.54 76.2)
-		(uuid "244c91f3-d277-4f5d-8c3f-cbb7755ee90c")
-	)
-	(no_connect
-		(at 166.37 76.2)
-		(uuid "3e5f1dc4-90e5-449c-bce1-7caba35be6ba")
-	)
-	(no_connect
-		(at 76.2 76.2)
-		(uuid "42e7234a-5267-4a82-9fe4-ef20e0a5326e")
-	)
-	(no_connect
-		(at 49.53 25.4)
-		(uuid "43c2d379-d395-4a95-bb35-2a0b42a740cf")
-	)
-	(no_connect
-		(at 193.04 76.2)
-		(uuid "455e809d-aa86-42cf-9288-98205f4bc987")
-	)
-	(no_connect
-		(at 102.87 124.46)
-		(uuid "4d653ca5-0dc0-479c-bb53-f9083a897029")
-	)
-	(no_connect
-		(at 182.88 124.46)
-		(uuid "4f9e158c-773c-4ebf-bfee-4d4bc282b26b")
-	)
-	(no_connect
-		(at 156.21 76.2)
-		(uuid "57ba3682-cb8c-4b27-8f34-af3e5ef45a61")
-	)
-	(no_connect
-		(at 166.37 124.46)
-		(uuid "58d9edaa-8b30-4a7e-9330-310fb4c8e71d")
-	)
-	(no_connect
-		(at 209.55 76.2)
-		(uuid "598d6482-9c34-4411-b045-968e3cf82db6")
-	)
-	(no_connect
-		(at 139.7 124.46)
-		(uuid "6b27bbe5-fb19-4bc3-94a0-ec517299a64a")
-	)
-	(no_connect
-		(at 86.36 124.46)
-		(uuid "7146e173-1bcc-4cc7-b249-e9bcd3a09c94")
-	)
-	(no_connect
-		(at 193.04 124.46)
-		(uuid "71bd23bb-fa35-4bc7-a72a-b5b1de3d5f1a")
-	)
-	(no_connect
-		(at 22.86 25.4)
-		(uuid "76318a23-b0f6-449a-96ce-059bf4a7fd2e")
-	)
-	(no_connect
-		(at 129.54 124.46)
-		(uuid "7ae7698c-d116-4579-b818-b415fcf9175c")
-	)
-	(no_connect
-		(at 156.21 124.46)
-		(uuid "7e128f37-7952-4abb-85a2-087ad20335af")
-	)
-	(no_connect
-		(at 86.36 76.2)
-		(uuid "8aba78e8-91e9-4fea-b864-4c5003051d32")
-	)
-	(no_connect
-		(at 33.02 76.2)
-		(uuid "a42f0757-ea89-434a-93fd-09617eaa49d6")
-	)
-	(no_connect
-		(at 33.02 124.46)
-		(uuid "a4a03a49-3b04-4516-ba73-5e7ac21fc336")
-	)
-	(no_connect
-		(at 113.03 124.46)
-		(uuid "a6c706ed-ab60-4003-b334-5829e26ec75b")
-	)
-	(no_connect
-		(at 209.55 124.46)
-		(uuid "ac4b8b84-de72-4df1-99ee-afe3b3f1744a")
-	)
-	(no_connect
-		(at 59.69 124.46)
-		(uuid "b63d1412-b3f4-4805-ac82-6dd6bd77d122")
-	)
-	(no_connect
-		(at 22.86 124.46)
-		(uuid "c59f384c-9385-4bd5-82d9-96335b44a6fc")
-	)
-	(no_connect
-		(at 49.53 76.2)
-		(uuid "d15a93df-56f5-4f5d-b37a-799414703c41")
-	)
-	(no_connect
-		(at 22.86 76.2)
-		(uuid "d9a67cb8-3a04-4b19-9abf-3bc1f746e57e")
-	)
-	(no_connect
-		(at 49.53 124.46)
-		(uuid "dc63f56e-1f5a-4ecf-86c2-77978198143d")
-	)
-	(no_connect
-		(at 102.87 76.2)
-		(uuid "ed8b5bb1-be82-4b35-8971-6da477f40b9f")
-	)
-	(no_connect
-		(at 139.7 76.2)
-		(uuid "f1868252-99cc-446b-8004-7a597d0a4c42")
-	)
-	(no_connect
-		(at 59.69 25.4)
-		(uuid "f57adb33-224b-4581-a9ca-b70bb2a6679b")
-	)
-	(no_connect
-		(at 219.71 124.46)
-		(uuid "f5bd407b-43c2-41e9-a23a-052fb3dddb24")
-	)
-	(no_connect
-		(at 76.2 124.46)
-		(uuid "fdfc8870-717e-428d-9a90-049bc2a65852")
 	)
 	(wire
 		(pts
@@ -3221,7 +3022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 27.94 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -3233,27 +3034,29 @@
 		(fields_autoplaced yes)
 		(uuid "04be0b2f-faaa-49d0-b740-28611d7c5169")
 		(property "Reference" "SW5"
-			(at 27.94 68.58 0)
+			(at 31.75 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 27.94 71.12 0)
+			(at 31.75 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 27.94 71.12 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,7 +3067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 71.12 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,12 +3087,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "d03f42eb-4aee-4a65-b142-cc771e829ce9")
-		)
-		(pin "2"
-			(uuid "aad96024-e452-4b4e-a1b0-9fc8bcac2012")
 		)
 		(instances
 			(project "keyhalld"
@@ -3613,7 +3410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 81.28 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -3625,27 +3422,29 @@
 		(fields_autoplaced yes)
 		(uuid "19867be8-8464-461f-8a4b-ecdb9e8addb4")
 		(property "Reference" "SW7"
-			(at 81.28 68.58 0)
+			(at 85.09 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 81.28 71.12 0)
+			(at 85.09 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 81.28 71.12 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 71.12 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,12 +3475,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "c42883ab-7c5b-4694-9548-195f1ee9df28")
-		)
-		(pin "2"
-			(uuid "77884c9a-e300-4598-b1d0-71e461bfe5bc")
 		)
 		(instances
 			(project "keyhalld"
@@ -3934,7 +3727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 54.61 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -3943,30 +3736,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d5dc217-c846-4931-8b64-eaf884758bf3")
 		(property "Reference" "SW4"
-			(at 54.61 17.78 0)
+			(at 58.42 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 54.61 20.32 0)
+			(at 58.42 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 54.61 20.32 0)
+			(at 54.61 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +3771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 20.32 0)
+			(at 54.61 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,12 +3791,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "81e981e3-daba-448a-aab2-0eacf5bc4e78")
-		)
-		(pin "2"
-			(uuid "19298eb7-68bc-491d-9b0d-bcc628e850f7")
 		)
 		(instances
 			(project "keyhalld"
@@ -4566,7 +4354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 107.95 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -4578,27 +4366,29 @@
 		(fields_autoplaced yes)
 		(uuid "3e752f7a-d28f-4443-976d-e262cab0d77a")
 		(property "Reference" "SW8"
-			(at 107.95 68.58 0)
+			(at 111.76 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 107.95 71.12 0)
+			(at 111.76 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 107.95 71.12 0)
+			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 71.12 0)
+			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,12 +4420,6 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "9fa0d472-8483-426c-8766-98b9653c96e6")
-		)
-		(pin "2"
-			(uuid "643c06be-3a97-46c2-a33e-aad6b83f78fc")
-		)
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
@@ -4646,7 +4430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 134.62 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -4658,27 +4442,29 @@
 		(fields_autoplaced yes)
 		(uuid "3fadef92-3f1a-42d2-8e0e-2aa4ce61cd62")
 		(property "Reference" "SW9"
-			(at 134.62 68.58 0)
+			(at 138.43 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 134.62 71.12 0)
+			(at 138.43 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 134.62 71.12 0)
+			(at 134.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 71.12 0)
+			(at 134.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,12 +4495,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "73246079-5c1f-404c-a4a8-4fb89446a40c")
-		)
-		(pin "2"
-			(uuid "e0d73760-417a-4a6f-8401-188e752c9d28")
 		)
 		(instances
 			(project "keyhalld"
@@ -5842,7 +5622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 187.96 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -5854,27 +5634,29 @@
 		(fields_autoplaced yes)
 		(uuid "61cfb45d-cae8-4d89-aa93-9a2c24ceabb5")
 		(property "Reference" "SW11"
-			(at 187.96 68.58 0)
+			(at 191.77 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 187.96 71.12 0)
+			(at 191.77 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 187.96 71.12 0)
+			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 71.12 0)
+			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,12 +5687,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "a86d88cc-a09b-4b6c-9fcc-69301d181fc7")
-		)
-		(pin "2"
-			(uuid "12a68e4d-5e95-41a9-ae3d-cd5e82525a8c")
 		)
 		(instances
 			(project "keyhalld"
@@ -6000,7 +5776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 27.94 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -6009,30 +5785,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6521990e-ebeb-42a5-bad7-661b03e0052d")
 		(property "Reference" "SW3"
-			(at 27.94 17.78 0)
+			(at 31.75 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 27.94 20.32 0)
+			(at 31.75 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 27.94 20.32 0)
+			(at 27.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6043,7 +5820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 20.32 0)
+			(at 27.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,12 +5840,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "4cabb55a-42b4-4891-8892-c3696341c1f2")
-		)
-		(pin "2"
-			(uuid "9d78c032-6dd4-4c3c-aeaa-b5340a2a057a")
 		)
 		(instances
 			(project "keyhalld"
@@ -6159,7 +5930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 187.96 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -6171,27 +5942,29 @@
 		(fields_autoplaced yes)
 		(uuid "68042691-01fb-4e8c-b30a-b5acecb9c896")
 		(property "Reference" "SW19"
-			(at 187.96 116.84 0)
+			(at 191.77 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 187.96 119.38 0)
+			(at 191.77 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 187.96 119.38 0)
+			(at 187.96 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,7 +5975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 119.38 0)
+			(at 187.96 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6222,12 +5995,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "fa9c35d9-31ca-4d6e-b572-ceeccae715d2")
-		)
-		(pin "2"
-			(uuid "872c9c96-4952-44a5-ac0b-a02037741915")
 		)
 		(instances
 			(project "keyhalld"
@@ -6480,7 +6247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 214.63 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -6492,27 +6259,29 @@
 		(fields_autoplaced yes)
 		(uuid "82b9ed6a-8196-4103-ad8a-ca88abc786b2")
 		(property "Reference" "SW12"
-			(at 214.63 68.58 0)
+			(at 218.44 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 214.63 71.12 0)
+			(at 218.44 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 214.63 71.12 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 71.12 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,12 +6312,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "897158b0-e372-47b8-9a3c-efb40a9c8a65")
-		)
-		(pin "2"
-			(uuid "378b22a3-6564-4388-92b6-f75518b06581")
 		)
 		(instances
 			(project "keyhalld"
@@ -6645,7 +6408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 27.94 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -6657,27 +6420,29 @@
 		(fields_autoplaced yes)
 		(uuid "8594754c-4ce9-4204-b2e6-d9bccab6fd1d")
 		(property "Reference" "SW13"
-			(at 27.94 116.84 0)
+			(at 31.75 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 27.94 119.38 0)
+			(at 31.75 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 27.94 119.38 0)
+			(at 27.94 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6688,7 +6453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 119.38 0)
+			(at 27.94 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,12 +6473,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "70424aa7-f303-4602-b70c-efc9173c79a5")
-		)
-		(pin "2"
-			(uuid "58b6c4f2-8f59-4022-9498-9187f2ee77bc")
 		)
 		(instances
 			(project "keyhalld"
@@ -7291,7 +7050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 107.95 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7303,27 +7062,29 @@
 		(fields_autoplaced yes)
 		(uuid "9e5ce257-585d-4ea0-a0aa-b1f5467b920d")
 		(property "Reference" "SW16"
-			(at 107.95 116.84 0)
+			(at 111.76 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 107.95 119.38 0)
+			(at 111.76 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 107.95 119.38 0)
+			(at 107.95 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,7 +7095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 119.38 0)
+			(at 107.95 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,12 +7115,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "7c8be369-4054-4395-a147-793c0b499721")
-		)
-		(pin "2"
-			(uuid "087cd2b2-26b4-485b-a2b3-a917534cc1aa")
 		)
 		(instances
 			(project "keyhalld"
@@ -7935,7 +7690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 214.63 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7947,27 +7702,29 @@
 		(fields_autoplaced yes)
 		(uuid "a81a33cf-0061-45ed-a572-c6a59543461a")
 		(property "Reference" "SW20"
-			(at 214.63 116.84 0)
+			(at 218.44 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 214.63 119.38 0)
+			(at 218.44 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 214.63 119.38 0)
+			(at 214.63 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 119.38 0)
+			(at 214.63 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,12 +7755,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "0c38eb22-7ca9-4b01-b1ec-6dbc779ff6cf")
-		)
-		(pin "2"
-			(uuid "a30e9c14-a004-437a-804c-8c987036f2fa")
 		)
 		(instances
 			(project "keyhalld"
@@ -8093,7 +7844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 54.61 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -8105,27 +7856,29 @@
 		(fields_autoplaced yes)
 		(uuid "b23a3234-676e-47dd-a46c-5c1728eb0c1d")
 		(property "Reference" "SW6"
-			(at 54.61 68.58 0)
+			(at 58.42 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 54.61 71.12 0)
+			(at 58.42 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 54.61 71.12 0)
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +7889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 71.12 0)
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8157,12 +7910,6 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "fb34f184-2b89-4e01-9a35-28df29eaecf7")
-		)
-		(pin "2"
-			(uuid "fe54c97c-e17e-4834-ab69-c57409f0576d")
-		)
 		(instances
 			(project "keyhalld"
 				(path "/0a77fffd-b262-4806-b5de-d37b7b26dc4f/f94273c4-0214-486d-8bb4-de7468254bec"
@@ -8173,7 +7920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 54.61 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -8185,27 +7932,29 @@
 		(fields_autoplaced yes)
 		(uuid "b2a1281e-f52f-4bdd-a7ac-00d6b4a59f15")
 		(property "Reference" "SW14"
-			(at 54.61 116.84 0)
+			(at 58.42 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 54.61 119.38 0)
+			(at 58.42 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 54.61 119.38 0)
+			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +7965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 119.38 0)
+			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,12 +7985,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "6299f0bd-fcf6-4575-96c4-70ca0fb0f946")
-		)
-		(pin "2"
-			(uuid "51e3e7dc-6180-49c0-a346-085cc9074ad1")
 		)
 		(instances
 			(project "keyhalld"
@@ -8416,7 +8159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 134.62 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -8428,27 +8171,29 @@
 		(fields_autoplaced yes)
 		(uuid "b9909eec-12a7-4859-af70-c3d48f60db97")
 		(property "Reference" "SW17"
-			(at 134.62 116.84 0)
+			(at 138.43 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 134.62 119.38 0)
+			(at 138.43 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 134.62 119.38 0)
+			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8459,7 +8204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 119.38 0)
+			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,12 +8224,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "2b631428-e4b4-4f82-bf96-53cc019e14ab")
-		)
-		(pin "2"
-			(uuid "089776f4-3074-49fc-9058-4ea30c9ba0d0")
 		)
 		(instances
 			(project "keyhalld"
@@ -8900,7 +8639,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 161.29 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -8912,27 +8651,29 @@
 		(fields_autoplaced yes)
 		(uuid "cffc5096-6343-4995-8a66-c7c59cb2d7e4")
 		(property "Reference" "SW10"
-			(at 161.29 68.58 0)
+			(at 165.1 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 161.29 71.12 0)
+			(at 165.1 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 161.29 71.12 0)
+			(at 161.29 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 71.12 0)
+			(at 161.29 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8963,12 +8704,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "9e1be53c-3ba6-4c1c-830f-5bd9d581dba0")
-		)
-		(pin "2"
-			(uuid "46e724af-e1d2-4157-bb79-35569406301a")
 		)
 		(instances
 			(project "keyhalld"
@@ -9222,7 +8957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 161.29 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -9234,27 +8969,29 @@
 		(fields_autoplaced yes)
 		(uuid "e5ab459f-1ee9-4d08-bdfe-2f4eb777a34b")
 		(property "Reference" "SW18"
-			(at 161.29 116.84 0)
+			(at 165.1 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 161.29 119.38 0)
+			(at 165.1 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 161.29 119.38 0)
+			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +9002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 119.38 0)
+			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,12 +9022,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "84e1a1b3-66f6-4e94-88e0-b5a6cdda13fd")
-		)
-		(pin "2"
-			(uuid "3ac806f3-32f2-4198-bb56-8638cfa9cc67")
 		)
 		(instances
 			(project "keyhalld"
@@ -9777,7 +9508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Hall")
 		(at 81.28 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -9789,27 +9520,29 @@
 		(fields_autoplaced yes)
 		(uuid "f580c6b4-edca-4607-b29c-749e19ae8729")
 		(property "Reference" "SW15"
-			(at 81.28 116.84 0)
+			(at 85.09 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "HallSwitch"
-			(at 81.28 119.38 0)
+			(at 85.09 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Custom_MX_PCB_1.00u"
-			(at 81.28 119.38 0)
+			(at 81.28 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,7 +9553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 119.38 0)
+			(at 81.28 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,12 +9573,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "ad773baf-2616-4549-b367-b4f7bc29f6e0")
-		)
-		(pin "2"
-			(uuid "ecab3691-9cef-4f2c-a763-5507602861f9")
 		)
 		(instances
 			(project "keyhalld"
