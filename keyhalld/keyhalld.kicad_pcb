@@ -22406,14 +22406,14 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+	(footprint "Library:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "c0c9778d-37a1-4a19-892d-88993cf3de10")
 		(at 172.7 58.915 90)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "D1"
-			(at 2.415 0.05 180)
+			(at 0 -2 90)
 			(layer "F.SilkS")
 			(uuid "53316b51-7cd0-43d7-b591-d220e8b02c4d")
 			(effects
@@ -22679,21 +22679,10 @@
 			(net "+5V")
 			(pinfunction "VDD_4")
 			(pintype "power_in")
-			(teardrops
-				(best_length_ratio 0.5)
-				(max_length 1)
-				(best_width_ratio 1)
-				(max_width 2)
-				(curved_edges no)
-				(filter_ratio 0.9)
-				(enabled yes)
-				(allow_two_segments yes)
-				(prefer_zone_connections yes)
-			)
 			(uuid "2ddb5122-7699-407e-8f48-02491a194a6a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(model "${KIPRJMOD}/../Library.pretty/ws2812c-2020.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22701,7 +22690,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -45571,45 +45560,10 @@
 		)
 	)
 	(zone
-		(net "+5V")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30009)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 172.114645 58.756066) (xy 172.256066 58.614645) (xy 172.220711 58.579289) (xy 172.25 58.65)
-				(xy 172.5 58.35) (xy 172.15 57.999) (xy 171.8 58.35) (xy 172.05 58.65) (xy 172.079289 58.720711)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 172.158259 58.007283) (xy 172.345713 58.195272) (xy 172.492466 58.342445) (xy 172.495881 58.350723)
-				(xy 172.493169 58.358196) (xy 172.26239 58.635131) (xy 172.254461 58.639293) (xy 172.245912 58.636629)
-				(xy 172.242593 58.632118) (xy 172.241421 58.629289) (xy 172.24142 58.629289) (xy 172.122917 58.747793)
-				(xy 172.114644 58.75122) (xy 172.106372 58.747793) (xy 172.080933 58.722355) (xy 172.078398 58.71856)
-				(xy 172.050002 58.650003) (xy 172.049999 58.649998) (xy 171.80683 58.358196) (xy 171.804166 58.349647)
-				(xy 171.807533 58.342445) (xy 172.141716 58.007307) (xy 172.149983 58.003869)
-			)
-		)
-	)
-	(zone
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30016)
+		(priority 30015)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45680,7 +45634,7 @@
 		(net "Net-(U1-VREG_AVDD)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30027)
+		(priority 30026)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45712,7 +45666,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30017)
+		(priority 30016)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45782,7 +45736,7 @@
 		(net "+3.3VA")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30018)
+		(priority 30017)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45818,7 +45772,7 @@
 		(net "+5V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30012)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45849,7 +45803,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30025)
+		(priority 30024)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45882,7 +45836,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30019)
+		(priority 30018)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45914,7 +45868,7 @@
 		(net "Net-(U1-VREG_LX)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30010)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45980,6 +45934,37 @@
 		(net "+5V")
 		(layer "F.Cu")
 		(hatch none 0.1)
+		(priority 30013)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 181.535788 60.748934) (xy 181.323656 60.536802) (xy 180.9922 60.855) (xy 180.870588 61.202002)
+				(xy 181.373281 60.924698)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 181.535788 60.748934) (xy 181.323656 60.536802) (xy 180.9922 60.855) (xy 180.870588 61.202002)
+				(xy 181.373281 60.924698)
+			)
+		)
+	)
+	(zone
+		(net "+5V")
+		(layer "F.Cu")
+		(hatch none 0.1)
 		(priority 30014)
 		(attr
 			(teardrop
@@ -46011,38 +45996,7 @@
 		(net "+5V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30015)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 181.535788 60.748934) (xy 181.323656 60.536802) (xy 180.9922 60.855) (xy 180.870588 61.202002)
-				(xy 181.373281 60.924698)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 181.535788 60.748934) (xy 181.323656 60.536802) (xy 180.9922 60.855) (xy 180.870588 61.202002)
-				(xy 181.373281 60.924698)
-			)
-		)
-	)
-	(zone
-		(net "+5V")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30010)
+		(priority 30009)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46075,7 +46029,7 @@
 		(net "+5V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30013)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46138,7 +46092,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30026)
+		(priority 30025)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46171,7 +46125,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30020)
+		(priority 30019)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46203,7 +46157,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30021)
+		(priority 30020)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46239,7 +46193,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30022)
+		(priority 30021)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46367,7 +46321,7 @@
 		(net "Net-(U1-VREG_LX)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30023)
+		(priority 30022)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46403,7 +46357,7 @@
 		(net "+3.3V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30024)
+		(priority 30023)
 		(attr
 			(teardrop
 				(type padvia)
