@@ -12170,7 +12170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
