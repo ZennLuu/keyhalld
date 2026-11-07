@@ -2603,12 +2603,6 @@
 		(uuid "4b7e23f6-0a43-4231-a86d-e15e274bf6e5")
 	)
 	(junction
-		(at 81.28 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dbca84e-a3c4-4854-b4b7-ddb917315c73")
-	)
-	(junction
 		(at 59.69 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2625,12 +2619,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ff5b49d-2b32-4221-b345-f7175830284e")
-	)
-	(junction
-		(at 81.28 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6999a5fa-ee53-4dfb-bd18-ffec7f1759b0")
 	)
 	(junction
 		(at 129.54 34.29)
@@ -3120,16 +3108,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 41.91) (xy 90.17 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995aa64c-6bff-4204-9b79-7e461c48dce3")
-	)
-	(wire
-		(pts
 			(xy 106.68 78.74) (xy 106.68 77.47)
 		)
 		(stroke
@@ -3137,16 +3115,6 @@
 			(type default)
 		)
 		(uuid "a43d4b63-3f7d-44d3-ad20-27dfe40e1e58")
-	)
-	(wire
-		(pts
-			(xy 81.28 34.29) (xy 90.17 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aada0e8c-d196-4dd1-87f7-444bd5d4dc08")
 	)
 	(wire
 		(pts
@@ -3830,7 +3798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 116.84 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 116.84 104.14 0)
 			(hide yes)
 			(show_name no)
