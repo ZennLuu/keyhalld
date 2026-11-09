@@ -1,5 +1,14 @@
+# Ignore temp files
+*unsaved-export*
 *.lck
+*.bak
+
+# Ignore folders
 *-backups/
 production/
-*.bak
 .history/
+
+# Ignore 3D files
+*.step
+*.glb
+*.stl

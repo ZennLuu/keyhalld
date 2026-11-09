@@ -39,12 +39,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "Black")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -86,6 +88,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -93,8 +96,9 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "Black")
 			)
-			(copper_finish "None")
+			(copper_finish "OSP")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -113,6 +117,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
