@@ -221,30 +221,15 @@ jobs:
           /usr/bin/python3 .github/scripts/export-pcb-docs.py \
             keyhalld-addon/keyhalld-addon.kicad_pcb pcb-docs
             
-      - name: Export BOM Keyhalld main
+      - name: Export BOM Keyhalld
         if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
-          kicad-cli sch export bom keyhalld/keyhalld.kicad_sch -o pcb-docs/keyhalld-main-BOM.css
-
-      - name: Export BOM Keyhalld usb power
+          kicad-cli sch export bom keyhalld/keyhalld.kicad_sch -o pcb-docs/keyhalld-BOM.css
+          
+      - name: Export BOM Keyhalld-addon
         if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
-          kicad-cli sch export bom keyhalld/Usb_Power.kicad_sch -o pcb-docs/keyhalld-usb-power-BOM.css
-
-      - name: Export BOM Keyhalld hallswitches
-        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
-        run: |
-          kicad-cli sch export bom keyhalld/hallswitches.kicad_sch -o pcb-docs/keyhalld-hallswitches-BOM.css
-
-      - name: Export BOM Keyhalld-addon main
-        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
-        run: |
-          kicad-cli sch export bom keyhalld-addon/keyhalld-addon.kicad_sch -o pcb-docs/keyhalld-addon-BOM.css
-
-      - name: Export BOM Keyhalld-addon ws_leds
-        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
-        run: |
-          kicad-cli sch export bom keyhalld-addon/ws_leds.kicad_sch -o pcb-docs/keyhalld-ws-leds-BOM.css
+          kicad-cli sch export bom keyhalld-addon/keyhalld-addon.kicad_sch -o pcb-docs/keyhalld-addon-BOM.csv
 
       - name: Upload copper layers and dimensions
         if: ${{ !cancelled() && steps.install.outcome == 'success' }}
